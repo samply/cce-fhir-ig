@@ -1,0 +1,36 @@
+CodeSystem: UICCStageCS
+Id: UICCStageCS
+Title: "UICC Stage CS"
+Description: "UICC Stage"
+* insert CCECoreArtifactMetadata(CodeSystem,UICCStageCS)
+* ^caseSensitive = true
+* ^compositional = false
+* ^content = #complete
+* #0 "0"
+* #0a "0a"
+* #0is "0is"
+* #I "I"
+* #IA "IA"
+* #IA1 "IA1"
+* #IA2 "IA2"
+* #IB "IB"
+* #IB1 "IB1"
+* #IB2 "IB2"
+* #IC "IC"
+* #II "II"
+* #IIA "IIA"
+* #IIA1 "IIA1"
+* #IIA2 "IIA2"
+* #IIB "IIB"
+* #IIC "IIC"
+* #III "III"
+* #IIIA "IIIA"
+* #IIIB "IIIB"
+* #IIIC "IIIC"
+* #IIIC1 "IIIC1"
+* #IIIC2 "IIIC2"
+* #IV "IV"
+* #IVA "IVA"
+* #IVB "IVB"
+* #IVC "IVC"
+* #IS "IS"

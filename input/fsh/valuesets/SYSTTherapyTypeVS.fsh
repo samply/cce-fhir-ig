@@ -1,0 +1,21 @@
+ValueSet: SYSTTherapyTypeVS
+Id: SYSTTherapyTypeVS
+Title: "SYST Therapy Type VS"
+Description: "Type of Therapy"
+* insert CCECoreArtifactMetadata(ValueSet,SYSTTherapyTypeVS)
+* SYSTTherapyTypeCS#CH "Chemotherapy"
+* SYSTTherapyTypeCS#HO "Hormone therapy"
+* SYSTTherapyTypeCS#IM "Immunotherapy and antibody therapy"
+* SYSTTherapyTypeCS#BM "Bone marrow transplantation"
+* SYSTTherapyTypeCS#WS "Wait and see"
+* SYSTTherapyTypeCS#AS "Active Surveillance"
+* SYSTTherapyTypeCS#TS "Targeted substances"
+* SYSTTherapyTypeCS#MI "Miscellaneous"
+* SYSTTherapyTypeCS#RT "Radiotherapy"
+* SYSTTherapyTypeCS#OP "Operation"
+* SYSTTherapyTypeCS#CI "Chemo- + Immuno-/Antibody therapy"
+* SYSTTherapyTypeCS#CT "Chemotherapy + Targeted substances"
+* SYSTTherapyTypeCS#CIT "Chemo- + Immuno-/Antibody therapy + Targeted substances"
+* SYSTTherapyTypeCS#IT "Immuno-/Antibody therapy + Targeted substances"
+* SYSTTherapyTypeCS#SC "Stem cell transplantation (incl. bone marrow transplantation)"
+* SYSTTherapyTypeCS#WW "Watchful Waiting"
