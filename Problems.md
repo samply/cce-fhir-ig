@@ -30,3 +30,10 @@
 | No element found at path medication[x].coding[ATC] for CaretValueRule in SystemicTherapy (which was causing other follow-up errors) | y | Create the ATC slice first |
 | subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
 
+### ValueSet YNUVS
+
+| Problem | Resolved (Y/N) | Comment |
+|---------|----------------|---------|
+| Code "J" is not defined for system YNUCS. | y | Convert it to Y |
+
+
