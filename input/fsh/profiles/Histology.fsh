@@ -8,13 +8,13 @@ Description: "Indicates the histology of the tumor based on the current ICD-O-3 
 * code.coding.system = "http://loinc.org" (exactly)
 * code.coding.code = #59847-4 (exactly)
 * subject 1.. MS
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * focus only Reference(Resource or PrimaryDiagnosis)
 * focus MS
 * effective[x] only dateTime
 * effective[x] MS
 * effective[x] ^short = "effectiveDateTime"
-* performer only Reference($cce-core-Organization-Organisation)
+// * performer only Reference($cce-core-Organization-Organisation)
 * value[x] 1.. MS
 * value[x] only CodeableConcept
 * value[x].coding 1..1 MS
@@ -33,7 +33,7 @@ Description: "Indicates the histology of the tumor based on the current ICD-O-3 
 * value[x].coding.code ^definition = "Indicates the histology of the tumor based on the current ICD-O-3 classification"
 * value[x].coding.code ^binding.description = "ICD-O-3 Morphology"
 * value[x].text MS
-* specimen only Reference($Specimen_1)
+* specimen only Reference($Specimen)
 * specimen.reference 1..
 * hasMember MS
 * hasMember ^slicing.discriminator.type = #type
@@ -45,8 +45,8 @@ Description: "Indicates the histology of the tumor based on the current ICD-O-3 
     NumberOfLymphNodesAffected 0..1 MS and
     NumberOfSentinelLymphNodesExamined 0..1 MS and
     NumberOfSentinelLymphNodesAffected 0..1 MS
-* hasMember[Grading] only Reference($cce-core-Observation-Grading)
-* hasMember[NumberOfLymphNodesExamined] only Reference($cce-core-Observation-NumberOfLymphNodesExamined)
-* hasMember[NumberOfLymphNodesAffected] only Reference($cce-core-Observation-NumberOfLymphNodesAffected)
-* hasMember[NumberOfSentinelLymphNodesExamined] only Reference($cce-core-Observation-NumberOfSentinelLymphNodesExamined)
-* hasMember[NumberOfSentinelLymphNodesAffected] only Reference($cce-core-Observation-NumberOfSentinelLymphNodesAffected)
+// * hasMember[Grading] only Reference($cce-core-Observation-Grading)
+// * hasMember[NumberOfLymphNodesExamined] only Reference($cce-core-Observation-NumberOfLymphNodesExamined)
+// * hasMember[NumberOfLymphNodesAffected] only Reference($cce-core-Observation-NumberOfLymphNodesAffected)
+// * hasMember[NumberOfSentinelLymphNodesExamined] only Reference($cce-core-Observation-NumberOfSentinelLymphNodesExamined)
+// * hasMember[NumberOfSentinelLymphNodesAffected] only Reference($cce-core-Observation-NumberOfSentinelLymphNodesAffected)
