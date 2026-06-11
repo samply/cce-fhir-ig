@@ -22,6 +22,7 @@
 | Problem | Resolved (Y/N) | Comment |
 |---------|----------------|---------|
 | No element found at path code.coding[OPS] for OnlyRule in Operation (which was causing other follow-up errors) | y | Create the OPS slice first |
+| subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
 
 ### SystemicTherapy
 
@@ -29,6 +30,13 @@
 |---------|----------------|---------|
 | No element found at path medication[x].coding[ATC] for CaretValueRule in SystemicTherapy (which was causing other follow-up errors) | y | Create the ATC slice first |
 | subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
+
+### PrimaryDiagnosis
+
+| Problem | Resolved (Y/N) | Comment |
+|---------|----------------|---------|
+| subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
+| evidence.detail refers to Histology or cce-core-Observation-GeneticVariant | y | Removed reference to cce-core-Observation-GeneticVariant for now |
 
 ### ValueSet YNUVS
 

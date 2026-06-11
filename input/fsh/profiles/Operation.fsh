@@ -19,7 +19,7 @@ Description: "Determination of Operation data"
 * code.coding[OPS] ^sliceName = "OPS"
 * code.coding[OPS].version from OPOPSVersionVS (extensible)
 * code.coding[OPS].version ^binding.description = "OPS-Version"
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * subject MS
 * performed[x] only dateTime
 * performed[x] MS

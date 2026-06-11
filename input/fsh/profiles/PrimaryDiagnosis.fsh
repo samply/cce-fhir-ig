@@ -70,7 +70,7 @@ Description: "Corresponds to the primary diagnosis. Parameters for classifying t
 * bodySite.coding[TumorSiteLocation].code 1.. MS
 * bodySite.coding[TumorSiteLocation].code ^short = "Site location"
 * bodySite.coding[TumorSiteLocation].code ^definition = "Organ-specific information of the affected side"
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * subject MS
 * subject ^short = "Patient who has the condition"
 * subject.reference 1.. MS
@@ -92,5 +92,5 @@ Description: "Corresponds to the primary diagnosis. Parameters for classifying t
 * evidence.code.coding.system = "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS" (exactly)
 * evidence.code.coding.system MS
 * evidence.code.coding.code MS
-* evidence.detail only Reference(Histology or $cce-core-Observation-GeneticVariant)
+* evidence.detail only Reference(Histology)
 * evidence.detail.reference 1..

@@ -26,8 +26,11 @@ publisher:
 #
 dependencies:
   de.basisprofil.r4:
-    uri: https://simplifier.net/packages/de.basisprofil.r4/1.3.2
-    version: 1.3.2
+    uri: https://simplifier.net/packages/de.basisprofil.r4/1.5.4
+    version: 1.5.4
+  de.bbmri.fhir:
+    uri: https://simplifier.net/packages/de.bbmri.fhir/1.2.0
+    version: 1.2.0
     
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
