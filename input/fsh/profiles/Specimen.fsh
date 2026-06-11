@@ -1,14 +1,14 @@
 Profile: Specimen
 Parent: $Specimen
 Id: Specimen
-* insert CCEProfileMetadata("cce-core-Specimen-Specimen")
+* insert CCEProfileMetadata(cce-core-Specimen-Specimen)
 * type MS
-* type from SampleMaterialType (required)
+* type from SampleMaterialTypeVS (required)
 * type.coding MS
 * type.coding.system MS
 * type.coding.code MS
 * subject 1.. MS
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * parent MS
 * collection MS
 * collection.collected[x] only dateTime

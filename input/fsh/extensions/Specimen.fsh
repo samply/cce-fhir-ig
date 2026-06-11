@@ -1,5 +1,5 @@
-Extension: Specimen
-Id: Specimen
+Extension: SpecimenExtension
+Id: SpecimenExtension
 Description: "Extension: a reference to the Biomaterial"
 Context: Condition
 * ^url = "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen"
