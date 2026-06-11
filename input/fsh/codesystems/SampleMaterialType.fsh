@@ -1,8 +1,8 @@
-CodeSystem: SampleMaterialType
-Id: SampleMaterialType
+CodeSystem: SampleMaterialTypeCS
+Id: SampleMaterialTypeCS
 Title: "Sample Material Type"
 Description: "The type of material the sample consists of."
-* insert CCECoreArtifactMetadata(CodeSystem,SampleMaterialType)
+* insert CCECoreArtifactMetadata(CodeSystem,SampleMaterialTypeCS)
 * ^contact.telecom[0].system = #url
 * ^contact.telecom[=].value = "https://www.cancercoreeurope.eu/"
 * ^contact.telecom[+].system = #email

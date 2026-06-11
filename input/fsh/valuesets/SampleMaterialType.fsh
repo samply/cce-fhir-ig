@@ -1,6 +1,6 @@
-ValueSet: SampleMaterialType
-Id: SampleMaterialType
+ValueSet: SampleMaterialTypeVS
+Id: SampleMaterialTypeVS
 Title: "Sample Material Type"
 Description: "Sample Material Types"
-* insert CCECoreArtifactMetadata(ValueSet,SampleMaterialType)
-* include codes from system SampleMaterialType
+* insert CCECoreArtifactMetadata(ValueSet,SampleMaterialTypeVS)
+* include codes from system SampleMaterialTypeCS

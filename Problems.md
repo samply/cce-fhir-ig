@@ -38,6 +38,16 @@
 | subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
 | evidence.detail refers to Histology or cce-core-Observation-GeneticVariant | y | Removed reference to cce-core-Observation-GeneticVariant for now |
 
+### Specimen
+
+| Problem | Resolved (Y/N) | Comment |
+|---------|----------------|---------|
+| subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
+
+### SpecimenExtension
+
+- both Specimen & SpecimenExtension had the same Id (Specimen), so renamed the extension's id to SpecimenExtension
+
 ### ValueSet YNUVS
 
 | Problem | Resolved (Y/N) | Comment |
