@@ -3,7 +3,7 @@ Parent: Condition
 Id: PrimaryDiagnosis
 Title: "Primary Diagnosis"
 Description: "Corresponds to the primary diagnosis. Parameters for classifying the primary disease are recorded. These include ICD-10, ICD-O-3 (topography) and lateral localization. Links to histology (topography) and the TNM classifications (pathological/clinical)"
-* insert CCEProfileMetadata("cce-core-Condition-PrimaryDiagnosis")
+* insert CCEProfileMetadata(cce-core-Condition-PrimaryDiagnosis)
 * extension contains $cce-core-Extension-Specimen named specimen 0..* MS
 * extension[specimen] ^alias = "Biosample"
 * code 1.. MS

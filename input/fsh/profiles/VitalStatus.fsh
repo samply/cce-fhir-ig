@@ -3,7 +3,7 @@ Parent: Observation
 Id: VitalStatus
 Title: "Vital Status"
 Description: "Determination of the patient's vital status"
-* insert CCEProfileMetadata("cce-core-Observation-VitalStatus")
+* insert CCEProfileMetadata(cce-core-Observation-VitalStatus)
 * status MS
 * code MS
 * code.coding.system 1..
@@ -11,7 +11,7 @@ Description: "Determination of the patient's vital status"
 * code.coding.code 1..
 * code.coding.code = #75186-7 (exactly)
 * subject 1..
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * effective[x] only dateTime
 * effective[x] MS
 * effective[x] ^short = "Date of last known vital status"

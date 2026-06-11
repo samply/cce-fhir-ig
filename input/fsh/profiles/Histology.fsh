@@ -2,7 +2,7 @@ Profile: Histology
 Parent: Observation
 Id: Histology
 Description: "Indicates the histology of the tumor based on the current ICD-O-3 classification"
-* insert CCEProfileMetadata("cce-core-Observation-Histology")
+* insert CCEProfileMetadata(cce-core-Observation-Histology)
 * status MS
 * code MS
 * code.coding.system = "http://loinc.org" (exactly)

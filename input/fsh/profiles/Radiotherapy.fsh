@@ -2,7 +2,7 @@ Profile: Radiotherapy
 Parent: Procedure
 Id: Radiotherapy
 Description: "Determination of Radiotherapy data"
-* insert CCEProfileMetadata("cce-core-Procedure-Radiotherapy")
+* insert CCEProfileMetadata(cce-core-Procedure-Radiotherapy)
 * status MS
 * category 1.. MS
 * category from SYSTTherapyTypeVS (extensible)

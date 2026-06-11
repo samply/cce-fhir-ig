@@ -3,7 +3,7 @@ Parent: MedicationStatement
 Id: SystemicTherapy
 Title: "Systemic Therapy"
 Description: "Includes chemotherapy and all types of therapy that do not fall under surgical data or radiotherapy"
-* insert CCEProfileMetadata("cce-core-MedicationStatement-SystemicTherapy")
+* insert CCEProfileMetadata(cce-core-MedicationStatement-SystemicTherapy)
 * status MS
 * category 1.. MS
 * category from SYSTTherapyTypeVS (extensible)
@@ -24,7 +24,7 @@ Description: "Includes chemotherapy and all types of therapy that do not fall un
 * medication[x].coding[ATC].version MS
 * medication[x].coding[ATC].code MS
 * medication[x].text MS
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * subject MS
 * subject.reference 1.. MS
 * context.reference 1.. MS

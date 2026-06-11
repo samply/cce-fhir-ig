@@ -2,7 +2,7 @@ Profile: PatientPseudonym
 Parent: Patient
 Id: PatientPseudonym
 Title: "Patient Pseudonym"
-* insert CCEProfileMetadata("cce-core-Patient-Pseudonym")
+* insert CCEProfileMetadata(cce-core-Patient-Pseudonym)
 * identifier 1.. MS
 * name ..0
 * telecom ..0

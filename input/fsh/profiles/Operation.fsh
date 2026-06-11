@@ -2,7 +2,7 @@ Profile: Operation
 Parent: Procedure
 Id: Operation
 Description: "Determination of Operation data"
-* insert CCEProfileMetadata("cce-core-Procedure-Operation")
+* insert CCEProfileMetadata(cce-core-Procedure-Operation)
 * status MS
 * category 1.. MS
 * category from SYSTTherapyTypeVS (extensible)

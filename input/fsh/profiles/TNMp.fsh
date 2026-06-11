@@ -2,7 +2,7 @@ Profile: TNMp
 Parent: Observation
 Id: TNMp
 Description: "Staging of tumor diseases according to the TNM classification (pathological) in accordance with the current AJCC edition"
-* insert CCEProfileMetadata("cce-core-Observation-TNMp")
+* insert CCEProfileMetadata(cce-core-Observation-TNMp)
 * status MS
 * category.coding.system 1..
 * category.coding.system = "http://hl7.org/fhir/observation-category" (exactly)
@@ -14,7 +14,7 @@ Description: "Staging of tumor diseases according to the TNM classification (pat
 * code.coding.code 1..
 * code.coding.code = #21902-2 (exactly)
 * subject 1.. MS
-* subject only Reference($cce-core-Patient-Patient or PatientPseudonym)
+* subject only Reference(PatientPseudonym)
 * focus only Reference(Resource or PrimaryDiagnosis)
 * focus MS
 * effective[x] only dateTime
