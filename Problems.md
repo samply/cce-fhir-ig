@@ -16,3 +16,9 @@
 | subject refers to Patient or PatientPseudonym | y | Removed reference to Patient for now |
 | performer, Grading, NumberOfLymphNodesExamined, NumberOfLymphNodesAffected, NumberOfSentinelLymphNodesExamined,  NumberOfSentinelLymphNodesAffected references to other profiles | y | Commented for now |
 | specimen refers to BBMRI Specimen (Alias: $Specimen_1) | y | Reference to Alias: $Specimen for now |
+
+### Operation
+
+| Problem | Resolved (Y/N) | Comment |
+|---------|----------------|---------|
+| No element found at path code.coding[OPS] for OnlyRule in Operation (which was causing other follow-up errors) | y | Create the OPS slice first |

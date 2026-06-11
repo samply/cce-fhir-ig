@@ -14,6 +14,7 @@ Description: "Determination of Operation data"
 * code.coding ^slicing.discriminator.type = #value
 * code.coding ^slicing.discriminator.path = "system"
 * code.coding ^slicing.rules = #open
+* code.coding contains OPS 0..*
 * code.coding[OPS] only $CodingOPS
 * code.coding[OPS] ^sliceName = "OPS"
 * code.coding[OPS].version from OPOPSVersionVS (extensible)
@@ -29,7 +30,8 @@ Description: "Determination of Operation data"
 * outcome.coding ^slicing.discriminator.type = #value
 * outcome.coding ^slicing.discriminator.path = "system"
 * outcome.coding ^slicing.rules = #open
-* outcome.coding contains LocalAssessmentResidualTumor 0..1
+* outcome.coding contains LocalAssessmentResidualTumor 0..1 and
+    OverallAssessmentResidualTumor 0..1
 * outcome.coding[LocalAssessmentResidualTumor] from LocalAssessmentResidualTumorVS (extensible)
 * outcome.coding[LocalAssessmentResidualTumor] ^binding.description = "Local Assessment of Residual Tumor"
 * outcome.coding[LocalAssessmentResidualTumor].system 1..
