@@ -22,3 +22,10 @@
 | Problem | Resolved (Y/N) | Comment |
 |---------|----------------|---------|
 | No element found at path code.coding[OPS] for OnlyRule in Operation (which was causing other follow-up errors) | y | Create the OPS slice first |
+
+### SystemicTherapy
+
+| Problem | Resolved (Y/N) | Comment |
+|---------|----------------|---------|
+| No element found at path medication[x].coding[ATC] for CaretValueRule in SystemicTherapy (which was causing other follow-up errors) | y | Create the ATC slice first |
+

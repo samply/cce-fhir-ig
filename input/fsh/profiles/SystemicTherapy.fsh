@@ -17,6 +17,7 @@ Description: "Includes chemotherapy and all types of therapy that do not fall un
 * medication[x].coding ^slicing.discriminator.type = #pattern
 * medication[x].coding ^slicing.discriminator.path = "$this"
 * medication[x].coding ^slicing.rules = #open
+* medication[x].coding contains ATC 0..*
 * medication[x].coding[ATC] ^sliceName = "ATC"
 * medication[x].coding[ATC].system = "http://fhir.de/CodeSystem/bfarm/atc" (exactly)
 * medication[x].coding[ATC].system MS
