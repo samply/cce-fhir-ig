@@ -52,5 +52,7 @@ Place it under the `input-cache` dir, and rename it as `validator.jar`.
 Now, you can validate any instance of a resource (in JSON, XML or turtle format) against this IG, using:
 
 ```sh
-java -jar input-cache/validator.jar input/instances/Patient-id-115.json -ig output/package.tgz
+java -jar input-cache/validator.jar output/Patient-Patient-id-115.json -ig output/package.tgz
+java -jar input-cache/validator.jar output/Condition-Condition-id-115.json -ig output/package.tgz
+java -jar input-cache/validator.jar output/Procedure-Operation-id-115.json -ig output/package.tgz
 ```

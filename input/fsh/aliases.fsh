@@ -17,3 +17,4 @@ Alias: $icd-10-gm = http://fhir.de/ValueSet/bfarm/icd-10-gm
 Alias: $alpha-id = http://fhir.de/ValueSet/bfarm/alpha-id
 Alias: $diagnoses-sct = https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct
 Alias: $1.3.6.1.4.1.19376.1.3.11.36--20151113191623 = http://art-decor.org/fhir/ValueSet/1.3.6.1.4.1.19376.1.3.11.36--20151113191623
+Alias: $TumorSiteLocationCS = https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS
