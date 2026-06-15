@@ -54,4 +54,26 @@
 |---------|----------------|---------|
 | Code "J" is not defined for system YNUCS. | y | Convert it to Y |
 
+## Problems with generating the IG
 
+The command `./_build.sh build` gives following errors / warnings -
+
+```
+The slice definition for Practitioner.identifier has a minimum of 1 but the slices add up to a minimum of 2
+The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 1
+The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 2
+The slice definition for Extension.extension has a minimum of 0 but the slices add up to a minimum of 3
+The slice definition for Observation.code.coding has a minimum of 0 but the slices add up to a minimum of 1
+```
+
+and,
+
+```
+Unable to resolve value set CanonicalType[https://www.medizininformatik-initiative.de/fhir/core/modul-diagnose/ValueSet/diagnoses-sct]
+Unable to resolve value set CanonicalType[http://art-decor.org/fhir/ValueSet/1.3.6.1.4.1.19376.1.3.11.36--20151113191623]
+
+Expanding http://fhir.de/ValueSet/bfarm/alpha-id|1.5.4: Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/alpha-id' could not be found, so the value set cannot be expanded
+Expanding http://fhir.de/ValueSet/bfarm/icd-10-gm|1.5.4: Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '*' could not be found, so the value set cannot be expanded. No versions of this code system are known
+Expanding https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS|0.5.0: Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.43.1' could not be found, so the value set cannot be expanded
+Expanding https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS|0.5.0: Error from https://tx.fhir.org/r4: Error: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.43.1' could not be found, so the value set cannot be expanded
+```

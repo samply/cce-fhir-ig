@@ -23,7 +23,7 @@ sushi
 
 Running SUSHI will create a `cce-fhir-ig/fsh-generated` directory, and populate it with the files needed to create the IG using the HL7 FHIR IG Publisher tool.
 
-#### Generate the IG
+### Generate the IG
 
 Run:
 
@@ -42,3 +42,15 @@ Now run:
 ```
 
 This will run the HL7 FHIR IG generator, which may take several minutes to complete. After the publisher is finished, open the file `/cce-fhir-ig/output/index.html` to see the resulting IG.
+
+### Validating instances (of resources) against the IG
+
+You have to download the latest version of the [validator](https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar) tool.
+
+Place it under the `input-cache` dir, and rename it as `validator.jar`.
+
+Now, you can validate any instance of a resource (in JSON, XML or turtle format) against this IG, using:
+
+```sh
+java -jar input-cache/validator.jar input/instances/Patient-id-115.json -ig output/package.tgz
+```
