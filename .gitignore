@@ -141,3 +141,13 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# sushi related files
+.DS_Store
+Thumbs.db
+/fsh-generated
+/input-cache
+/output
+/package
+/temp
+/template

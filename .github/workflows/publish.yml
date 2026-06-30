@@ -1,0 +1,94 @@
+name: Build and Publish CCE FHIR IG
+
+on:
+  push:
+    branches: [ main ]
+    tags: [ 'v*' ]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repo
+      - name: Checkout repository
+        uses: actions/checkout@v7
+
+      # Setup Node (for SUSHI)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      # Install SUSHI
+      - name: Install SUSHI
+        run: npm install -g fsh-sushi
+
+      # Install Jekyll
+      - name: Install Jekyll
+        run: gem install jekyll bundler
+
+      # Run SUSHI
+      - name: Run SUSHI
+        run: sushi .
+
+      # Setup Java (needed for IG Publisher)
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: 'temurin'
+          java-version: '17'
+
+      # Update publisher (downloads latest version of IG Publisher tool into input-cache directory)
+      - name: Update publisher
+        run: ./_build.sh update
+
+      # Build IG (your script)
+      - name: Build IG
+        run: ./_build.sh build
+
+      # Verify package exists
+      - name: Check package
+        run: ls -l
+
+      # Download FHIR Validator
+      - name: Download Validator
+        run: wget -q https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar -O validator.jar
+
+      # Validate package
+      - name: Validate package
+        run: java -jar validator.jar -version 4.0.1 -ig package.tgz
+
+      # Package the validator and IG package into a single release archive
+      - name: Create release archive
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: zip -j cce-fhir-ig-bundle-${{ github.ref_name }}.zip validator.jar package.tgz
+
+      # Publish the release archive on tagged builds
+      - name: Publish GitHub Release
+        if: startsWith(github.ref, 'refs/tags/v')
+        uses: softprops/action-gh-release@v2
+        with:
+          name: CCE FHIR IG ${{ github.ref_name }}
+          generate_release_notes: true
+          files: cce-fhir-ig-bundle-${{ github.ref_name }}.zip
+
+      # Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: JamesIves/github-pages-deploy-action@4.1.3
+        with:
+            branch: gh-pages
+            folder: output
+
+      # Upload to Simplifier
+      - name: Upload package to Simplifier
+        run: |
+          curl -u "${{ secrets.SIMPLIFIER_USER }}:${{ secrets.SIMPLIFIER_PASS }}" \
+          -X POST \
+          -F "file=@package.tgz" \
+          https://simplifier.net/api/projects/${{ secrets.SIMPLIFIER_PROJECT }}/upload
