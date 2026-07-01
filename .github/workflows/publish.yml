@@ -14,6 +14,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       IG_PUBLISHER_VERSION: 2.2.8
+      SUSHI_VERSION: 3.20.0
 
     steps:
       # Checkout repo
@@ -28,7 +29,7 @@ jobs:
 
       # Install SUSHI
       - name: Install SUSHI
-        run: npm install -g fsh-sushi
+        run: npm install -g fsh-sushi@${SUSHI_VERSION}
 
       # Install Jekyll
       - name: Install Jekyll
@@ -53,9 +54,15 @@ jobs:
           mkdir -p input-cache
           wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/${IG_PUBLISHER_VERSION}/publisher.jar -O input-cache/publisher.jar
 
-      # Build IG (your script)
+      # Print tool versions used for this build
+      - name: Show build tool versions
+        run: |
+          sushi --version
+          java -jar input-cache/publisher.jar -v
+
+      # Build IG with explicit no-terminology publisher command
       - name: Build IG
-        run: ./_build.sh notx
+        run: java -jar input-cache/publisher.jar -ig . -tx n/a
 
       # Verify package exists
       - name: Check package
