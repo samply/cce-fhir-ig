@@ -47,11 +47,11 @@ jobs:
 
       # Update publisher (downloads latest version of IG Publisher tool into input-cache directory)
       - name: Update publisher
-        run: printf 'Y\nY\n' | ./_build.sh update
+        run: printf 'Y\nN\n' | ./_build.sh update
 
       # Build IG (your script)
       - name: Build IG
-        run: ./_build.sh build
+        run: ./_build.sh notx
 
       # Verify package exists
       - name: Check package
