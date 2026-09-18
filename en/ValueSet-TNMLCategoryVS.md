@@ -33,7 +33,7 @@ Lymphatic vessel invasion. Generally occurs as part of a pTNM
   "name" : "TNMLCategoryVS",
   "title" : "TNML Category VS",
   "status" : "draft",
-  "date" : "2026-09-18T11:05:59+00:00",
+  "date" : "2026-09-18T11:46:38+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

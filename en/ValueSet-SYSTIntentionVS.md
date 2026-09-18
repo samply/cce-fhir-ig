@@ -32,7 +32,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "SYSTIntentionVS",
   "title" : "SYST Intention VS",
   "status" : "draft",
-  "date" : "2026-09-18T11:05:59+00:00",
+  "date" : "2026-09-18T11:46:38+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
