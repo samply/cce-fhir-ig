@@ -249,7 +249,7 @@ WARNING: CodeSystem/YNUCS: CodeSystem: Published code systems SHOULD conform to 
 WARNING: Resource: The resource CodeSystem/YNUCS should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 ERROR: /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-YNUCS: URL Mismatch https://www.cancercoreeurope.eu/fhir/CodeSystem/YNUCS vs https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS
 == fsh-generated/resources/Condition-Condition-id-115.json ==
-WARNING: Condition/Condition-id-115: Condition.code.coding[0].system: A definition for CodeSystem 'http://fhir.de/StructureDefinition/CodingICD10GM' version '2004' could not be found, so the code cannot be validated. No versions of this code system are known
+WARNING: Condition/Condition-id-115: Condition.code.coding[0].system: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2004' could not be found, so the code cannot be validated. No versions of this code system are known
 WARNING: Condition/Condition-id-115: Condition.bodySite[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.43.1' version '31' could not be found, so the code cannot be validated. No versions of this code system are known
 INFORMATION: Condition/Condition-id-115: Condition.bodySite[0]: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS|0.6.1
 == fsh-generated/resources/ImplementationGuide-cce.fhir.json ==

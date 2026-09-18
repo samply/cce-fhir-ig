@@ -22,7 +22,7 @@
   "id" : "Condition-id-115",
   "code" : {
     "coding" : [{
-      "system" : "http://fhir.de/StructureDefinition/CodingICD10GM",
+      "system" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
       "version" : "2004",
       "code" : "C34.0"
     }]

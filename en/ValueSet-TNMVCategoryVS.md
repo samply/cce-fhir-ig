@@ -33,7 +33,7 @@ Vein invasion. Generally performed as part of a pTNM.
   "name" : "TNMVCategoryVS",
   "title" : "TNMV Category VS",
   "status" : "draft",
-  "date" : "2026-09-18T12:07:35+00:00",
+  "date" : "2026-09-18T14:18:31+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
