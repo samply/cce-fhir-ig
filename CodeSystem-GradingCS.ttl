@@ -1,0 +1,92 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/GradingCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "GradingCS"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem GradingCS</b></p><a name=\"GradingCS\"> </a><a name=\"hcGradingCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"GradingCS-0\"> </a></td><td>malignant melanoma of the conjunctiva</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"GradingCS-1\"> </a></td><td>well differentiated</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"GradingCS-2\"> </a></td><td>morately differentiated</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"GradingCS-3\"> </a></td><td>poorly differentiated</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"GradingCS-4\"> </a></td><td>undifferentiated</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"GradingCS-X\"> </a></td><td>not determinable</td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"GradingCS-L\"> </a></td><td>low grade (G1 or G2)</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"GradingCS-M\"> </a></td><td>intermediate (G2 or G3)</td></tr><tr><td style=\"white-space:nowrap\">H<a name=\"GradingCS-H\"> </a></td><td>high grade (G3 or G4)</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"GradingCS-B\"> </a></td><td>Borderline</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"GradingCS-U\"> </a></td><td>unknown</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"GradingCS-T\"> </a></td><td>does not apply</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS"] ;
+  fhir:CodeSystem.version [ fhir:value "0.5.0"] ;
+  fhir:CodeSystem.name [ fhir:value "GradingCS"] ;
+  fhir:CodeSystem.title [ fhir:value "Grading CS"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Grading (degree of differentiation of the tumor)"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "12"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "malignant melanoma of the conjunctiva" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "well differentiated" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "morately differentiated" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "3" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "poorly differentiated" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "4" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "undifferentiated" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "X" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "not determinable" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "L" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "low grade (G1 or G2)" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "M" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "intermediate (G2 or G3)" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "H" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "high grade (G3 or G4)" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Borderline" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "unknown" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "T" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "does not apply" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/GradingCS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

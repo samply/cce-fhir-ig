@@ -1,0 +1,69 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/GeneticVariantCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "GeneticVariantCS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem GeneticVariantCS</b></p><a name=\"GeneticVariantCS\"> </a><a name=\"hcGeneticVariantCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"GeneticVariantCS-M\"> </a></td><td>Mutation/positive</td></tr><tr><td style=\"white-space:nowrap\">W<a name=\"GeneticVariantCS-W\"> </a></td><td>Wild type/non-mutated/negative</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"GeneticVariantCS-P\"> </a></td><td>Polymorphism</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"GeneticVariantCS-S\"> </a></td><td>Miscellaneous</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"GeneticVariantCS-N\"> </a></td><td>not determinable</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"GeneticVariantCS-U\"> </a></td><td>unknown</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS"] ;
+  fhir:CodeSystem.version [ fhir:value "0.5.0"] ;
+  fhir:CodeSystem.name [ fhir:value "GeneticVariantCS"] ;
+  fhir:CodeSystem.title [ fhir:value "Genetic Variant CS"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "VitalStatus"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "6"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "M" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mutation/positive" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "W" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Wild type/non-mutated/negative" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "P" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Polymorphism" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Miscellaneous" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "not determinable" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "unknown" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/GeneticVariantCS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

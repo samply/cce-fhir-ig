@@ -1,0 +1,360 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/SurgicalComplicationsCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "SurgicalComplicationsCS"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SurgicalComplicationsCS</b></p><a name=\"SurgicalComplicationsCS\"> </a><a name=\"hcSurgicalComplicationsCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"SurgicalComplicationsCS-N\"> </a></td><td>no</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"SurgicalComplicationsCS-U\"> </a></td><td>unknown</td></tr><tr><td style=\"white-space:nowrap\">ABD<a name=\"SurgicalComplicationsCS-ABD\"> </a></td><td>Abscess in a drainage channel</td></tr><tr><td style=\"white-space:nowrap\">ABS<a name=\"SurgicalComplicationsCS-ABS\"> </a></td><td>Abscess, intra-abdominal or intrathoracic</td></tr><tr><td style=\"white-space:nowrap\">ASF<a name=\"SurgicalComplicationsCS-ASF\"> </a></td><td>Abscess, subfascial</td></tr><tr><td style=\"white-space:nowrap\">ANI<a name=\"SurgicalComplicationsCS-ANI\"> </a></td><td>Acute renal insufficiency</td></tr><tr><td style=\"white-space:nowrap\">AEP<a name=\"SurgicalComplicationsCS-AEP\"> </a></td><td>Alcohol withdrawal psychosis</td></tr><tr><td style=\"white-space:nowrap\">ALR<a name=\"SurgicalComplicationsCS-ALR\"> </a></td><td>Allergic Reaction without Shock symptoms</td></tr><tr><td style=\"white-space:nowrap\">ANS<a name=\"SurgicalComplicationsCS-ANS\"> </a></td><td>Anaphylactic Shock</td></tr><tr><td style=\"white-space:nowrap\">AEE<a name=\"SurgicalComplicationsCS-AEE\"> </a></td><td>Anastomotic insufficiency of an Enterostomy</td></tr><tr><td style=\"white-space:nowrap\">API<a name=\"SurgicalComplicationsCS-API\"> </a></td><td>Apoplectic Stroke</td></tr><tr><td style=\"white-space:nowrap\">BIF<a name=\"SurgicalComplicationsCS-BIF\"> </a></td><td>Biliary Fistula</td></tr><tr><td style=\"white-space:nowrap\">BOG<a name=\"SurgicalComplicationsCS-BOG\"> </a></td><td>Bleeding, upper gastrointestinal (e.g. “stress ulcer”)</td></tr><tr><td style=\"white-space:nowrap\">BOE<a name=\"SurgicalComplicationsCS-BOE\"> </a></td><td>Bolus placement of an Endotube</td></tr><tr><td style=\"white-space:nowrap\">BSI<a name=\"SurgicalComplicationsCS-BSI\"> </a></td><td>Bronchial Stump Insufficiency</td></tr><tr><td style=\"white-space:nowrap\">CHI<a name=\"SurgicalComplicationsCS-CHI\"> </a></td><td>Cholangitis</td></tr><tr><td style=\"white-space:nowrap\">DAI<a name=\"SurgicalComplicationsCS-DAI\"> </a></td><td>Intestinal Anastomosis Insufficiency</td></tr><tr><td style=\"white-space:nowrap\">DPS<a name=\"SurgicalComplicationsCS-DPS\"> </a></td><td>Intestinal transit disorders (e.g. protracted atony, subileus, ileus)</td></tr><tr><td style=\"white-space:nowrap\">DIC<a name=\"SurgicalComplicationsCS-DIC\"> </a></td><td>Disseminated intravascular Coagulopathy</td></tr><tr><td style=\"white-space:nowrap\">DEP<a name=\"SurgicalComplicationsCS-DEP\"> </a></td><td>Drug withdrawal psychosis</td></tr><tr><td style=\"white-space:nowrap\">DLU<a name=\"SurgicalComplicationsCS-DLU\"> </a></td><td>Pressure and positioning damage, e.g. Decubital ulcers</td></tr><tr><td style=\"white-space:nowrap\">DSI<a name=\"SurgicalComplicationsCS-DSI\"> </a></td><td>Duodenal Stump Insufficiency</td></tr><tr><td style=\"white-space:nowrap\">ENF<a name=\"SurgicalComplicationsCS-ENF\"> </a></td><td>Enteral Fistula</td></tr><tr><td style=\"white-space:nowrap\">GER<a name=\"SurgicalComplicationsCS-GER\"> </a></td><td>Coagulation Disorder</td></tr><tr><td style=\"white-space:nowrap\">HEM<a name=\"SurgicalComplicationsCS-HEM\"> </a></td><td>Hematemesis</td></tr><tr><td style=\"white-space:nowrap\">HUR<a name=\"SurgicalComplicationsCS-HUR\"> </a></td><td>Hematuria</td></tr><tr><td style=\"white-space:nowrap\">HAE<a name=\"SurgicalComplicationsCS-HAE\"> </a></td><td>Hemorrhagic Shock</td></tr><tr><td style=\"white-space:nowrap\">HFI<a name=\"SurgicalComplicationsCS-HFI\"> </a></td><td>Urinary Fistula</td></tr><tr><td style=\"white-space:nowrap\">HNK<a name=\"SurgicalComplicationsCS-HNK\"> </a></td><td>Skin Necrosis in the Surgical area</td></tr><tr><td style=\"white-space:nowrap\">HZI<a name=\"SurgicalComplicationsCS-HZI\"> </a></td><td>Heart Failure</td></tr><tr><td style=\"white-space:nowrap\">HRS<a name=\"SurgicalComplicationsCS-HRS\"> </a></td><td>Cardiac Arrhythmia</td></tr><tr><td style=\"white-space:nowrap\">HNA<a name=\"SurgicalComplicationsCS-HNA\"> </a></td><td>Cranial Nerve Deficits</td></tr><tr><td style=\"white-space:nowrap\">HOP<a name=\"SurgicalComplicationsCS-HOP\"> </a></td><td>Organic brain Psychosyndrome (e.g. transit syndrome)</td></tr><tr><td style=\"white-space:nowrap\">HYB<a name=\"SurgicalComplicationsCS-HYB\"> </a></td><td>Hyperbilirubinemia</td></tr><tr><td style=\"white-space:nowrap\">HYF<a name=\"SurgicalComplicationsCS-HYF\"> </a></td><td>Hypopharyngeal Fistula</td></tr><tr><td style=\"white-space:nowrap\">IFV<a name=\"SurgicalComplicationsCS-IFV\"> </a></td><td>Ileofemoral Vein thrombosis</td></tr><tr><td style=\"white-space:nowrap\">KAS<a name=\"SurgicalComplicationsCS-KAS\"> </a></td><td>Cardiogenic Shock</td></tr><tr><td style=\"white-space:nowrap\">KES<a name=\"SurgicalComplicationsCS-KES\"> </a></td><td>Complications of a Stoma</td></tr><tr><td style=\"white-space:nowrap\">KIM<a name=\"SurgicalComplicationsCS-KIM\"> </a></td><td>Complication of an Implant (Vascular prosthesis, Total endoprosthesis, Catheter), e.g. dislocation</td></tr><tr><td style=\"white-space:nowrap\">KRA<a name=\"SurgicalComplicationsCS-KRA\"> </a></td><td>Seizure</td></tr><tr><td style=\"white-space:nowrap\">KDS<a name=\"SurgicalComplicationsCS-KDS\"> </a></td><td>Short Bowel Syndrome</td></tr><tr><td style=\"white-space:nowrap\">LEV<a name=\"SurgicalComplicationsCS-LEV\"> </a></td><td>Liver Failure</td></tr><tr><td style=\"white-space:nowrap\">LOE<a name=\"SurgicalComplicationsCS-LOE\"> </a></td><td>Pulmonary Edema</td></tr><tr><td style=\"white-space:nowrap\">LYF<a name=\"SurgicalComplicationsCS-LYF\"> </a></td><td>Lymphatic Fistula</td></tr><tr><td style=\"white-space:nowrap\">LYE<a name=\"SurgicalComplicationsCS-LYE\"> </a></td><td>Lymphocele</td></tr><tr><td style=\"white-space:nowrap\">MES<a name=\"SurgicalComplicationsCS-MES\"> </a></td><td>Gastric Emptying Disorder</td></tr><tr><td style=\"white-space:nowrap\">MIL<a name=\"SurgicalComplicationsCS-MIL\"> </a></td><td>Mechanical Ileus</td></tr><tr><td style=\"white-space:nowrap\">MED<a name=\"SurgicalComplicationsCS-MED\"> </a></td><td>Mediastinitis</td></tr><tr><td style=\"white-space:nowrap\">MAT<a name=\"SurgicalComplicationsCS-MAT\"> </a></td><td>Mesenteric Artery or Vein thrombosis</td></tr><tr><td style=\"white-space:nowrap\">MYI<a name=\"SurgicalComplicationsCS-MYI\"> </a></td><td>Myocardial infarction</td></tr><tr><td style=\"white-space:nowrap\">RNB<a name=\"SurgicalComplicationsCS-RNB\"> </a></td><td>Postoperative bleeding, requiring revision, not mentioned elsewhere</td></tr><tr><td style=\"white-space:nowrap\">NAB<a name=\"SurgicalComplicationsCS-NAB\"> </a></td><td>Postoperative bleeding, not requiring revision, not mentioned elsewhere</td></tr><tr><td style=\"white-space:nowrap\">NIN<a name=\"SurgicalComplicationsCS-NIN\"> </a></td><td>Suture insufficiency, not mentioned elsewhere</td></tr><tr><td style=\"white-space:nowrap\">OES<a name=\"SurgicalComplicationsCS-OES\"> </a></td><td>Esophagitis</td></tr><tr><td style=\"white-space:nowrap\">OSM<a name=\"SurgicalComplicationsCS-OSM\"> </a></td><td>Osteitis, Osteomyelitis</td></tr><tr><td style=\"white-space:nowrap\">PAF<a name=\"SurgicalComplicationsCS-PAF\"> </a></td><td>Pancreatic Fistula</td></tr><tr><td style=\"white-space:nowrap\">PIT<a name=\"SurgicalComplicationsCS-PIT\"> </a></td><td>Pancreatitis</td></tr><tr><td style=\"white-space:nowrap\">PAB<a name=\"SurgicalComplicationsCS-PAB\"> </a></td><td>Peranal Bleeding</td></tr><tr><td style=\"white-space:nowrap\">PPA<a name=\"SurgicalComplicationsCS-PPA\"> </a></td><td>Peripheral Paresis</td></tr><tr><td style=\"white-space:nowrap\">PAV<a name=\"SurgicalComplicationsCS-PAV\"> </a></td><td>Peripheral arterial Occlusion (Embolism, Thrombosis)</td></tr><tr><td style=\"white-space:nowrap\">PER<a name=\"SurgicalComplicationsCS-PER\"> </a></td><td>Peritonitis</td></tr><tr><td style=\"white-space:nowrap\">PLB<a name=\"SurgicalComplicationsCS-PLB\"> </a></td><td>Burst Abdomen</td></tr><tr><td style=\"white-space:nowrap\">PEY<a name=\"SurgicalComplicationsCS-PEY\"> </a></td><td>Pleural Empyema</td></tr><tr><td style=\"white-space:nowrap\">PLE<a name=\"SurgicalComplicationsCS-PLE\"> </a></td><td>Pleural Effusion</td></tr><tr><td style=\"white-space:nowrap\">PMN<a name=\"SurgicalComplicationsCS-PMN\"> </a></td><td>Pneumonia</td></tr><tr><td style=\"white-space:nowrap\">PNT<a name=\"SurgicalComplicationsCS-PNT\"> </a></td><td>Pneumothorax</td></tr><tr><td style=\"white-space:nowrap\">PDA<a name=\"SurgicalComplicationsCS-PDA\"> </a></td><td>Protracted Intestinal Atony (paralytic Ileus)</td></tr><tr><td style=\"white-space:nowrap\">PAE<a name=\"SurgicalComplicationsCS-PAE\"> </a></td><td>Pulmonary Artery embolism</td></tr><tr><td style=\"white-space:nowrap\">RPA<a name=\"SurgicalComplicationsCS-RPA\"> </a></td><td>Recurrent Nerve Palsy</td></tr><tr><td style=\"white-space:nowrap\">RIN<a name=\"SurgicalComplicationsCS-RIN\"> </a></td><td>Respiratory Insufficiency</td></tr><tr><td style=\"white-space:nowrap\">SKI<a name=\"SurgicalComplicationsCS-SKI\"> </a></td><td>Septic Complication of an Implant</td></tr><tr><td style=\"white-space:nowrap\">SES<a name=\"SurgicalComplicationsCS-SES\"> </a></td><td>Septic Shock</td></tr><tr><td style=\"white-space:nowrap\">SFH<a name=\"SurgicalComplicationsCS-SFH\"> </a></td><td>Disturbances of Fluid, Electrolyte and Acid-base balance</td></tr><tr><td style=\"white-space:nowrap\">STK<a name=\"SurgicalComplicationsCS-STK\"> </a></td><td>Stoma complication (e.g. Bleeding, Necrosis, Stenosis)</td></tr><tr><td style=\"white-space:nowrap\">TZP<a name=\"SurgicalComplicationsCS-TZP\"> </a></td><td>Thrombocytopenia</td></tr><tr><td style=\"white-space:nowrap\">TIA<a name=\"SurgicalComplicationsCS-TIA\"> </a></td><td>(transient ischemic attack) or RIND (reversible ischemic neurological deficit)</td></tr><tr><td style=\"white-space:nowrap\">TRZ<a name=\"SurgicalComplicationsCS-TRZ\"> </a></td><td>Transfusion incident</td></tr><tr><td style=\"white-space:nowrap\">WUH<a name=\"SurgicalComplicationsCS-WUH\"> </a></td><td>Wound hematoma (conservative treatment)</td></tr><tr><td style=\"white-space:nowrap\">WSS<a name=\"SurgicalComplicationsCS-WSS\"> </a></td><td>Wound healing disorder, subcutaneous</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS"] ;
+  fhir:CodeSystem.version [ fhir:value "0.5.0"] ;
+  fhir:CodeSystem.name [ fhir:value "SurgicalComplicationsCS"] ;
+  fhir:CodeSystem.title [ fhir:value "Surgical Complications CS"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Surgical Complications"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "79"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "N" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "no" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "U" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "unknown" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ABD" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Abscess in a drainage channel" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ABS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Abscess, intra-abdominal or intrathoracic" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ASF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Abscess, subfascial" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ANI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Acute renal insufficiency" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AEP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Alcohol withdrawal psychosis" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ALR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Allergic Reaction without Shock symptoms" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ANS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anaphylactic Shock" ]
+  ], [
+     fhir:index 9 ;
+     fhir:CodeSystem.concept.code [ fhir:value "AEE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anastomotic insufficiency of an Enterostomy" ]
+  ], [
+     fhir:index 10 ;
+     fhir:CodeSystem.concept.code [ fhir:value "API" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Apoplectic Stroke" ]
+  ], [
+     fhir:index 11 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BIF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Biliary Fistula" ]
+  ], [
+     fhir:index 12 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BOG" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bleeding, upper gastrointestinal (e.g. “stress ulcer”)" ]
+  ], [
+     fhir:index 13 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BOE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bolus placement of an Endotube" ]
+  ], [
+     fhir:index 14 ;
+     fhir:CodeSystem.concept.code [ fhir:value "BSI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bronchial Stump Insufficiency" ]
+  ], [
+     fhir:index 15 ;
+     fhir:CodeSystem.concept.code [ fhir:value "CHI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cholangitis" ]
+  ], [
+     fhir:index 16 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DAI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intestinal Anastomosis Insufficiency" ]
+  ], [
+     fhir:index 17 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DPS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Intestinal transit disorders (e.g. protracted atony, subileus, ileus)" ]
+  ], [
+     fhir:index 18 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DIC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Disseminated intravascular Coagulopathy" ]
+  ], [
+     fhir:index 19 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DEP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Drug withdrawal psychosis" ]
+  ], [
+     fhir:index 20 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DLU" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pressure and positioning damage, e.g. Decubital ulcers" ]
+  ], [
+     fhir:index 21 ;
+     fhir:CodeSystem.concept.code [ fhir:value "DSI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Duodenal Stump Insufficiency" ]
+  ], [
+     fhir:index 22 ;
+     fhir:CodeSystem.concept.code [ fhir:value "ENF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enteral Fistula" ]
+  ], [
+     fhir:index 23 ;
+     fhir:CodeSystem.concept.code [ fhir:value "GER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coagulation Disorder" ]
+  ], [
+     fhir:index 24 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HEM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hematemesis" ]
+  ], [
+     fhir:index 25 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HUR" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hematuria" ]
+  ], [
+     fhir:index 26 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HAE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hemorrhagic Shock" ]
+  ], [
+     fhir:index 27 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HFI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Urinary Fistula" ]
+  ], [
+     fhir:index 28 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HNK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Skin Necrosis in the Surgical area" ]
+  ], [
+     fhir:index 29 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HZI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Heart Failure" ]
+  ], [
+     fhir:index 30 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HRS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cardiac Arrhythmia" ]
+  ], [
+     fhir:index 31 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HNA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cranial Nerve Deficits" ]
+  ], [
+     fhir:index 32 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HOP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Organic brain Psychosyndrome (e.g. transit syndrome)" ]
+  ], [
+     fhir:index 33 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HYB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hyperbilirubinemia" ]
+  ], [
+     fhir:index 34 ;
+     fhir:CodeSystem.concept.code [ fhir:value "HYF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hypopharyngeal Fistula" ]
+  ], [
+     fhir:index 35 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IFV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ileofemoral Vein thrombosis" ]
+  ], [
+     fhir:index 36 ;
+     fhir:CodeSystem.concept.code [ fhir:value "KAS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cardiogenic Shock" ]
+  ], [
+     fhir:index 37 ;
+     fhir:CodeSystem.concept.code [ fhir:value "KES" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complications of a Stoma" ]
+  ], [
+     fhir:index 38 ;
+     fhir:CodeSystem.concept.code [ fhir:value "KIM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Complication of an Implant (Vascular prosthesis, Total endoprosthesis, Catheter), e.g. dislocation" ]
+  ], [
+     fhir:index 39 ;
+     fhir:CodeSystem.concept.code [ fhir:value "KRA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Seizure" ]
+  ], [
+     fhir:index 40 ;
+     fhir:CodeSystem.concept.code [ fhir:value "KDS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Short Bowel Syndrome" ]
+  ], [
+     fhir:index 41 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LEV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Liver Failure" ]
+  ], [
+     fhir:index 42 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LOE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pulmonary Edema" ]
+  ], [
+     fhir:index 43 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LYF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lymphatic Fistula" ]
+  ], [
+     fhir:index 44 ;
+     fhir:CodeSystem.concept.code [ fhir:value "LYE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Lymphocele" ]
+  ], [
+     fhir:index 45 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MES" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gastric Emptying Disorder" ]
+  ], [
+     fhir:index 46 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MIL" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mechanical Ileus" ]
+  ], [
+     fhir:index 47 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MED" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mediastinitis" ]
+  ], [
+     fhir:index 48 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MAT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mesenteric Artery or Vein thrombosis" ]
+  ], [
+     fhir:index 49 ;
+     fhir:CodeSystem.concept.code [ fhir:value "MYI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Myocardial infarction" ]
+  ], [
+     fhir:index 50 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RNB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Postoperative bleeding, requiring revision, not mentioned elsewhere" ]
+  ], [
+     fhir:index 51 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Postoperative bleeding, not requiring revision, not mentioned elsewhere" ]
+  ], [
+     fhir:index 52 ;
+     fhir:CodeSystem.concept.code [ fhir:value "NIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Suture insufficiency, not mentioned elsewhere" ]
+  ], [
+     fhir:index 53 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OES" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Esophagitis" ]
+  ], [
+     fhir:index 54 ;
+     fhir:CodeSystem.concept.code [ fhir:value "OSM" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Osteitis, Osteomyelitis" ]
+  ], [
+     fhir:index 55 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAF" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pancreatic Fistula" ]
+  ], [
+     fhir:index 56 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PIT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pancreatitis" ]
+  ], [
+     fhir:index 57 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Peranal Bleeding" ]
+  ], [
+     fhir:index 58 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PPA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Peripheral Paresis" ]
+  ], [
+     fhir:index 59 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Peripheral arterial Occlusion (Embolism, Thrombosis)" ]
+  ], [
+     fhir:index 60 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PER" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Peritonitis" ]
+  ], [
+     fhir:index 61 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PLB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Burst Abdomen" ]
+  ], [
+     fhir:index 62 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PEY" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pleural Empyema" ]
+  ], [
+     fhir:index 63 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PLE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pleural Effusion" ]
+  ], [
+     fhir:index 64 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PMN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pneumonia" ]
+  ], [
+     fhir:index 65 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PNT" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pneumothorax" ]
+  ], [
+     fhir:index 66 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PDA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Protracted Intestinal Atony (paralytic Ileus)" ]
+  ], [
+     fhir:index 67 ;
+     fhir:CodeSystem.concept.code [ fhir:value "PAE" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pulmonary Artery embolism" ]
+  ], [
+     fhir:index 68 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RPA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Recurrent Nerve Palsy" ]
+  ], [
+     fhir:index 69 ;
+     fhir:CodeSystem.concept.code [ fhir:value "RIN" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Respiratory Insufficiency" ]
+  ], [
+     fhir:index 70 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SKI" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Septic Complication of an Implant" ]
+  ], [
+     fhir:index 71 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SES" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Septic Shock" ]
+  ], [
+     fhir:index 72 ;
+     fhir:CodeSystem.concept.code [ fhir:value "SFH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Disturbances of Fluid, Electrolyte and Acid-base balance" ]
+  ], [
+     fhir:index 73 ;
+     fhir:CodeSystem.concept.code [ fhir:value "STK" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Stoma complication (e.g. Bleeding, Necrosis, Stenosis)" ]
+  ], [
+     fhir:index 74 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TZP" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Thrombocytopenia" ]
+  ], [
+     fhir:index 75 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TIA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "(transient ischemic attack) or RIND (reversible ischemic neurological deficit)" ]
+  ], [
+     fhir:index 76 ;
+     fhir:CodeSystem.concept.code [ fhir:value "TRZ" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Transfusion incident" ]
+  ], [
+     fhir:index 77 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WUH" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Wound hematoma (conservative treatment)" ]
+  ], [
+     fhir:index 78 ;
+     fhir:CodeSystem.concept.code [ fhir:value "WSS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Wound healing disorder, subcutaneous" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/SurgicalComplicationsCS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="YNUCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem YNUCS</b></p><a name="YNUCS"> </a><a name="hcYNUCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">Y<a name="YNUCS-Y"> </a></td><td>Yes</td></tr><tr><td style="white-space:nowrap">N<a name="YNUCS-N"> </a></td><td>No</td></tr><tr><td style="white-space:nowrap">U<a name="YNUCS-U"> </a></td><td>unknown</td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS"/>
+  <version value="0.5.0"/>
+  <name value="YNUCS"/>
+  <title value="YNU CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="Yes / No / Unknown"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="Y"/>
+    <display value="Yes"/>
+  </concept>
+  <concept>
+    <code value="N"/>
+    <display value="No"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="unknown"/>
+  </concept>
+</CodeSystem>

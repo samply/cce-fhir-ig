@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="MorphologyICDO3VS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet MorphologyICDO3VS</b></p><a name="MorphologyICDO3VS"> </a><a name="hcMorphologyICDO3VS"> </a><ul><li>Include codes from<code>urn:oid:2.16.840.1.113883.6.43.1</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where code  matches (by regex) \d\d\d\d\/\d</li></ul></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS"/>
+  <version value="0.5.0"/>
+  <name value="MorphologyICDO3VS"/>
+  <title value="Morphology ICDO3 VS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="Morphology ICD-O-3 Codes"/>
+  <compose>
+    <include>
+      <system value="urn:oid:2.16.840.1.113883.6.43.1"/>
+      <filter>
+        <property value="code"/>
+        <op value="regex"/>
+        <value value="\d\d\d\d\/\d"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

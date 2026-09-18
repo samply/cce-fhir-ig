@@ -1,0 +1,78 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/ProgressionLocalTumorStatusVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "ProgressionLocalTumorStatusVS"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ProgressionLocalTumorStatusVS</b></p><a name=\"ProgressionLocalTumorStatusVS\"> </a><a name=\"hcProgressionLocalTumorStatusVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-K\">K</a></td><td>No tumor detectable</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-T\">T</a></td><td>Tumor remnants (Residual tumor)</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-P\">P</a></td><td>Tumor remnants Residual tumor Progression</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-N\">N</a></td><td>Tumor remnants Residual tumor No Change</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-R\">R</a></td><td>Local recurrence</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-F\">F</a></td><td>Questionable findings</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-U\">U</a></td><td>unknown</td></tr><tr><td><a href=\"CodeSystem-ProgressionLocalTumorStatusCS.html#ProgressionLocalTumorStatusCS-X\">X</a></td><td>Missing information</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ProgressionLocalTumorStatusVS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "ProgressionLocalTumorStatusVS"] ;
+  fhir:ValueSet.title [ fhir:value "Progression Local Tumor Status VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Progression of local Tumor status"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "K" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "No tumor detectable" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "T" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tumor remnants (Residual tumor)" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tumor remnants Residual tumor Progression" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Tumor remnants Residual tumor No Change" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Local recurrence" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "F" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Questionable findings" ]
+       ], [
+         fhir:index 6 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "unknown" ]
+       ], [
+         fhir:index 7 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Missing information" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/ProgressionLocalTumorStatusVS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,405 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.de/ValueSet/bfarm/alpha-id",
+    "version" : "1.5.4",
+    "status" : "active",
+    "name" : "AlphaIdVS",
+    "title" : "AlphaId ValueSet",
+    "description" : "Die Alpha-ID ermöglicht es, medizinische und alltagssprachliche Diagnosenbezeichnungen zu kodieren, stellt also Diagnosenkodes zur Verfügung. 2005 als Prototyp vom DIMDI herausgegeben basiert die Alpha-ID auf dem Alphabetischen Verzeichnis zur ICD-10-GM. Jedem Eintrag des Alphabets ist eine fortlaufende, stabile, nichtsprechende Identifikationsnummer zugeordnet: der Alpha-ID-Kode. Er identifiziert den Eintrag eindeutig und übernimmt somit die Funktion eines nichtklassifizierenden Diagnosenkodes.",
+    "systems" : ["http://fhir.de/CodeSystem/bfarm/alpha-id"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://fhir.de/ValueSet/bfarm/icd-10-gm",
+    "version" : "1.5.4",
+    "status" : "active",
+    "name" : "ICD10GMVS",
+    "title" : "ICD10GM ValueSet",
+    "description" : "ICD-10-GM",
+    "systems" : ["http://fhir.de/CodeSystem/bfarm/icd-10-gm"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "DiagnosticConfirmationVS",
+    "title" : "Diagnostic Confirmation VS",
+    "description" : "Diagnostic Confirmation",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GeneNomenclatureVS",
+    "title" : "Gene Nomenclature VS",
+    "description" : "HUGO Gene Nomenclature",
+    "systems" : ["http://www.genenames.org"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneticVariantVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GeneticVariantVS",
+    "title" : "Genetic Variant VS",
+    "description" : "Genetic Variant",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GradingVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GradingVS",
+    "title" : "Grading VS",
+    "description" : "Grading (degree of differentiation of the tumor)",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDOVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ICDOVersionVS",
+    "title" : "ICDO Version VS",
+    "description" : "ICD-O Version",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ICDVersionVS",
+    "title" : "ICD Version VS",
+    "description" : "Version des ICD-10-GM",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/LocalAssessmentResidualTumorVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "LocalAssessmentResidualTumorVS",
+    "title" : "Local Assessment Residual Tumor VS",
+    "description" : "Residual Tumor",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "MorphologyICDO3VS",
+    "title" : "Morphology ICDO3 VS",
+    "description" : "Morphology ICD-O-3 Codes",
+    "systems" : ["urn:oid:2.16.840.1.113883.6.43.1"],
+    "uses" : {
+    },
+    "StructureDefinition-Histology.html" : "Histology"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPIntentionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OPIntentionVS",
+    "title" : "OP Intention VS",
+    "description" : "OP Intention",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPOPSVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OPOPSVersionVS",
+    "title" : "OPOPS Version VS",
+    "description" : "OPS Version according to Schema",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPOPSVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OverallAssessmentResidualTumorVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OverallAssessmentResidualTumorVS",
+    "title" : "Overall Assessment Residual Tumor VS",
+    "description" : "Residual Tumor",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ProgressionLocalTumorStatusVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ProgressionLocalTumorStatusVS",
+    "title" : "Progression Local Tumor Status VS",
+    "description" : "Progression of local Tumor status",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTIntentionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SYSTIntentionVS",
+    "title" : "SYST Intention VS",
+    "description" : "Intention",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SYSTTherapyTypeVS",
+    "title" : "SYST Therapy Type VS",
+    "description" : "Type of Therapy",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SampleMaterialTypeVS",
+    "title" : "Sample Material Type",
+    "description" : "Sample Material Types",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SurgicalComplicationsVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SurgicalComplicationsVS",
+    "title" : "Surgical Complications VS",
+    "description" : "Surgical Complications",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMLCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMLCategoryVS",
+    "title" : "TNML Category VS",
+    "description" : "Lymphatic vessel invasion. Generally occurs as part of a pTNM",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMMVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMMVS",
+    "title" : "TNMM VS",
+    "description" : "TNM M-Category",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMNVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMNVS",
+    "title" : "TNMN VS",
+    "description" : "TNM N-Category",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMPnCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMPnCategoryVS",
+    "title" : "TNMPn Category VS",
+    "description" : "Perineural invasion. Generally occurs as part of a pTNM.",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMSCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMSCategoryVS",
+    "title" : "TNMS Category VS",
+    "description" : "Perineural invasion. Generally occurs as part of a pTNM.",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMTVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMTVS",
+    "title" : "TNMT VS",
+    "description" : "TNM T-Category",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMTCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMVCategoryVS",
+    "title" : "TNMV Category VS",
+    "description" : "Vein invasion. Generally performed as part of a pTNM.",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMVersionVS",
+    "title" : "TNM Version VS",
+    "description" : "TNM Version",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMmSymbolVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMmSymbolVS",
+    "title" : "TNMm Symbol VS",
+    "description" : "TNM m-Symbol",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMrSymbolVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMrSymbolVS",
+    "title" : "TNMr Symbol VS",
+    "description" : "TNM r-Symbol",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMySymbolVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMySymbolVS",
+    "title" : "TNMy Symbol VS",
+    "description" : "TNM y-Symbol",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TopographyICDO3VS",
+    "title" : "Topography ICDO3 VS",
+    "description" : "Topography ICD-O-3 Codes",
+    "systems" : ["urn:oid:2.16.840.1.113883.6.43.1"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TumorSiteLocationVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TumorSiteLocationVS",
+    "title" : "Tumor Site Location VS",
+    "description" : "Lateral location of the tumor",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/UICCStageVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "UICCStageVS",
+    "title" : "UICC Stage VS",
+    "description" : "UICC Stage",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "VitalStatusVS",
+    "title" : "Vital Status VS",
+    "description" : "VitalStatus",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS"],
+    "uses" : {
+    },
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/YNUVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "YNUVS",
+    "title" : "YNU VS",
+    "description" : "Yes / No / Unknown",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS"]
+  }]
+}

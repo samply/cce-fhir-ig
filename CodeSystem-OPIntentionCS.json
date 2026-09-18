@@ -1,0 +1,51 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "OPIntentionCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem OPIntentionCS</b></p><a name=\"OPIntentionCS\"> </a><a name=\"hcOPIntentionCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"OPIntentionCS-C\"> </a></td><td>curative</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"OPIntentionCS-P\"> </a></td><td>palliative</td></tr><tr><td style=\"white-space:nowrap\">D<a name=\"OPIntentionCS-D\"> </a></td><td>diagnostic</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"OPIntentionCS-R\"> </a></td><td>Revision/Complication</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"OPIntentionCS-S\"> </a></td><td>miscellaneous</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"OPIntentionCS-X\"> </a></td><td>Missing Information</td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS",
+  "version" : "0.5.0",
+  "name" : "OPIntentionCS",
+  "title" : "OP Intention CS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "OP Intention",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 6,
+  "concept" : [{
+    "code" : "C",
+    "display" : "curative"
+  },
+  {
+    "code" : "P",
+    "display" : "palliative"
+  },
+  {
+    "code" : "D",
+    "display" : "diagnostic"
+  },
+  {
+    "code" : "R",
+    "display" : "Revision/Complication"
+  },
+  {
+    "code" : "S",
+    "display" : "miscellaneous"
+  },
+  {
+    "code" : "X",
+    "display" : "Missing Information"
+  }]
+}

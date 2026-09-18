@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="TNMVersionVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TNMVersionVS</b></p><a name="TNMVersionVS"> </a><a name="hcTNMVersionVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-TNMVersionCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.5.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TNMVersionCS.html#TNMVersionCS-6">6</a></td><td>6. Edition</td></tr><tr><td><a href="CodeSystem-TNMVersionCS.html#TNMVersionCS-7">7</a></td><td>7. Edition</td></tr><tr><td><a href="CodeSystem-TNMVersionCS.html#TNMVersionCS-8">8</a></td><td>8. Edition</td></tr></table></li></ul></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVersionVS"/>
+  <version value="0.5.0"/>
+  <name value="TNMVersionVS"/>
+  <title value="TNM Version VS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="TNM Version"/>
+  <compose>
+    <include>
+      <system value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS"/>
+      <concept>
+        <code value="6"/>
+        <display value="6. Edition"/>
+      </concept>
+      <concept>
+        <code value="7"/>
+        <display value="7. Edition"/>
+      </concept>
+      <concept>
+        <code value="8"/>
+        <display value="8. Edition"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

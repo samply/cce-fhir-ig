@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/OPIntentionVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "OPIntentionVS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet OPIntentionVS</b></p><a name=\"OPIntentionVS\"> </a><a name=\"hcOPIntentionVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-OPIntentionCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-C\">C</a></td><td>curative</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-P\">P</a></td><td>palliative</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-D\">D</a></td><td>diagnostic</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-R\">R</a></td><td>Revision/Complication</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-S\">S</a></td><td>miscellaneous</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-X\">X</a></td><td>Missing Information</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPIntentionVS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "OPIntentionVS"] ;
+  fhir:ValueSet.title [ fhir:value "OP Intention VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "OP Intention"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "curative" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "palliative" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "D" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "diagnostic" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Revision/Complication" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "S" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "miscellaneous" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Missing Information" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/OPIntentionVS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

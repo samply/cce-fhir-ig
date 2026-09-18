@@ -1,0 +1,52 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/MorphologyICDO3VS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "MorphologyICDO3VS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MorphologyICDO3VS</b></p><a name=\"MorphologyICDO3VS\"> </a><a name=\"hcMorphologyICDO3VS\"> </a><ul><li>Include codes from<code>urn:oid:2.16.840.1.113883.6.43.1</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where code  matches (by regex) \\d\\d\\d\\d\\/\\d</li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "MorphologyICDO3VS"] ;
+  fhir:ValueSet.title [ fhir:value "Morphology ICDO3 VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Morphology ICD-O-3 Codes"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "urn:oid:2.16.840.1.113883.6.43.1" ] ;
+       fhir:ValueSet.compose.include.filter [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.filter.property [ fhir:value "code" ] ;
+         fhir:ValueSet.compose.include.filter.op [ fhir:value "regex" ] ;
+         fhir:ValueSet.compose.include.filter.value [ fhir:value "\\d\\d\\d\\d\\/\\d" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/MorphologyICDO3VS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

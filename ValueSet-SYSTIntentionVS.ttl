@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/SYSTIntentionVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "SYSTIntentionVS"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SYSTIntentionVS</b></p><a name=\"SYSTIntentionVS\"> </a><a name=\"hcSYSTIntentionVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-SYSTIntentionCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-C\">C</a></td><td>curative</td></tr><tr><td><a href=\"CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-P\">P</a></td><td>palliative</td></tr><tr><td><a href=\"CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-M\">M</a></td><td>miscellaneous</td></tr><tr><td><a href=\"CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-X\">X</a></td><td>not specified</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTIntentionVS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "SYSTIntentionVS"] ;
+  fhir:ValueSet.title [ fhir:value "SYST Intention VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Intention"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "C" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "curative" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "P" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "palliative" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "M" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "miscellaneous" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "X" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "not specified" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/SYSTIntentionVS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

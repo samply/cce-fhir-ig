@@ -1,0 +1,648 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.de/CodeSystem/bfarm/alpha-id",
+    "version" : null,
+    "status" : "active",
+    "name" : "AlphaId",
+    "title" : "Alpha-ID",
+    "description" : "Alpha-ID Platzhalter-CodeSystem",
+    "uses" : {
+    },
+    "https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.de/ValueSet/bfarm/alpha-id" : "AlphaId ValueSet"
+  },
+  {
+    "url" : "http://fhir.de/CodeSystem/bfarm/icd-10-gm",
+    "version" : null,
+    "status" : "active",
+    "name" : "ICD10GM",
+    "title" : "ICD-10-GM",
+    "description" : "ICD-10-GM Platzhalter-CodeSystem",
+    "uses" : {
+    },
+    "https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.de/ValueSet/bfarm/icd-10-gm" : "ICD10GM ValueSet"
+  },
+  {
+    "url" : "http://hl7.org/fhir/CodeSystem/medication-statement-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Medication Status Codes",
+    "title" : "Medication  status  codes",
+    "description" : "Medication Status Codes",
+    "oids" : ["2.16.840.1.113883.4.642.4.1379"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-medication-statement-status.html" : "Medication  status  codes"
+  },
+  {
+    "url" : "http://hl7.org/fhir/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "oids" : ["2.16.840.1.113883.4.642.4.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-administrative-gender.html" : "AdministrativeGender"
+  },
+  {
+    "url" : "http://hl7.org/fhir/event-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "oids" : ["2.16.840.1.113883.4.642.4.110"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-event-status.html" : "EventStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/link-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "LinkType",
+    "description" : "The type of link between this patient resource and another patient resource.",
+    "oids" : ["2.16.840.1.113883.4.642.4.424"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-link-type.html" : "LinkType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "oids" : ["2.16.840.1.113883.4.642.4.401"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-status.html" : "ObservationStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "oids" : ["2.16.840.1.113883.4.642.4.60"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-quantity-comparator.html" : "QuantityComparator"
+  },
+  {
+    "url" : "http://hl7.org/fhir/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-resource-types.html" : "ResourceType"
+  },
+  {
+    "url" : "http://hl7.org/fhir/specimen-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecimenStatus",
+    "title" : "SpecimenStatus",
+    "description" : "Codes providing the status/availability of a specimen.",
+    "oids" : ["2.16.840.1.113883.4.642.4.472"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-specimen-status.html" : "SpecimenStatus"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
+    "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
+    "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+    "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+    "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
+    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+    "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "http://hl7.org/fhir/R4/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes ",
+    "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1073"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-condition-category.html" : "Condition Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-condition-clinical.html" : "Condition Clinical Status Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1075"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-condition-ver-status.html" : "ConditionVerificationStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "oids" : ["2.16.840.1.113883.4.642.4.1048"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-data-absent-reason.html" : "DataAbsentReason"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/observation-category",
+    "version" : "2.0.0",
+    "status" : "active",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1125"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-category.html" : "Observation Category Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/referencerange-meaning",
+    "version" : "1.0.1",
+    "status" : "active",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1124"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-referencerange-meaning.html" : "Observation Reference Range Meaning Codes"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0131",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ContactRole2",
+    "title" : "contactRole2",
+    "description" : "Code system of concepts which specify a relationship role that the next of kin/associated parties plays with regard to the patient. Also used in referrals, for example, it may be necessary to identify the contact representative at the clinic that sent a referral. Used in HL7 Version 2 messaging in the NK1 and CTD segments after 2.5, when it replace 2.16.840.1.113883.18.57.",
+    "oids" : ["2.16.840.1.113883.18.58"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-patient-contactrelationship.html" : "Patient Contact Relationship "
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0371",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "AdditivePreservative",
+    "title" : "additivePreservative",
+    "description" : "HL7-defined code system of concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in HL7 Version 2.x messaging in the SPM and SAC segments.",
+    "oids" : ["2.16.840.1.113883.18.229"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Treatment",
+    "title" : "treatment",
+    "description" : "Code system of concepts that identify the specimen treatment performed during lab processing.  Used in the Interaction Specimen Container Detail (SAC) segment in HL7 Version 2.x messaging.",
+    "oids" : ["2.16.840.1.113883.18.231"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-specimen-processing-procedure.html" : "Specimen processing procedure"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "SpecimenCondition",
+    "title" : "specimenCondition",
+    "description" : "Code system of concepts specifying a mode or state of being that describes the nature of the specimen.  Used in HL7 Version 2.x messaging in the SPM segment.",
+    "oids" : ["2.16.840.1.113883.18.317"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "RelevantClincialInformation",
+    "title" : "relevantClincialInformation",
+    "description" : "Code system of concepts specifying additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies. Used in HL7 Version 2.x messaging in the OBR segment.",
+    "oids" : ["2.16.840.1.113883.18.422"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "version" : "5.0.0",
+    "status" : "active",
+    "name" : "MaritalStatus",
+    "title" : "MaritalStatus",
+    "description" : "\\* \\* \\* No description supplied \\* \\* \\*\r\n\r\n*Open Issue:* The specific meanings of these codes can vary somewhat by jurisdiction and implementation so caution should be used when determining equivalency.\r\n\r\n*Open Issue:* fixing and completion of the hierarchy and proper good definitions of all the concepts is badly needed.",
+    "oids" : ["2.16.840.1.113883.5.2"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "NullFlavor",
+    "title" : "NullFlavor",
+    "description" : "A collection of codes specifying why a valid value is not present.",
+    "oids" : ["2.16.840.1.113883.5.1008"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-marital-status.html" : "MaritalStatus"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
+    "version" : "4.0.0",
+    "status" : "active",
+    "name" : "ObservationInterpretation",
+    "title" : "ObservationInterpretation",
+    "description" : "One or more codes providing a rough qualitative interpretation of the observation, such as \"normal\" / \"abnormal\", \"low\" / \"high\", \"better\" / \"worse\", \"resistant\" / \"susceptible\", \"expected\" / \"not expected\". The value set is intended to be for ANY use where coded representation of an interpretation is needed.",
+    "oids" : ["2.16.840.1.113883.5.83"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-observation-interpretation.html" : "Observation Interpretation Codes"
+  },
+  {
+    "url" : "http://www.genenames.org",
+    "version" : "3.1.0",
+    "status" : "active",
+    "name" : "HGNCGenes",
+    "title" : "HUGO Gene Nomenclature Committee Genes",
+    "description" : "\"The HGNC is responsible for approving unique symbols and names for human loci, including protein coding genes, ncRNA genes and pseudogenes, to allow unambiguous scientific communication.\"\r\n\r\nThe HGNC gene table carries gene IDs, gene symbols and full gene names. Guidance from HGNC confirms that gene symbols are not unique across species and have been known to change in some instances. Thus the commonly used gene symbols should be encoded in FHIR as \"displays\" with the corresponding IDs (beginning with \"HGNC:\") as the \"codes\".\r\n\r\n\"For each known human gene we approve a gene name and symbol (short-form abbreviation). All approved symbols are stored in the HGNC database,[www.genenames.org](https://www.genenames.org/tools/search), a curated online repository of HGNC-approved gene nomenclature, gene groups and associated resources including links to genomic, proteomic and phenotypic information. Each symbol is unique and we ensure that each gene is only given one approved gene symbol. It is necessary to provide a unique symbol for each gene so that we and others can talk about them, and this also facilitates electronic data retrieval from publications and databases.\"\r\n\r\nHGNC also provides an index on gene families/groups. GeneGroup IDs do not begin with \"HGNC:\", so care must be made to ensure alignment of concepts when viewing an HGNC ID from an older system that may be referring to the GeneID and not a gene group. For example, 588 refers to the HLA gene family, but HGNC:588 identifies the ATG12 gene. To provide clarity for systems that do not distinguish codes from genes and gene families, use \"http://www.genenames.org\" for genes and \"http://www.genenames.org/genegroup\" for gene families as code system URIs.\r\n\r\nFor more information on HGNC Gene Groups, see [https://terminology.hl7.org/CodeSystem-HGNCGeneGroup.html](https://terminology.hl7.org/CodeSystem-HGNCGeneGroup.html).\r\n\r\nHistorically, HGNC gene symbols were used with the HL7 coded data type. For example, in the HL7 messages specified according to the HL7 V2 Clinical Genomics Fully LOINC-Qualified Genetic Variation Model Implementation Guide, HGNC gene symbols were used as the observation values for gene identifiers. For example, OBX 1 CWE 48018-6^Gene identifier^ BRCA1^HGNC. Please note that gene symbols may be present in legacy systems, but GeneID should be used to exchange HGNC gene information in current implementations.\r\n\r\nHGNC is a free database for the public.\r\n\r\nVersioning Information: The version of the HGNC database is reported using the last updated date. The last updated date is posted on the main HGNC Search screen in the format like \"2024-07-25\".\r\n\r\nCurrent, monthly and quarterly HGNC dataset files are published.\r\n\r\nPlease see https://www.genenames.org/ for more info.",
+    "oids" : ["2.16.840.1.113883.6.281"],
+    "uses" : {
+    },
+    "ValueSet-GeneNomenclatureVS.html" : "Gene Nomenclature VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "DiagnosticConfirmationCS",
+    "title" : "Diagnostic Confirmation CS",
+    "description" : "Diagnostic backup",
+    "uses" : {
+    },
+    "ValueSet-DiagnosticConfirmationVS.html" : "Diagnostic Confirmation VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GeneticVariantCS",
+    "title" : "Genetic Variant CS",
+    "description" : "VitalStatus",
+    "uses" : {
+    },
+    "ValueSet-GeneticVariantVS.html" : "Genetic Variant VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GradingCS",
+    "title" : "Grading CS",
+    "description" : "Grading (degree of differentiation of the tumor)",
+    "uses" : {
+    },
+    "ValueSet-GradingVS.html" : "Grading VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ICDOVersionCS",
+    "title" : "ICDO Version CS",
+    "description" : "ICD-O-3 Version",
+    "uses" : {
+    },
+    "ValueSet-ICDOVersionVS.html" : "ICDO Version VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDVersionCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ICDVersionCS",
+    "title" : "ICD Version CS",
+    "description" : "Version of the ICD-10-GM",
+    "uses" : {
+    },
+    "ValueSet-ICDVersionVS.html" : "ICD Version VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "LocalAssessmentResidualTumorCS",
+    "title" : "Local Assessment Residual Tumor CS",
+    "description" : "ResidualTumor",
+    "uses" : {
+    },
+    "ValueSet-LocalAssessmentResidualTumorVS.html" : "Local Assessment Residual Tumor VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OPIntentionCS",
+    "title" : "OP Intention CS",
+    "description" : "OP Intention",
+    "uses" : {
+    },
+    "ValueSet-OPIntentionVS.html" : "OP Intention VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPOPSVersionCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OPOPSVersionCS",
+    "title" : "OPOPS Version CS",
+    "description" : "OPS Version according to Schema",
+    "uses" : {
+    },
+    "ValueSet-OPOPSVersionVS.html" : "OPOPS Version VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OverallAssessmentResidualTumorCS",
+    "title" : "Overall Assessment Residual Tumor CS",
+    "description" : "Residual Tumor",
+    "uses" : {
+    },
+    "ValueSet-OverallAssessmentResidualTumorVS.html" : "Overall Assessment Residual Tumor VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ProgressionLocalTumorStatusCS",
+    "title" : "Progression Local Tumor Status CS",
+    "description" : "Progression of local Tumor status",
+    "uses" : {
+    },
+    "ValueSet-ProgressionLocalTumorStatusVS.html" : "Progression Local Tumor Status VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SYSTIntentionCS",
+    "title" : "SYST Intention CS",
+    "description" : "Intention",
+    "uses" : {
+    },
+    "ValueSet-SYSTIntentionVS.html" : "SYST Intention VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SYSTTherapyTypeCS",
+    "title" : "SYST Therapy Type CS",
+    "description" : "Type of Therapy",
+    "uses" : {
+    },
+    "ValueSet-SYSTTherapyTypeVS.html" : "SYST Therapy Type VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SampleMaterialTypeCS",
+    "title" : "Sample Material Type",
+    "description" : "The type of material the sample consists of.",
+    "uses" : {
+    },
+    "ValueSet-SampleMaterialTypeVS.html" : "Sample Material Type"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SurgicalComplicationsCS",
+    "title" : "Surgical Complications CS",
+    "description" : "Surgical Complications",
+    "uses" : {
+    },
+    "ValueSet-SurgicalComplicationsVS.html" : "Surgical Complications VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMLCategoryCS",
+    "title" : "TNML Category CS",
+    "description" : "Lymphatic vessel invasion. Generally occurs as part of a pTNM",
+    "uses" : {
+    },
+    "ValueSet-TNMLCategoryVS.html" : "TNML Category VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMMCS",
+    "title" : "TNMM CS",
+    "description" : "TNM M-Category",
+    "uses" : {
+    },
+    "ValueSet-TNMMVS.html" : "TNMM VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMNCS",
+    "title" : "TNMN CS",
+    "description" : "TNM N-Category",
+    "uses" : {
+    },
+    "ValueSet-TNMNVS.html" : "TNMN VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMPnCategoryCS",
+    "title" : "TNMPn Category CS",
+    "description" : "Perineural invasion. Generally occurs as part of a pTNM.",
+    "uses" : {
+    },
+    "ValueSet-TNMPnCategoryVS.html" : "TNMPn Category VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMSCategoryCS",
+    "title" : "TNMS Category CS",
+    "description" : "Perineural invasion. Generally occurs as part of a pTNM.",
+    "uses" : {
+    },
+    "ValueSet-TNMSCategoryVS.html" : "TNMS Category VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMTCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMTCS",
+    "title" : "TNMT CS",
+    "description" : "TNM T-Category",
+    "uses" : {
+    },
+    "ValueSet-TNMTVS.html" : "TNMT VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMVCategoryCS",
+    "title" : "TNMV Category CS",
+    "description" : "Vein invasion. Generally performed as part of a pTNM.",
+    "uses" : {
+    },
+    "ValueSet-TNMVCategoryVS.html" : "TNMV Category VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMVersionCS",
+    "title" : "TNM Version CS",
+    "description" : "TNM Version",
+    "uses" : {
+    },
+    "ValueSet-TNMVersionVS.html" : "TNM Version VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMmSymbolCS",
+    "title" : "TNMm Symbol CS",
+    "description" : "TNM m-Symbol",
+    "uses" : {
+    },
+    "ValueSet-TNMmSymbolVS.html" : "TNMm Symbol VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMrSymbolCS",
+    "title" : "TNMr Symbol CS",
+    "description" : "TNM r-Symbol",
+    "uses" : {
+    },
+    "ValueSet-TNMrSymbolVS.html" : "TNMr Symbol VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMySymbolCS",
+    "title" : "TNMy Symbol CS",
+    "description" : "TNM y-Symbol",
+    "uses" : {
+    },
+    "ValueSet-TNMySymbolVS.html" : "TNMy Symbol VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TumorSiteLocationCS",
+    "title" : "Tumor Site Location CS",
+    "description" : "Lateral location of the tumor",
+    "uses" : {
+    },
+    "ValueSet-TumorSiteLocationVS.html" : "Tumor Site Location VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "UICCStageCS",
+    "title" : "UICC Stage CS",
+    "description" : "UICC Stage",
+    "uses" : {
+    },
+    "ValueSet-UICCStageVS.html" : "UICC Stage VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "VitalStatusCS",
+    "title" : "Vital Status CS",
+    "description" : "VitalStatus",
+    "uses" : {
+    },
+    "ValueSet-VitalStatusVS.html" : "Vital Status VS"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "YNUCS",
+    "title" : "YNU CS",
+    "description" : "Yes / No / Unknown",
+    "uses" : {
+    },
+    "ValueSet-YNUVS.html" : "YNU VS"
+  }]
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TNMVCategoryCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMVCategoryCS</b></p><a name="TNMVCategoryCS"> </a><a name="hcTNMVCategoryCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">VX<a name="TNMVCategoryCS-VX"> </a></td><td>Vein invasion cannot be assessed</td></tr><tr><td style="white-space:nowrap">V0<a name="TNMVCategoryCS-V0"> </a></td><td>No vein invasion</td></tr><tr><td style="white-space:nowrap">V1<a name="TNMVCategoryCS-V1"> </a></td><td>Microscopic vein invasion</td></tr><tr><td style="white-space:nowrap">V2<a name="TNMVCategoryCS-V2"> </a></td><td>Macroscopic vein invasion</td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS"/>
+  <version value="0.5.0"/>
+  <name value="TNMVCategoryCS"/>
+  <title value="TNMV Category CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="Vein invasion. Generally performed as part of a pTNM."/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="VX"/>
+    <display value="Vein invasion cannot be assessed"/>
+  </concept>
+  <concept>
+    <code value="V0"/>
+    <display value="No vein invasion"/>
+  </concept>
+  <concept>
+    <code value="V1"/>
+    <display value="Microscopic vein invasion"/>
+  </concept>
+  <concept>
+    <code value="V2"/>
+    <display value="Macroscopic vein invasion"/>
+  </concept>
+</CodeSystem>

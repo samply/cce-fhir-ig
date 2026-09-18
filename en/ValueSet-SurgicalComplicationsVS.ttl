@@ -1,0 +1,363 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/SurgicalComplicationsVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "SurgicalComplicationsVS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SurgicalComplicationsVS</b></p><a name=\"SurgicalComplicationsVS\"> </a><a name=\"hcSurgicalComplicationsVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-SurgicalComplicationsCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-N\">N</a></td><td>no</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-U\">U</a></td><td>unknown</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ABD\">ABD</a></td><td>Abscess in a drainage channel</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ABS\">ABS</a></td><td>Abscess, intra-abdominal or intrathoracic</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ASF\">ASF</a></td><td>Abscess, subfascial</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ANI\">ANI</a></td><td>Acute renal insufficiency</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-AEP\">AEP</a></td><td>Alcohol withdrawal psychosis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ALR\">ALR</a></td><td>Allergic Reaction without Shock symptoms</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ANS\">ANS</a></td><td>Anaphylactic Shock</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-AEE\">AEE</a></td><td>Anastomotic insufficiency of an Enterostomy</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-API\">API</a></td><td>Apoplectic Stroke</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-BIF\">BIF</a></td><td>Biliary Fistula</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-BOG\">BOG</a></td><td>Bleeding, upper gastrointestinal (e.g. “stress ulcer”)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-BOE\">BOE</a></td><td>Bolus placement of an Endotube</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-BSI\">BSI</a></td><td>Bronchial Stump Insufficiency</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-CHI\">CHI</a></td><td>Cholangitis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-DAI\">DAI</a></td><td>Intestinal Anastomosis Insufficiency</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-DPS\">DPS</a></td><td>Intestinal transit disorders (e.g. protracted atony, subileus, ileus)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-DIC\">DIC</a></td><td>Disseminated intravascular Coagulopathy</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-DEP\">DEP</a></td><td>Drug withdrawal psychosis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-DLU\">DLU</a></td><td>Pressure and positioning damage, e.g. Decubital ulcers</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-DSI\">DSI</a></td><td>Duodenal Stump Insufficiency</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-ENF\">ENF</a></td><td>Enteral Fistula</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-GER\">GER</a></td><td>Coagulation Disorder</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HEM\">HEM</a></td><td>Hematemesis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HUR\">HUR</a></td><td>Hematuria</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HAE\">HAE</a></td><td>Hemorrhagic Shock</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HFI\">HFI</a></td><td>Urinary Fistula</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HNK\">HNK</a></td><td>Skin Necrosis in the Surgical area</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HZI\">HZI</a></td><td>Heart Failure</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HRS\">HRS</a></td><td>Cardiac Arrhythmia</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HNA\">HNA</a></td><td>Cranial Nerve Deficits</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HOP\">HOP</a></td><td>Organic brain Psychosyndrome (e.g. transit syndrome)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HYB\">HYB</a></td><td>Hyperbilirubinemia</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-HYF\">HYF</a></td><td>Hypopharyngeal Fistula</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-IFV\">IFV</a></td><td>Ileofemoral Vein thrombosis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-KAS\">KAS</a></td><td>Cardiogenic Shock</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-KES\">KES</a></td><td>Complications of a Stoma</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-KIM\">KIM</a></td><td>Complication of an Implant (Vascular prosthesis, Total endoprosthesis, Catheter), e.g. dislocation</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-KRA\">KRA</a></td><td>Seizure</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-KDS\">KDS</a></td><td>Short Bowel Syndrome</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-LEV\">LEV</a></td><td>Liver Failure</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-LOE\">LOE</a></td><td>Pulmonary Edema</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-LYF\">LYF</a></td><td>Lymphatic Fistula</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-LYE\">LYE</a></td><td>Lymphocele</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-MES\">MES</a></td><td>Gastric Emptying Disorder</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-MIL\">MIL</a></td><td>Mechanical Ileus</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-MED\">MED</a></td><td>Mediastinitis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-MAT\">MAT</a></td><td>Mesenteric Artery or Vein thrombosis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-MYI\">MYI</a></td><td>Myocardial infarction</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-RNB\">RNB</a></td><td>Postoperative bleeding, requiring revision, not mentioned elsewhere</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-NAB\">NAB</a></td><td>Postoperative bleeding, not requiring revision, not mentioned elsewhere</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-NIN\">NIN</a></td><td>Suture insufficiency, not mentioned elsewhere</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-OES\">OES</a></td><td>Esophagitis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-OSM\">OSM</a></td><td>Osteitis, Osteomyelitis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PAF\">PAF</a></td><td>Pancreatic Fistula</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PIT\">PIT</a></td><td>Pancreatitis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PAB\">PAB</a></td><td>Peranal Bleeding</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PPA\">PPA</a></td><td>Peripheral Paresis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PAV\">PAV</a></td><td>Peripheral arterial Occlusion (Embolism, Thrombosis)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PER\">PER</a></td><td>Peritonitis</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PLB\">PLB</a></td><td>Burst Abdomen</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PEY\">PEY</a></td><td>Pleural Empyema</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PLE\">PLE</a></td><td>Pleural Effusion</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PMN\">PMN</a></td><td>Pneumonia</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PNT\">PNT</a></td><td>Pneumothorax</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PDA\">PDA</a></td><td>Protracted Intestinal Atony (paralytic Ileus)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-PAE\">PAE</a></td><td>Pulmonary Artery embolism</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-RPA\">RPA</a></td><td>Recurrent Nerve Palsy</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-RIN\">RIN</a></td><td>Respiratory Insufficiency</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-SKI\">SKI</a></td><td>Septic Complication of an Implant</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-SES\">SES</a></td><td>Septic Shock</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-SFH\">SFH</a></td><td>Disturbances of Fluid, Electrolyte and Acid-base balance</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-STK\">STK</a></td><td>Stoma complication (e.g. Bleeding, Necrosis, Stenosis)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-TZP\">TZP</a></td><td>Thrombocytopenia</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-TIA\">TIA</a></td><td>(transient ischemic attack) or RIND (reversible ischemic neurological deficit)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-TRZ\">TRZ</a></td><td>Transfusion incident</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-WUH\">WUH</a></td><td>Wound hematoma (conservative treatment)</td></tr><tr><td><a href=\"CodeSystem-SurgicalComplicationsCS.html#SurgicalComplicationsCS-WSS\">WSS</a></td><td>Wound healing disorder, subcutaneous</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SurgicalComplicationsVS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "SurgicalComplicationsVS"] ;
+  fhir:ValueSet.title [ fhir:value "Surgical Complications VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Surgical Complications"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "N" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "no" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "U" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "unknown" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ABD" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abscess in a drainage channel" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ABS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abscess, intra-abdominal or intrathoracic" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ASF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Abscess, subfascial" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ANI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Acute renal insufficiency" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AEP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Alcohol withdrawal psychosis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ALR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Allergic Reaction without Shock symptoms" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ANS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anaphylactic Shock" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "AEE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Anastomotic insufficiency of an Enterostomy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "API" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Apoplectic Stroke" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BIF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Biliary Fistula" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BOG" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bleeding, upper gastrointestinal (e.g. “stress ulcer”)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BOE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bolus placement of an Endotube" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "BSI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Bronchial Stump Insufficiency" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "CHI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cholangitis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DAI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intestinal Anastomosis Insufficiency" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DPS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intestinal transit disorders (e.g. protracted atony, subileus, ileus)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DIC" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Disseminated intravascular Coagulopathy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DEP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Drug withdrawal psychosis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DLU" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pressure and positioning damage, e.g. Decubital ulcers" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "DSI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Duodenal Stump Insufficiency" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "ENF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Enteral Fistula" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "GER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Coagulation Disorder" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HEM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hematemesis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HUR" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hematuria" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HAE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hemorrhagic Shock" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HFI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Urinary Fistula" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HNK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Skin Necrosis in the Surgical area" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HZI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Heart Failure" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HRS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cardiac Arrhythmia" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HNA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cranial Nerve Deficits" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HOP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Organic brain Psychosyndrome (e.g. transit syndrome)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HYB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hyperbilirubinemia" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "HYF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Hypopharyngeal Fistula" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "IFV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Ileofemoral Vein thrombosis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KAS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cardiogenic Shock" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Complications of a Stoma" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KIM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Complication of an Implant (Vascular prosthesis, Total endoprosthesis, Catheter), e.g. dislocation" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KRA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Seizure" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "KDS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Short Bowel Syndrome" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LEV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Liver Failure" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LOE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pulmonary Edema" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LYF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lymphatic Fistula" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "LYE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Lymphocele" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Gastric Emptying Disorder" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MIL" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mechanical Ileus" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MED" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mediastinitis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MAT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Mesenteric Artery or Vein thrombosis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "MYI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Myocardial infarction" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RNB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Postoperative bleeding, requiring revision, not mentioned elsewhere" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NAB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Postoperative bleeding, not requiring revision, not mentioned elsewhere" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "NIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Suture insufficiency, not mentioned elsewhere" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Esophagitis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "OSM" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Osteitis, Osteomyelitis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAF" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pancreatic Fistula" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PIT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pancreatitis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peranal Bleeding" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PPA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peripheral Paresis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAV" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peripheral arterial Occlusion (Embolism, Thrombosis)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PER" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Peritonitis" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLB" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Burst Abdomen" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PEY" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pleural Empyema" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PLE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pleural Effusion" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PMN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pneumonia" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PNT" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pneumothorax" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PDA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Protracted Intestinal Atony (paralytic Ileus)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "PAE" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Pulmonary Artery embolism" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RPA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Recurrent Nerve Palsy" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RIN" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Respiratory Insufficiency" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SKI" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Septic Complication of an Implant" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SES" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Septic Shock" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "SFH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Disturbances of Fluid, Electrolyte and Acid-base balance" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "STK" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Stoma complication (e.g. Bleeding, Necrosis, Stenosis)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TZP" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Thrombocytopenia" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TIA" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(transient ischemic attack) or RIND (reversible ischemic neurological deficit)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "TRZ" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transfusion incident" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WUH" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wound hematoma (conservative treatment)" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "WSS" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Wound healing disorder, subcutaneous" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/SurgicalComplicationsVS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

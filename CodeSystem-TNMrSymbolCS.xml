@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TNMrSymbolCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMrSymbolCS</b></p><a name="TNMrSymbolCS"> </a><a name="hcTNMrSymbolCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">r<a name="TNMrSymbolCS-r"> </a></td><td>Classification was used to assess a recurrence</td></tr><tr><td style="white-space:nowrap">9<a name="TNMrSymbolCS-9"> </a></td><td>Native classification before a recurrence</td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS"/>
+  <version value="0.5.0"/>
+  <name value="TNMrSymbolCS"/>
+  <title value="TNMr Symbol CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="TNM r-Symbol"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="r"/>
+    <display value="Classification was used to assess a recurrence"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="Native classification before a recurrence"/>
+  </concept>
+</CodeSystem>

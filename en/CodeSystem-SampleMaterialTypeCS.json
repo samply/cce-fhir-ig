@@ -1,0 +1,108 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SampleMaterialTypeCS",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SampleMaterialTypeCS</b></p><a name=\"SampleMaterialTypeCS\"> </a><a name=\"hcSampleMaterialTypeCS\"> </a><p>This  code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS</code> defines the following codes in a Is-A hierarchy:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">whole-blood<a name=\"SampleMaterialTypeCS-whole-blood\"> </a></td><td>Whole blood</td></tr><tr><td style=\"white-space:nowrap\">bone-marrow<a name=\"SampleMaterialTypeCS-bone-marrow\"> </a></td><td>Bone marrow</td></tr><tr><td style=\"white-space:nowrap\">buffy-coat<a name=\"SampleMaterialTypeCS-buffy-coat\"> </a></td><td>Buffy-Coat</td></tr><tr><td style=\"white-space:nowrap\">dried-whole-blood<a name=\"SampleMaterialTypeCS-dried-whole-blood\"> </a></td><td>Dried whole blood</td></tr><tr><td style=\"white-space:nowrap\">peripheral-blood-cells-vital<a name=\"SampleMaterialTypeCS-peripheral-blood-cells-vital\"> </a></td><td>Peripheral blood mononuclear cells (PBMCs, viable)</td></tr><tr><td style=\"white-space:nowrap\">blood-plasma<a name=\"SampleMaterialTypeCS-blood-plasma\"> </a></td><td>Plasma</td></tr><tr><td style=\"white-space:nowrap\">blood-serum<a name=\"SampleMaterialTypeCS-blood-serum\"> </a></td><td>Serum</td></tr><tr><td style=\"white-space:nowrap\">ascites<a name=\"SampleMaterialTypeCS-ascites\"> </a></td><td>Ascites</td></tr><tr><td style=\"white-space:nowrap\">csf-liquor<a name=\"SampleMaterialTypeCS-csf-liquor\"> </a></td><td>CSF/Liquor</td></tr><tr><td style=\"white-space:nowrap\">saliva<a name=\"SampleMaterialTypeCS-saliva\"> </a></td><td>Saliva</td></tr><tr><td style=\"white-space:nowrap\">stool-faeces<a name=\"SampleMaterialTypeCS-stool-faeces\"> </a></td><td>Stool/Faeces</td></tr><tr><td style=\"white-space:nowrap\">urine<a name=\"SampleMaterialTypeCS-urine\"> </a></td><td>Urine</td></tr><tr><td style=\"white-space:nowrap\">swab<a name=\"SampleMaterialTypeCS-swab\"> </a></td><td>Swab</td></tr><tr><td style=\"white-space:nowrap\">liquid-other<a name=\"SampleMaterialTypeCS-liquid-other\"> </a></td><td>Other liquid biosample/storage</td></tr><tr><td style=\"white-space:nowrap\">tissue-ffpe<a name=\"SampleMaterialTypeCS-tissue-ffpe\"> </a></td><td>Tissue FFPE</td></tr><tr><td style=\"white-space:nowrap\">tissue-frozen<a name=\"SampleMaterialTypeCS-tissue-frozen\"> </a></td><td>Tissue frozen</td></tr><tr><td style=\"white-space:nowrap\">tissue-other<a name=\"SampleMaterialTypeCS-tissue-other\"> </a></td><td>Other tissue storage</td></tr><tr><td style=\"white-space:nowrap\">dna<a name=\"SampleMaterialTypeCS-dna\"> </a></td><td>DNA</td></tr><tr><td style=\"white-space:nowrap\">rna<a name=\"SampleMaterialTypeCS-rna\"> </a></td><td>RNA</td></tr><tr><td style=\"white-space:nowrap\">derivative-other<a name=\"SampleMaterialTypeCS-derivative-other\"> </a></td><td>Other derivative</td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS",
+  "version" : "0.5.0",
+  "name" : "SampleMaterialTypeCS",
+  "title" : "Sample Material Type",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "The type of material the sample consists of.",
+  "hierarchyMeaning" : "is-a",
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 20,
+  "concept" : [{
+    "code" : "whole-blood",
+    "display" : "Whole blood"
+  },
+  {
+    "code" : "bone-marrow",
+    "display" : "Bone marrow"
+  },
+  {
+    "code" : "buffy-coat",
+    "display" : "Buffy-Coat"
+  },
+  {
+    "code" : "dried-whole-blood",
+    "display" : "Dried whole blood"
+  },
+  {
+    "code" : "peripheral-blood-cells-vital",
+    "display" : "Peripheral blood mononuclear cells (PBMCs, viable)"
+  },
+  {
+    "code" : "blood-plasma",
+    "display" : "Plasma"
+  },
+  {
+    "code" : "blood-serum",
+    "display" : "Serum"
+  },
+  {
+    "code" : "ascites",
+    "display" : "Ascites"
+  },
+  {
+    "code" : "csf-liquor",
+    "display" : "CSF/Liquor"
+  },
+  {
+    "code" : "saliva",
+    "display" : "Saliva"
+  },
+  {
+    "code" : "stool-faeces",
+    "display" : "Stool/Faeces"
+  },
+  {
+    "code" : "urine",
+    "display" : "Urine"
+  },
+  {
+    "code" : "swab",
+    "display" : "Swab"
+  },
+  {
+    "code" : "liquid-other",
+    "display" : "Other liquid biosample/storage"
+  },
+  {
+    "code" : "tissue-ffpe",
+    "display" : "Tissue FFPE"
+  },
+  {
+    "code" : "tissue-frozen",
+    "display" : "Tissue frozen"
+  },
+  {
+    "code" : "tissue-other",
+    "display" : "Other tissue storage"
+  },
+  {
+    "code" : "dna",
+    "display" : "DNA"
+  },
+  {
+    "code" : "rna",
+    "display" : "RNA"
+  },
+  {
+    "code" : "derivative-other",
+    "display" : "Other derivative"
+  }]
+}

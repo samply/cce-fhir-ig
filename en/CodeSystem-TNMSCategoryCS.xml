@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TNMSCategoryCS"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMSCategoryCS</b></p><a name="TNMSCategoryCS"> </a><a name="hcTNMSCategoryCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">SX<a name="TNMSCategoryCS-SX"> </a></td></tr><tr><td style="white-space:nowrap">S0<a name="TNMSCategoryCS-S0"> </a></td></tr><tr><td style="white-space:nowrap">S1<a name="TNMSCategoryCS-S1"> </a></td></tr><tr><td style="white-space:nowrap">S2<a name="TNMSCategoryCS-S2"> </a></td></tr><tr><td style="white-space:nowrap">S3<a name="TNMSCategoryCS-S3"> </a></td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS"/>
+  <version value="0.5.0"/>
+  <name value="TNMSCategoryCS"/>
+  <title value="TNMS Category CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="Perineural invasion. Generally occurs as part of a pTNM."/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="5"/>
+  <concept>
+    <code value="SX"/>
+    <display value="SX"/>
+  </concept>
+  <concept>
+    <code value="S0"/>
+    <display value="S0"/>
+  </concept>
+  <concept>
+    <code value="S1"/>
+    <display value="S1"/>
+  </concept>
+  <concept>
+    <code value="S2"/>
+    <display value="S2"/>
+  </concept>
+  <concept>
+    <code value="S3"/>
+    <display value="S3"/>
+  </concept>
+</CodeSystem>

@@ -1,0 +1,40 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "VitalStatusVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet VitalStatusVS</b></p><a name=\"VitalStatusVS\"> </a><a name=\"hcVitalStatusVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-VitalStatusCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-VitalStatusCS.html#VitalStatusCS-alive\">alive</a></td><td>alive</td></tr><tr><td><a href=\"CodeSystem-VitalStatusCS.html#VitalStatusCS-deceased\">deceased</a></td><td>deceased</td></tr><tr><td><a href=\"CodeSystem-VitalStatusCS.html#VitalStatusCS-unknown\">unknown</a></td><td>unknown</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS",
+  "version" : "0.5.0",
+  "name" : "VitalStatusVS",
+  "title" : "Vital Status VS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "VitalStatus",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS",
+      "concept" : [{
+        "code" : "alive",
+        "display" : "alive"
+      },
+      {
+        "code" : "deceased",
+        "display" : "deceased"
+      },
+      {
+        "code" : "unknown",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}

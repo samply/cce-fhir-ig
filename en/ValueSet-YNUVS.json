@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "YNUVS",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet YNUVS</b></p><a name=\"YNUVS\"> </a><a name=\"hcYNUVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-YNUCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-YNUCS.html#YNUCS-Y\">Y</a></td><td>Yes</td></tr><tr><td><a href=\"CodeSystem-YNUCS.html#YNUCS-N\">N</a></td><td>No</td></tr><tr><td><a href=\"CodeSystem-YNUCS.html#YNUCS-U\">U</a></td><td>unknown</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/YNUVS",
+  "version" : "0.5.0",
+  "name" : "YNUVS",
+  "title" : "YNU VS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "Yes / No / Unknown",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS",
+      "concept" : [{
+        "code" : "Y",
+        "display" : "Yes"
+      },
+      {
+        "code" : "N",
+        "display" : "No"
+      },
+      {
+        "code" : "U",
+        "display" : "unknown"
+      }]
+    }]
+  }
+}

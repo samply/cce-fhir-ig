@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="VitalStatusCS"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem VitalStatusCS</b></p><a name="VitalStatusCS"> </a><a name="hcVitalStatusCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">alive<a name="VitalStatusCS-alive"> </a></td></tr><tr><td style="white-space:nowrap">deceased<a name="VitalStatusCS-deceased"> </a></td></tr><tr><td style="white-space:nowrap">unknown<a name="VitalStatusCS-unknown"> </a></td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS"/>
+  <version value="0.5.0"/>
+  <name value="VitalStatusCS"/>
+  <title value="Vital Status CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="VitalStatus"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="alive"/>
+    <display value="alive"/>
+  </concept>
+  <concept>
+    <code value="deceased"/>
+    <display value="deceased"/>
+  </concept>
+  <concept>
+    <code value="unknown"/>
+    <display value="unknown"/>
+  </concept>
+</CodeSystem>

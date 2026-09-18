@@ -1,0 +1,104 @@
+# cce.fhir#0.5.0: CCE FHIR Implementation Guide(en)
+
+## Pages
+
+* [Home](en/index.md)
+* [Artifacts Summary](en/artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Diagnostic Confirmation CS](en/CodeSystem-DiagnosticConfirmationCS.md)
+* [Genetic Variant CS](en/CodeSystem-GeneticVariantCS.md)
+* [Grading CS](en/CodeSystem-GradingCS.md)
+* [ICDO Version CS](en/CodeSystem-ICDOVersionCS.md)
+* [ICD Version CS](en/CodeSystem-ICDVersionCS.md)
+* [Local Assessment Residual Tumor CS](en/CodeSystem-LocalAssessmentResidualTumorCS.md)
+* [OP Intention CS](en/CodeSystem-OPIntentionCS.md)
+* [OPOPS Version CS](en/CodeSystem-OPOPSVersionCS.md)
+* [Overall Assessment Residual Tumor CS](en/CodeSystem-OverallAssessmentResidualTumorCS.md)
+* [Progression Local Tumor Status CS](en/CodeSystem-ProgressionLocalTumorStatusCS.md)
+* [SYST Intention CS](en/CodeSystem-SYSTIntentionCS.md)
+* [SYST Therapy Type CS](en/CodeSystem-SYSTTherapyTypeCS.md)
+* [Sample Material Type](en/CodeSystem-SampleMaterialTypeCS.md)
+* [Surgical Complications CS](en/CodeSystem-SurgicalComplicationsCS.md)
+* [TNML Category CS](en/CodeSystem-TNMLCategoryCS.md)
+* [TNMM CS](en/CodeSystem-TNMMCS.md)
+* [TNMN CS](en/CodeSystem-TNMNCS.md)
+* [TNMPn Category CS](en/CodeSystem-TNMPnCategoryCS.md)
+* [TNMS Category CS](en/CodeSystem-TNMSCategoryCS.md)
+* [TNMT CS](en/CodeSystem-TNMTCS.md)
+* [TNMV Category CS](en/CodeSystem-TNMVCategoryCS.md)
+* [TNM Version CS](en/CodeSystem-TNMVersionCS.md)
+* [TNMm Symbol CS](en/CodeSystem-TNMmSymbolCS.md)
+* [TNMr Symbol CS](en/CodeSystem-TNMrSymbolCS.md)
+* [TNMy Symbol CS](en/CodeSystem-TNMySymbolCS.md)
+* [Tumor Site Location CS](en/CodeSystem-TumorSiteLocationCS.md)
+* [UICC Stage CS](en/CodeSystem-UICCStageCS.md)
+* [Vital Status CS](en/CodeSystem-VitalStatusCS.md)
+* [YNU CS](en/CodeSystem-YNUCS.md)
+
+### ValueSets
+
+* [Diagnostic Confirmation VS](en/ValueSet-DiagnosticConfirmationVS.md)
+* [Gene Nomenclature VS](en/ValueSet-GeneNomenclatureVS.md)
+* [Genetic Variant VS](en/ValueSet-GeneticVariantVS.md)
+* [Grading VS](en/ValueSet-GradingVS.md)
+* [ICDO Version VS](en/ValueSet-ICDOVersionVS.md)
+* [ICD Version VS](en/ValueSet-ICDVersionVS.md)
+* [Local Assessment Residual Tumor VS](en/ValueSet-LocalAssessmentResidualTumorVS.md)
+* [Morphology ICDO3 VS](en/ValueSet-MorphologyICDO3VS.md)
+* [OP Intention VS](en/ValueSet-OPIntentionVS.md)
+* [OPOPS Version VS](en/ValueSet-OPOPSVersionVS.md)
+* [Overall Assessment Residual Tumor VS](en/ValueSet-OverallAssessmentResidualTumorVS.md)
+* [Progression Local Tumor Status VS](en/ValueSet-ProgressionLocalTumorStatusVS.md)
+* [SYST Intention VS](en/ValueSet-SYSTIntentionVS.md)
+* [SYST Therapy Type VS](en/ValueSet-SYSTTherapyTypeVS.md)
+* [Sample Material Type](en/ValueSet-SampleMaterialTypeVS.md)
+* [Surgical Complications VS](en/ValueSet-SurgicalComplicationsVS.md)
+* [TNML Category VS](en/ValueSet-TNMLCategoryVS.md)
+* [TNMM VS](en/ValueSet-TNMMVS.md)
+* [TNMN VS](en/ValueSet-TNMNVS.md)
+* [TNMPn Category VS](en/ValueSet-TNMPnCategoryVS.md)
+* [TNMS Category VS](en/ValueSet-TNMSCategoryVS.md)
+* [TNMT VS](en/ValueSet-TNMTVS.md)
+* [TNMV Category VS](en/ValueSet-TNMVCategoryVS.md)
+* [TNM Version VS](en/ValueSet-TNMVersionVS.md)
+* [TNMm Symbol VS](en/ValueSet-TNMmSymbolVS.md)
+* [TNMr Symbol VS](en/ValueSet-TNMrSymbolVS.md)
+* [TNMy Symbol VS](en/ValueSet-TNMySymbolVS.md)
+* [Topography ICDO3 VS](en/ValueSet-TopographyICDO3VS.md)
+* [Tumor Site Location VS](en/ValueSet-TumorSiteLocationVS.md)
+* [UICC Stage VS](en/ValueSet-UICCStageVS.md)
+* [Vital Status VS](en/ValueSet-VitalStatusVS.md)
+* [YNU VS](en/ValueSet-YNUVS.md)
+
+### Resource Profiles
+
+* [Histology](en/StructureDefinition-Histology.md)
+* [Operation](en/StructureDefinition-Operation.md)
+* [Patient Pseudonym](en/StructureDefinition-PatientPseudonym.md)
+* [Primary Diagnosis](en/StructureDefinition-PrimaryDiagnosis.md)
+* [Radiotherapy](en/StructureDefinition-Radiotherapy.md)
+* [Specimen](en/StructureDefinition-Specimen.md)
+* [Systemic Therapy](en/StructureDefinition-SystemicTherapy.md)
+* [TNMc](en/StructureDefinition-TNMc.md)
+* [TNMp](en/StructureDefinition-TNMp.md)
+* [Vital Status](en/StructureDefinition-VitalStatus.md)
+
+### Extensions
+
+* [SpecimenExtension](en/StructureDefinition-SpecimenExtension.md)
+
+### ImplementationGuides
+
+* [CCE FHIR Implementation Guide](en/ImplementationGuide-cce.fhir.md)
+
+### Examples
+
+* [Condition-id-115 (Condition)](en/Condition-Condition-id-115.md)
+* [SystemicTherapy-id-115 (MedicationStatement)](en/MedicationStatement-SystemicTherapy-id-115.md)
+* [Patient-id-115 (Patient)](en/Patient-Patient-id-115.md)
+* [Operation-id-115 (Procedure)](en/Procedure-Operation-id-115.md)
+* [Radiotherapy-id-115 (Procedure)](en/Procedure-Radiotherapy-id-115.md)

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TNMySymbolCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMySymbolCS</b></p><a name="TNMySymbolCS"> </a><a name="hcTNMySymbolCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">y<a name="TNMySymbolCS-y"> </a></td><td>Classification occurred during or after initial multimodal therapy</td></tr><tr><td style="white-space:nowrap">9<a name="TNMySymbolCS-9"> </a></td><td>native classification</td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS"/>
+  <version value="0.5.0"/>
+  <name value="TNMySymbolCS"/>
+  <title value="TNMy Symbol CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="TNM y-Symbol"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="y"/>
+    <display value="Classification occurred during or after initial multimodal therapy"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="native classification"/>
+  </concept>
+</CodeSystem>

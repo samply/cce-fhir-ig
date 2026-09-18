@@ -1,0 +1,83 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/TNMmSymbolVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "TNMmSymbolVS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TNMmSymbolVS</b></p><a name=\"TNMmSymbolVS\"> </a><a name=\"hcTNMmSymbolVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-TNMmSymbolCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-m\">m</a></td><td>Indicates presence of multiple primary tumors in a region</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-2\">2</a></td><td>(2) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-3\">3</a></td><td>(3) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-4\">4</a></td><td>(4) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-5\">5</a></td><td>(5) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-6\">6</a></td><td>(6) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-7\">7</a></td><td>(7) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-8\">8</a></td><td>(8) simultaneous tumors</td></tr><tr><td><a href=\"CodeSystem-TNMmSymbolCS.html#TNMmSymbolCS-9\">9</a></td><td>(9) simultaneous tumors</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMmSymbolVS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "TNMmSymbolVS"] ;
+  fhir:ValueSet.title [ fhir:value "TNMm Symbol VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "TNM m-Symbol"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index -1 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "m" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indicates presence of multiple primary tumors in a region" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(2) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "3" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(3) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "4" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(4) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "5" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(5) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "6" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(6) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "7" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(7) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "8" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(8) simultaneous tumors" ]
+       ], [
+         fhir:index -1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "9" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "(9) simultaneous tumors" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/TNMmSymbolVS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

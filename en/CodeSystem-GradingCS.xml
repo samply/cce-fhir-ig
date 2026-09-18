@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="GradingCS"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem GradingCS</b></p><a name="GradingCS"> </a><a name="hcGradingCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">0<a name="GradingCS-0"> </a></td><td>malignant melanoma of the conjunctiva</td></tr><tr><td style="white-space:nowrap">1<a name="GradingCS-1"> </a></td><td>well differentiated</td></tr><tr><td style="white-space:nowrap">2<a name="GradingCS-2"> </a></td><td>morately differentiated</td></tr><tr><td style="white-space:nowrap">3<a name="GradingCS-3"> </a></td><td>poorly differentiated</td></tr><tr><td style="white-space:nowrap">4<a name="GradingCS-4"> </a></td><td>undifferentiated</td></tr><tr><td style="white-space:nowrap">X<a name="GradingCS-X"> </a></td><td>not determinable</td></tr><tr><td style="white-space:nowrap">L<a name="GradingCS-L"> </a></td><td>low grade (G1 or G2)</td></tr><tr><td style="white-space:nowrap">M<a name="GradingCS-M"> </a></td><td>intermediate (G2 or G3)</td></tr><tr><td style="white-space:nowrap">H<a name="GradingCS-H"> </a></td><td>high grade (G3 or G4)</td></tr><tr><td style="white-space:nowrap">B<a name="GradingCS-B"> </a></td><td>Borderline</td></tr><tr><td style="white-space:nowrap">U<a name="GradingCS-U"> </a></td><td>unknown</td></tr><tr><td style="white-space:nowrap">T<a name="GradingCS-T"> </a></td><td>does not apply</td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS"/>
+  <version value="0.5.0"/>
+  <name value="GradingCS"/>
+  <title value="Grading CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="Grading (degree of differentiation of the tumor)"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="12"/>
+  <concept>
+    <code value="0"/>
+    <display value="malignant melanoma of the conjunctiva"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="well differentiated"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="morately differentiated"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="poorly differentiated"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="undifferentiated"/>
+  </concept>
+  <concept>
+    <code value="X"/>
+    <display value="not determinable"/>
+  </concept>
+  <concept>
+    <code value="L"/>
+    <display value="low grade (G1 or G2)"/>
+  </concept>
+  <concept>
+    <code value="M"/>
+    <display value="intermediate (G2 or G3)"/>
+  </concept>
+  <concept>
+    <code value="H"/>
+    <display value="high grade (G3 or G4)"/>
+  </concept>
+  <concept>
+    <code value="B"/>
+    <display value="Borderline"/>
+  </concept>
+  <concept>
+    <code value="U"/>
+    <display value="unknown"/>
+  </concept>
+  <concept>
+    <code value="T"/>
+    <display value="does not apply"/>
+  </concept>
+</CodeSystem>

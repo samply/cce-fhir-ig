@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TNMMCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMMCS</b></p><a name="TNMMCS"> </a><a name="hcTNMMCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">0<a name="TNMMCS-0"> </a></td></tr><tr><td style="white-space:nowrap">1<a name="TNMMCS-1"> </a></td></tr><tr><td style="white-space:nowrap">1a<a name="TNMMCS-1a"> </a></td></tr><tr><td style="white-space:nowrap">1b<a name="TNMMCS-1b"> </a></td></tr><tr><td style="white-space:nowrap">1c<a name="TNMMCS-1c"> </a></td></tr><tr><td style="white-space:nowrap">1d<a name="TNMMCS-1d"> </a></td></tr><tr><td style="white-space:nowrap">1e<a name="TNMMCS-1e"> </a></td></tr><tr><td style="white-space:nowrap">0(i-)<a name="TNMMCS-0.40i-.41"> </a></td></tr><tr><td style="white-space:nowrap">0(i+)<a name="TNMMCS-0.40i.43.41"> </a></td></tr><tr><td style="white-space:nowrap">0(mol-)<a name="TNMMCS-0.40mol-.41"> </a></td></tr><tr><td style="white-space:nowrap">0(mol+)<a name="TNMMCS-0.40mol.43.41"> </a></td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS"/>
+  <version value="0.5.0"/>
+  <name value="TNMMCS"/>
+  <title value="TNMM CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="TNM M-Category"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="11"/>
+  <concept>
+    <code value="0"/>
+    <display value="0"/>
+  </concept>
+  <concept>
+    <code value="1"/>
+    <display value="1"/>
+  </concept>
+  <concept>
+    <code value="1a"/>
+    <display value="1a"/>
+  </concept>
+  <concept>
+    <code value="1b"/>
+    <display value="1b"/>
+  </concept>
+  <concept>
+    <code value="1c"/>
+    <display value="1c"/>
+  </concept>
+  <concept>
+    <code value="1d"/>
+    <display value="1d"/>
+  </concept>
+  <concept>
+    <code value="1e"/>
+    <display value="1e"/>
+  </concept>
+  <concept>
+    <code value="0(i-)"/>
+    <display value="0(i-)"/>
+  </concept>
+  <concept>
+    <code value="0(i+)"/>
+    <display value="0(i+)"/>
+  </concept>
+  <concept>
+    <code value="0(mol-)"/>
+    <display value="0(mol-)"/>
+  </concept>
+  <concept>
+    <code value="0(mol+)"/>
+    <display value="0(mol+)"/>
+  </concept>
+</CodeSystem>

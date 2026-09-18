@@ -1,0 +1,63 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TNMmSymbolCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TNMmSymbolCS</b></p><a name=\"TNMmSymbolCS\"> </a><a name=\"hcTNMmSymbolCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">m<a name=\"TNMmSymbolCS-m\"> </a></td><td>Indicates presence of multiple primary tumors in a region</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"TNMmSymbolCS-2\"> </a></td><td>(2) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">3<a name=\"TNMmSymbolCS-3\"> </a></td><td>(3) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"TNMmSymbolCS-4\"> </a></td><td>(4) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"TNMmSymbolCS-5\"> </a></td><td>(5) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"TNMmSymbolCS-6\"> </a></td><td>(6) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"TNMmSymbolCS-7\"> </a></td><td>(7) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"TNMmSymbolCS-8\"> </a></td><td>(8) simultaneous tumors</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"TNMmSymbolCS-9\"> </a></td><td>(9) simultaneous tumors</td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS",
+  "version" : "0.5.0",
+  "name" : "TNMmSymbolCS",
+  "title" : "TNMm Symbol CS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "TNM m-Symbol",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "m",
+    "display" : "Indicates presence of multiple primary tumors in a region"
+  },
+  {
+    "code" : "2",
+    "display" : "(2) simultaneous tumors"
+  },
+  {
+    "code" : "3",
+    "display" : "(3) simultaneous tumors"
+  },
+  {
+    "code" : "4",
+    "display" : "(4) simultaneous tumors"
+  },
+  {
+    "code" : "5",
+    "display" : "(5) simultaneous tumors"
+  },
+  {
+    "code" : "6",
+    "display" : "(6) simultaneous tumors"
+  },
+  {
+    "code" : "7",
+    "display" : "(7) simultaneous tumors"
+  },
+  {
+    "code" : "8",
+    "display" : "(8) simultaneous tumors"
+  },
+  {
+    "code" : "9",
+    "display" : "(9) simultaneous tumors"
+  }]
+}

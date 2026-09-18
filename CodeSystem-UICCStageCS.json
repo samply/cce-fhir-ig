@@ -1,0 +1,139 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "UICCStageCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem UICCStageCS</b></p><a name=\"UICCStageCS\"> </a><a name=\"hcUICCStageCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"UICCStageCS-0\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0a<a name=\"UICCStageCS-0a\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0is<a name=\"UICCStageCS-0is\"> </a></td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"UICCStageCS-I\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IA<a name=\"UICCStageCS-IA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IA1<a name=\"UICCStageCS-IA1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IA2<a name=\"UICCStageCS-IA2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IB<a name=\"UICCStageCS-IB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IB1<a name=\"UICCStageCS-IB1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IB2<a name=\"UICCStageCS-IB2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IC<a name=\"UICCStageCS-IC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">II<a name=\"UICCStageCS-II\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIA<a name=\"UICCStageCS-IIA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIA1<a name=\"UICCStageCS-IIA1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIA2<a name=\"UICCStageCS-IIA2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIB<a name=\"UICCStageCS-IIB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIC<a name=\"UICCStageCS-IIC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">III<a name=\"UICCStageCS-III\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIA<a name=\"UICCStageCS-IIIA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIB<a name=\"UICCStageCS-IIIB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIC<a name=\"UICCStageCS-IIIC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIC1<a name=\"UICCStageCS-IIIC1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIC2<a name=\"UICCStageCS-IIIC2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IV<a name=\"UICCStageCS-IV\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IVA<a name=\"UICCStageCS-IVA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IVB<a name=\"UICCStageCS-IVB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IVC<a name=\"UICCStageCS-IVC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IS<a name=\"UICCStageCS-IS\"> </a></td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS",
+  "version" : "0.5.0",
+  "name" : "UICCStageCS",
+  "title" : "UICC Stage CS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "UICC Stage",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 28,
+  "concept" : [{
+    "code" : "0",
+    "display" : "0"
+  },
+  {
+    "code" : "0a",
+    "display" : "0a"
+  },
+  {
+    "code" : "0is",
+    "display" : "0is"
+  },
+  {
+    "code" : "I",
+    "display" : "I"
+  },
+  {
+    "code" : "IA",
+    "display" : "IA"
+  },
+  {
+    "code" : "IA1",
+    "display" : "IA1"
+  },
+  {
+    "code" : "IA2",
+    "display" : "IA2"
+  },
+  {
+    "code" : "IB",
+    "display" : "IB"
+  },
+  {
+    "code" : "IB1",
+    "display" : "IB1"
+  },
+  {
+    "code" : "IB2",
+    "display" : "IB2"
+  },
+  {
+    "code" : "IC",
+    "display" : "IC"
+  },
+  {
+    "code" : "II",
+    "display" : "II"
+  },
+  {
+    "code" : "IIA",
+    "display" : "IIA"
+  },
+  {
+    "code" : "IIA1",
+    "display" : "IIA1"
+  },
+  {
+    "code" : "IIA2",
+    "display" : "IIA2"
+  },
+  {
+    "code" : "IIB",
+    "display" : "IIB"
+  },
+  {
+    "code" : "IIC",
+    "display" : "IIC"
+  },
+  {
+    "code" : "III",
+    "display" : "III"
+  },
+  {
+    "code" : "IIIA",
+    "display" : "IIIA"
+  },
+  {
+    "code" : "IIIB",
+    "display" : "IIIB"
+  },
+  {
+    "code" : "IIIC",
+    "display" : "IIIC"
+  },
+  {
+    "code" : "IIIC1",
+    "display" : "IIIC1"
+  },
+  {
+    "code" : "IIIC2",
+    "display" : "IIIC2"
+  },
+  {
+    "code" : "IV",
+    "display" : "IV"
+  },
+  {
+    "code" : "IVA",
+    "display" : "IVA"
+  },
+  {
+    "code" : "IVB",
+    "display" : "IVB"
+  },
+  {
+    "code" : "IVC",
+    "display" : "IVC"
+  },
+  {
+    "code" : "IS",
+    "display" : "IS"
+  }]
+}

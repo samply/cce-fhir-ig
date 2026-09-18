@@ -1,0 +1,1048 @@
+{
+  "codeSystems" : [{
+    "url" : "http://fhir.de/ValueSet/bfarm/alpha-id",
+    "version" : "1.5.4",
+    "status" : "active",
+    "name" : "AlphaIdVS",
+    "title" : "AlphaId ValueSet",
+    "description" : "Die Alpha-ID ermöglicht es, medizinische und alltagssprachliche Diagnosenbezeichnungen zu kodieren, stellt also Diagnosenkodes zur Verfügung. 2005 als Prototyp vom DIMDI herausgegeben basiert die Alpha-ID auf dem Alphabetischen Verzeichnis zur ICD-10-GM. Jedem Eintrag des Alphabets ist eine fortlaufende, stabile, nichtsprechende Identifikationsnummer zugeordnet: der Alpha-ID-Kode. Er identifiziert den Eintrag eindeutig und übernimmt somit die Funktion eines nichtklassifizierenden Diagnosenkodes.",
+    "systems" : ["http://fhir.de/CodeSystem/bfarm/alpha-id"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://fhir.de/ValueSet/bfarm/icd-10-gm",
+    "version" : "1.5.4",
+    "status" : "active",
+    "name" : "ICD10GMVS",
+    "title" : "ICD10GM ValueSet",
+    "description" : "ICD-10-GM",
+    "systems" : ["http://fhir.de/CodeSystem/bfarm/icd-10-gm"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "AdministrativeGender",
+    "title" : "AdministrativeGender",
+    "description" : "The gender of a person used for administrative purposes.",
+    "systems" : ["http://hl7.org/fhir/administrative-gender"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1"],
+    "uses" : {
+    },
+    "StructureDefinition-PatientPseudonym.html" : "Patient Pseudonym"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionCategoryCodes",
+    "title" : "Condition Category Codes",
+    "description" : "Preferred value set for Condition Categories.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.162"],
+    "sources" : ["2.16.840.1.113883.4.642.3.162"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-clinical",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "oids" : ["2.16.840.1.113883.4.642.3.164"],
+    "sources" : ["2.16.840.1.113883.4.642.3.164"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-code",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/Problem/DiagnosisCodes",
+    "title" : "Condition/Problem/Diagnosis Codes",
+    "description" : "Example value set for Condition/Problem/Diagnosis codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.161"],
+    "sources" : ["2.16.840.1.113883.4.642.3.161"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/DiagnosisSeverity",
+    "title" : "Condition/Diagnosis Severity",
+    "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.168"],
+    "sources" : ["2.16.840.1.113883.4.642.3.168"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStage",
+    "title" : "Condition Stage",
+    "description" : "Example value set for stages of cancer and other conditions.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.170"],
+    "sources" : ["2.16.840.1.113883.4.642.3.170"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStageType",
+    "title" : "Condition Stage Type",
+    "description" : "Example value set for the type of stages of cancer and other conditions",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.171"],
+    "sources" : ["2.16.840.1.113883.4.642.3.171"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.166"],
+    "sources" : ["2.16.840.1.113883.4.642.3.166"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DataAbsentReason",
+    "title" : "DataAbsentReason",
+    "description" : "Used to specify why the normally expected content of the data element is missing.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/data-absent-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.5"],
+    "sources" : ["2.16.840.1.113883.4.642.3.5"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-action",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureDeviceActionCodes",
+    "title" : "Procedure Device Action Codes",
+    "description" : "Example codes indicating the change that happened to the device during the procedure.  Note that these are in no way complete and might not even be appropriate for some uses.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.425"],
+    "sources" : ["2.16.840.1.113883.4.642.3.425"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/device-kind",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "FHIRDeviceTypes",
+    "title" : "FHIR Device Types",
+    "description" : "Codes used to identify medical devices. Includes concepts from SNOMED CT (http://www.snomed.org/) where concept is-a 49062001 (Device)  and is provided as a suggestive example.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.208"],
+    "sources" : ["2.16.840.1.113883.4.642.3.208"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/event-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "systems" : ["http://hl7.org/fhir/event-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.109"],
+    "sources" : ["2.16.840.1.113883.4.642.3.109"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen",
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-PatientPseudonym.html" : "Patient Pseudonym",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/link-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "LinkType",
+    "title" : "LinkType",
+    "description" : "The type of link between this patient resource and another patient resource.",
+    "systems" : ["http://hl7.org/fhir/link-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.423"],
+    "sources" : ["2.16.840.1.113883.4.642.3.423"],
+    "uses" : {
+    },
+    "StructureDefinition-PatientPseudonym.html" : "Patient Pseudonym"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/marital-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Marital Status Codes",
+    "title" : "MaritalStatus",
+    "description" : "This value set defines the set of codes that can be used to indicate the marital status of a person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-MaritalStatus",
+    "http://terminology.hl7.org/CodeSystem/v3-NullFlavor"],
+    "oids" : ["2.16.840.1.113883.4.642.3.29"],
+    "sources" : ["2.16.840.1.113883.4.642.3.29"],
+    "uses" : {
+    },
+    "StructureDefinition-PatientPseudonym.html" : "Patient Pseudonym"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTMedicationCodes",
+    "title" : "SNOMED CT Medication Codes",
+    "description" : "This value set includes all drug or medicament substance codes and all pharmaceutical/biologic products from SNOMED CT - provided as an exemplar value set.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.375"],
+    "sources" : ["2.16.840.1.113883.4.642.3.375"],
+    "uses" : {
+    },
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/medication-statement-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Medication Status Codes",
+    "title" : "Medication  status  codes",
+    "description" : "Medication Status Codes",
+    "systems" : ["http://hl7.org/fhir/CodeSystem/medication-statement-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.367"],
+    "sources" : ["2.16.840.1.113883.4.642.3.367"],
+    "uses" : {
+    },
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-category",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationCategoryCodes",
+    "title" : "Observation Category Codes",
+    "description" : "Observation Category codes.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/observation-category"],
+    "oids" : ["2.16.840.1.113883.4.642.3.403"],
+    "sources" : ["2.16.840.1.113883.4.642.3.403"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "LOINCCodes",
+    "title" : "LOINC Codes",
+    "description" : "This value set includes all LOINC codes",
+    "systems" : ["http://loinc.org"],
+    "oids" : ["2.16.840.1.113883.4.642.3.396"],
+    "sources" : ["2.16.840.1.113883.4.642.3.396"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationInterpretationCodes",
+    "title" : "Observation Interpretation Codes",
+    "description" : "A categorical assessment, providing a rough qualitative interpretation of the observation value,    such as “normal”/ “abnormal”,”low” / “high”, “better” / “worse”, “susceptible” / “resistant”, “expected”/ “not expected”.    The value set is intended to be for ANY use where coded representation of an interpretation is needed.   \r\n   \r\n   Notes:\r\n   \r\n   This is being communicated in v2.x in OBX-8 (Observation Interpretation), in v3 in ObservationInterpretation (CWE) in R1 (Representative Realm) and in FHIR in    Observation.interpretation. Historically these values come from the laboratory domain, and these codes are extensively    used. The value set binding is extensible, so codes outside the value set that are needed for interpretation concepts    (i.e. particular meanings) that are not included in the value set can be used, and these new codes may also be added to    the value set and published in a future version.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"],
+    "oids" : ["2.16.840.1.113883.4.642.3.399"],
+    "sources" : ["2.16.840.1.113883.4.642.3.399"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationMethods",
+    "title" : "Observation Methods",
+    "description" : "Observation Method codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 272394005 (Technique (qualifier value)) or is-a 129264002 (Action (qualifier value)) or is-a 386053000 (Evaluation procedure(procedure))",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.395"],
+    "sources" : ["2.16.840.1.113883.4.642.3.395"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/observation-status",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ObservationStatus",
+    "title" : "ObservationStatus",
+    "description" : "Codes providing the status of an observation.",
+    "systems" : ["http://hl7.org/fhir/observation-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.400"],
+    "sources" : ["2.16.840.1.113883.4.642.3.400"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "PatientContactRelationship",
+    "title" : "Patient Contact Relationship ",
+    "description" : "The nature of the relationship between the patient and the contact person.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0131"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1130"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1130"],
+    "uses" : {
+    },
+    "StructureDefinition-PatientPseudonym.html" : "Patient Pseudonym"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/performer-role",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedurePerformerRoleCodes",
+    "title" : "Procedure Performer Role Codes",
+    "description" : "This example value set defines the set of codes that can be used to indicate a role of a procedure performer.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.433"],
+    "sources" : ["2.16.840.1.113883.4.642.3.433"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-code",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureCodes(SNOMEDCT)",
+    "title" : "Procedure Codes (SNOMED CT)",
+    "description" : "Procedure Code: All SNOMED CT procedure codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.427"],
+    "sources" : ["2.16.840.1.113883.4.642.3.427"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-followup",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureFollowUpCodes(SNOMEDCT)",
+    "title" : "Procedure Follow up Codes (SNOMED CT)",
+    "description" : "Procedure follow up codes: A selection of SNOMED CT codes relevant to procedure follow up.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.429"],
+    "sources" : ["2.16.840.1.113883.4.642.3.429"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-not-performed-reason",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ProcedureNotPerformedReason(SNOMED-CT)",
+    "title" : "Procedure Not Performed Reason (SNOMED-CT)",
+    "description" : "Situation codes describing the reason that a procedure, which might otherwise be expected, was not performed, or a procedure that was started and was not completed. Consists of SNOMED CT codes, children of procedure contraindicated (183932001), procedure discontinued (416406003), procedure not done (416237000), procedure not indicated (428119001), procedure not offered (416064006), procedure not wanted (416432009), procedure refused (183944003), and procedure stopped (394908001).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.431"],
+    "sources" : ["2.16.840.1.113883.4.642.3.431"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-outcome",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureOutcomeCodes(SNOMEDCT)",
+    "title" : "Procedure Outcome Codes (SNOMED CT)",
+    "description" : "Procedure Outcome code: A selection of relevant SNOMED CT codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.428"],
+    "sources" : ["2.16.840.1.113883.4.642.3.428"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/procedure-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ProcedureReasonCodes",
+    "title" : "Procedure Reason Codes",
+    "description" : "This example value set defines the set of codes that can be used to indicate a reason for a procedure.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.432"],
+    "sources" : ["2.16.840.1.113883.4.642.3.432"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/quantity-comparator",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "QuantityComparator",
+    "title" : "QuantityComparator",
+    "description" : "How the Quantity should be understood and represented.",
+    "systems" : ["http://hl7.org/fhir/quantity-comparator"],
+    "oids" : ["2.16.840.1.113883.4.642.3.59"],
+    "sources" : ["2.16.840.1.113883.4.642.3.59"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/reason-medication-status-codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTDrugTherapyStatusCodes",
+    "title" : "SNOMED CT Drug Therapy Status codes ",
+    "description" : "This value set includes some taken and not taken reason codes from SNOMED CT - provided as an exemplar",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.369"],
+    "sources" : ["2.16.840.1.113883.4.642.3.369"],
+    "uses" : {
+    },
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationReferenceRangeAppliesToCodes",
+    "title" : "Observation Reference Range Applies To Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the particular target population the reference range applies to.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Race",
+    "http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.407"],
+    "sources" : ["2.16.840.1.113883.4.642.3.407"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ObservationReferenceRangeMeaningCodes",
+    "title" : "Observation Reference Range Meaning Codes",
+    "description" : "This value set defines a set of codes that can be used to indicate the meaning/use of a reference range for a particular target population.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/referencerange-meaning"],
+    "oids" : ["2.16.840.1.113883.4.642.3.397"],
+    "sources" : ["2.16.840.1.113883.4.642.3.397"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "systems" : ["http://hl7.org/fhir/resource-types"],
+    "oids" : ["2.16.840.1.113883.4.642.3.27"],
+    "sources" : ["2.16.840.1.113883.4.642.3.27"],
+    "uses" : {
+    },
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/specimen-collection-method",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "FHIRSpecimenCollectionMethod",
+    "title" : "FHIR Specimen Collection Method",
+    "description" : " This example value set defines a set of codes that can be used to indicate the method by which a specimen was collected.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.468"],
+    "sources" : ["2.16.840.1.113883.4.642.3.468"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/specimen-container-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecimenContainerType",
+    "title" : "Specimen Container Type",
+    "description" : "Checks on the patient prior specimen collection. All SNOMED CT concepts descendants of 706041008 |Device for body fluid and tissue collection/transfer/processing (physical object)|",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.470"],
+    "sources" : ["2.16.840.1.113883.4.642.3.470"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/specimen-processing-procedure",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecimenProcessingProcedure",
+    "title" : "Specimen processing procedure",
+    "description" : "The technique that is used to perform the process or preserve the specimen.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0373"],
+    "oids" : ["2.16.840.1.113883.4.642.3.469"],
+    "sources" : ["2.16.840.1.113883.4.642.3.469"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/specimen-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SpecimenStatus",
+    "title" : "SpecimenStatus",
+    "description" : "Codes providing the status/availability of a specimen.",
+    "systems" : ["http://hl7.org/fhir/specimen-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.471"],
+    "sources" : ["2.16.840.1.113883.4.642.3.471"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0371",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSAdditivePreservative",
+    "title" : "hl7VS-additivePreservative",
+    "description" : "Concepts specifying any additive introduced to the specimen before or at the time of collection.  These additives may be introduced in order to preserve, maintain or enhance the particular nature or component of the specimen.  Used in Version 2 messaging in the SPM segment.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0371"],
+    "oids" : ["2.16.840.1.113883.21.245"],
+    "sources" : ["2.16.840.1.113883.21.245"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0493",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSSpecimenCondition",
+    "title" : "hl7VS-specimenCondition",
+    "description" : "Concepts of modes or states of being that describe the nature of a specimen.  Used in Version 2 messaging in the SPM segment.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0493"],
+    "oids" : ["2.16.840.1.113883.21.333"],
+    "sources" : ["2.16.840.1.113883.21.333"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v2-0916",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "Hl7VSRelevantClincialInformation",
+    "title" : "hl7VS-relevantClincialInformation",
+    "description" : "Value Set of codes that specify additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0916"],
+    "oids" : ["2.16.840.1.113883.21.440"],
+    "sources" : ["2.16.840.1.113883.21.440"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "DiagnosticConfirmationVS",
+    "title" : "Diagnostic Confirmation VS",
+    "description" : "Diagnostic Confirmation",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GeneNomenclatureVS",
+    "title" : "Gene Nomenclature VS",
+    "description" : "HUGO Gene Nomenclature",
+    "systems" : ["http://www.genenames.org"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneticVariantVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GeneticVariantVS",
+    "title" : "Genetic Variant VS",
+    "description" : "Genetic Variant",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GradingVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "GradingVS",
+    "title" : "Grading VS",
+    "description" : "Grading (degree of differentiation of the tumor)",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDOVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ICDOVersionVS",
+    "title" : "ICDO Version VS",
+    "description" : "ICD-O Version",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ICDVersionVS",
+    "title" : "ICD Version VS",
+    "description" : "Version des ICD-10-GM",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/LocalAssessmentResidualTumorVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "LocalAssessmentResidualTumorVS",
+    "title" : "Local Assessment Residual Tumor VS",
+    "description" : "Residual Tumor",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "MorphologyICDO3VS",
+    "title" : "Morphology ICDO3 VS",
+    "description" : "Morphology ICD-O-3 Codes",
+    "systems" : ["urn:oid:2.16.840.1.113883.6.43.1"],
+    "uses" : {
+    },
+    "StructureDefinition-Histology.html" : "Histology"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPIntentionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OPIntentionVS",
+    "title" : "OP Intention VS",
+    "description" : "OP Intention",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPOPSVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OPOPSVersionVS",
+    "title" : "OPOPS Version VS",
+    "description" : "OPS Version according to Schema",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPOPSVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OverallAssessmentResidualTumorVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "OverallAssessmentResidualTumorVS",
+    "title" : "Overall Assessment Residual Tumor VS",
+    "description" : "Residual Tumor",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ProgressionLocalTumorStatusVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "ProgressionLocalTumorStatusVS",
+    "title" : "Progression Local Tumor Status VS",
+    "description" : "Progression of local Tumor status",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTIntentionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SYSTIntentionVS",
+    "title" : "SYST Intention VS",
+    "description" : "Intention",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS"]
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SYSTTherapyTypeVS",
+    "title" : "SYST Therapy Type VS",
+    "description" : "Type of Therapy",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SampleMaterialTypeVS",
+    "title" : "Sample Material Type",
+    "description" : "Sample Material Types",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Specimen.html" : "Specimen"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SurgicalComplicationsVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "SurgicalComplicationsVS",
+    "title" : "Surgical Complications VS",
+    "description" : "Surgical Complications",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS"],
+    "uses" : {
+    },
+    "StructureDefinition-Operation.html" : "Operation"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMLCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMLCategoryVS",
+    "title" : "TNML Category VS",
+    "description" : "Lymphatic vessel invasion. Generally occurs as part of a pTNM",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMMVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMMVS",
+    "title" : "TNMM VS",
+    "description" : "TNM M-Category",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMNVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMNVS",
+    "title" : "TNMN VS",
+    "description" : "TNM N-Category",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMPnCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMPnCategoryVS",
+    "title" : "TNMPn Category VS",
+    "description" : "Perineural invasion. Generally occurs as part of a pTNM.",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMSCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMSCategoryVS",
+    "title" : "TNMS Category VS",
+    "description" : "Perineural invasion. Generally occurs as part of a pTNM.",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMTVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMTVS",
+    "title" : "TNMT VS",
+    "description" : "TNM T-Category",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMTCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVCategoryVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMVCategoryVS",
+    "title" : "TNMV Category VS",
+    "description" : "Vein invasion. Generally performed as part of a pTNM.",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVersionVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMVersionVS",
+    "title" : "TNM Version VS",
+    "description" : "TNM Version",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMmSymbolVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMmSymbolVS",
+    "title" : "TNMm Symbol VS",
+    "description" : "TNM m-Symbol",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMrSymbolVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMrSymbolVS",
+    "title" : "TNMr Symbol VS",
+    "description" : "TNM r-Symbol",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMySymbolVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TNMySymbolVS",
+    "title" : "TNMy Symbol VS",
+    "description" : "TNM y-Symbol",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TopographyICDO3VS",
+    "title" : "Topography ICDO3 VS",
+    "description" : "Topography ICD-O-3 Codes",
+    "systems" : ["urn:oid:2.16.840.1.113883.6.43.1"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TumorSiteLocationVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "TumorSiteLocationVS",
+    "title" : "Tumor Site Location VS",
+    "description" : "Lateral location of the tumor",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS"],
+    "uses" : {
+    },
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/UICCStageVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "UICCStageVS",
+    "title" : "UICC Stage VS",
+    "description" : "UICC Stage",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS"],
+    "uses" : {
+    },
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "VitalStatusVS",
+    "title" : "Vital Status VS",
+    "description" : "VitalStatus",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS"],
+    "uses" : {
+    },
+    "StructureDefinition-VitalStatus.html" : "Vital Status"
+  },
+  {
+    "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/YNUVS",
+    "version" : "0.5.0",
+    "status" : "draft",
+    "name" : "YNUVS",
+    "title" : "YNU VS",
+    "description" : "Yes / No / Unknown",
+    "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS"]
+  }]
+}

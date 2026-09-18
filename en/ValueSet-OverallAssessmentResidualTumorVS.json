@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "OverallAssessmentResidualTumorVS",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet OverallAssessmentResidualTumorVS</b></p><a name=\"OverallAssessmentResidualTumorVS\"> </a><a name=\"hcOverallAssessmentResidualTumorVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html#OverallAssessmentResidualTumorCS-RX\">RX</a></td><td>Presence of Residual tumor cannot be assessed</td></tr><tr><td><a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html#OverallAssessmentResidualTumorCS-R0\">R0</a></td><td>No Residual tumor</td></tr><tr><td><a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html#OverallAssessmentResidualTumorCS-R1\">R1</a></td><td>Microscopic Residual tumor</td></tr><tr><td><a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html#OverallAssessmentResidualTumorCS-R1.40is.41\">R1(is)</a></td><td>In-Situ-Rest</td></tr><tr><td><a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html#OverallAssessmentResidualTumorCS-R1.40cy.43.41\">R1(cy+)</a></td><td>Cytological Residue</td></tr><tr><td><a href=\"CodeSystem-OverallAssessmentResidualTumorCS.html#OverallAssessmentResidualTumorCS-R2\">R2</a></td><td>Macroscopic Residual tumor</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OverallAssessmentResidualTumorVS",
+  "version" : "0.5.0",
+  "name" : "OverallAssessmentResidualTumorVS",
+  "title" : "Overall Assessment Residual Tumor VS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "Residual Tumor",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS",
+      "concept" : [{
+        "code" : "RX",
+        "display" : "Presence of Residual tumor cannot be assessed"
+      },
+      {
+        "code" : "R0",
+        "display" : "No Residual tumor"
+      },
+      {
+        "code" : "R1",
+        "display" : "Microscopic Residual tumor"
+      },
+      {
+        "code" : "R1(is)",
+        "display" : "In-Situ-Rest"
+      },
+      {
+        "code" : "R1(cy+)",
+        "display" : "Cytological Residue"
+      },
+      {
+        "code" : "R2",
+        "display" : "Macroscopic Residual tumor"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="SampleMaterialTypeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SampleMaterialTypeVS</b></p><a name="SampleMaterialTypeVS"> </a><a name="hcSampleMaterialTypeVS"> </a><ul><li>Include all codes defined in <a href="CodeSystem-SampleMaterialTypeCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.5.0</span></li></ul></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS"/>
+  <version value="0.5.0"/>
+  <name value="SampleMaterialTypeVS"/>
+  <title value="Sample Material Type"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="Sample Material Types"/>
+  <compose>
+    <include>
+      <system value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS"/>
+    </include>
+  </compose>
+</ValueSet>

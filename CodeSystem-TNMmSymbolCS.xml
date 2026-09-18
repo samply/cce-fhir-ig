@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="TNMmSymbolCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMmSymbolCS</b></p><a name="TNMmSymbolCS"> </a><a name="hcTNMmSymbolCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">m<a name="TNMmSymbolCS-m"> </a></td><td>Indicates presence of multiple primary tumors in a region</td></tr><tr><td style="white-space:nowrap">2<a name="TNMmSymbolCS-2"> </a></td><td>(2) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">3<a name="TNMmSymbolCS-3"> </a></td><td>(3) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">4<a name="TNMmSymbolCS-4"> </a></td><td>(4) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">5<a name="TNMmSymbolCS-5"> </a></td><td>(5) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">6<a name="TNMmSymbolCS-6"> </a></td><td>(6) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">7<a name="TNMmSymbolCS-7"> </a></td><td>(7) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">8<a name="TNMmSymbolCS-8"> </a></td><td>(8) simultaneous tumors</td></tr><tr><td style="white-space:nowrap">9<a name="TNMmSymbolCS-9"> </a></td><td>(9) simultaneous tumors</td></tr></table></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS"/>
+  <version value="0.5.0"/>
+  <name value="TNMmSymbolCS"/>
+  <title value="TNMm Symbol CS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="TNM m-Symbol"/>
+  <caseSensitive value="true"/>
+  <compositional value="false"/>
+  <content value="complete"/>
+  <count value="9"/>
+  <concept>
+    <code value="m"/>
+    <display value="Indicates presence of multiple primary tumors in a region"/>
+  </concept>
+  <concept>
+    <code value="2"/>
+    <display value="(2) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="3"/>
+    <display value="(3) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="4"/>
+    <display value="(4) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="5"/>
+    <display value="(5) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="6"/>
+    <display value="(6) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="7"/>
+    <display value="(7) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="8"/>
+    <display value="(8) simultaneous tumors"/>
+  </concept>
+  <concept>
+    <code value="9"/>
+    <display value="(9) simultaneous tumors"/>
+  </concept>
+</CodeSystem>

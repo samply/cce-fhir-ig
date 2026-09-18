@@ -1,0 +1,32 @@
+{
+  "resourceType" : "Condition",
+  "id" : "Condition-id-115",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition Condition-id-115</b></p><a name=\"Condition-id-115\"> </a><a name=\"hcCondition-id-115\"> </a><p><b>code</b>: <span title=\"Codes:{http://fhir.de/StructureDefinition/CodingICD10GM C34.0}\">C34.0</span></p><p><b>bodySite</b>: <span title=\"Codes:{urn:oid:2.16.840.1.113883.6.43.1 C34.0}, {https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS N}\">C34.0</span></p><p><b>subject</b>: <a href=\"Patient-Patient-id-115.html\">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><p><b>onset</b>: 2021-02-02</p><p><b>recordedDate</b>: 2021-02-02</p></div>"
+  },
+  "code" : {
+    "coding" : [{
+      "system" : "http://fhir.de/StructureDefinition/CodingICD10GM",
+      "version" : "2004",
+      "code" : "C34.0"
+    }]
+  },
+  "bodySite" : [{
+    "coding" : [{
+      "system" : "urn:oid:2.16.840.1.113883.6.43.1",
+      "version" : "31",
+      "code" : "C34.0"
+    },
+    {
+      "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS",
+      "code" : "N"
+    }]
+  }],
+  "subject" : {
+    "reference" : "Patient/Patient-id-115"
+  },
+  "onsetDateTime" : "2021-02-02",
+  "recordedDate" : "2021-02-02"
+}

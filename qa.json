@@ -1,0 +1,19 @@
+{
+  "url" : "https://www.cancercoreeurope.eu/fhir/ImplementationGuide/cce.fhir",
+  "name" : "CCEFHIRIG",
+  "title" : "CCE FHIR Implementation Guide",
+  "description" : "",
+  "status" : "draft",
+  "package-id" : "cce.fhir",
+  "ig-ver" : "0.5.0",
+  "date" : "Fri, 18 Sep, 2026 08:48:21 +0000",
+  "dateISO8601" : "2026-09-18T08:48:21+00:00",
+  "errs" : 170,
+  "warnings" : 167,
+  "hints" : 23,
+  "suppressed-hints" : 0,
+  "suppressed-warnings" : 0,
+  "version" : "4.0.1",
+  "tool" : "5.0.0 (3)",
+  "maxMemory" : 2891355152
+}

@@ -1,0 +1,70 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/LocalAssessmentResidualTumorVS> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "LocalAssessmentResidualTumorVS"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet LocalAssessmentResidualTumorVS</b></p><a name=\"LocalAssessmentResidualTumorVS\"> </a><a name=\"hcLocalAssessmentResidualTumorVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html#LocalAssessmentResidualTumorCS-RX\">RX</a></td><td>Presence of Residual tumor cannot be assessed</td></tr><tr><td><a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html#LocalAssessmentResidualTumorCS-R0\">R0</a></td><td>No Residual tumor</td></tr><tr><td><a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html#LocalAssessmentResidualTumorCS-R1\">R1</a></td><td>Microscopic Residual tumor</td></tr><tr><td><a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html#LocalAssessmentResidualTumorCS-R1.40is.41\">R1(is)</a></td><td>In-Situ-Rest</td></tr><tr><td><a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html#LocalAssessmentResidualTumorCS-R1.40cy.43.41\">R1(cy+)</a></td><td>Cytological Residue</td></tr><tr><td><a href=\"CodeSystem-LocalAssessmentResidualTumorCS.html#LocalAssessmentResidualTumorCS-R2\">R2</a></td><td>Macroscopic Residual tumor</td></tr></table></li></ul></div>"
+  ] ;
+  fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/LocalAssessmentResidualTumorVS"] ;
+  fhir:ValueSet.version [ fhir:value "0.5.0"] ;
+  fhir:ValueSet.name [ fhir:value "LocalAssessmentResidualTumorVS"] ;
+  fhir:ValueSet.title [ fhir:value "Local Assessment Residual Tumor VS"] ;
+  fhir:ValueSet.status [ fhir:value "draft"] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.publisher [ fhir:value "CCE"] ;
+  fhir:ValueSet.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:ValueSet.description [ fhir:value "Residual Tumor"] ;
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0 ;
+       fhir:ValueSet.compose.include.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS" ] ;
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "RX" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Presence of Residual tumor cannot be assessed" ]
+       ], [
+         fhir:index 1 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R0" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "No Residual tumor" ]
+       ], [
+         fhir:index 2 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R1" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Microscopic Residual tumor" ]
+       ], [
+         fhir:index 3 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R1(is)" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "In-Situ-Rest" ]
+       ], [
+         fhir:index 4 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R1(cy+)" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Cytological Residue" ]
+       ], [
+         fhir:index 5 ;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "R2" ] ;
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Macroscopic Residual tumor" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/ValueSet/LocalAssessmentResidualTumorVS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

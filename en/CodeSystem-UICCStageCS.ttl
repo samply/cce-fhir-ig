@@ -1,0 +1,157 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/UICCStageCS> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "UICCStageCS"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem UICCStageCS</b></p><a name=\"UICCStageCS\"> </a><a name=\"hcUICCStageCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"UICCStageCS-0\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0a<a name=\"UICCStageCS-0a\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0is<a name=\"UICCStageCS-0is\"> </a></td></tr><tr><td style=\"white-space:nowrap\">I<a name=\"UICCStageCS-I\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IA<a name=\"UICCStageCS-IA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IA1<a name=\"UICCStageCS-IA1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IA2<a name=\"UICCStageCS-IA2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IB<a name=\"UICCStageCS-IB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IB1<a name=\"UICCStageCS-IB1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IB2<a name=\"UICCStageCS-IB2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IC<a name=\"UICCStageCS-IC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">II<a name=\"UICCStageCS-II\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIA<a name=\"UICCStageCS-IIA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIA1<a name=\"UICCStageCS-IIA1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIA2<a name=\"UICCStageCS-IIA2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIB<a name=\"UICCStageCS-IIB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIC<a name=\"UICCStageCS-IIC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">III<a name=\"UICCStageCS-III\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIA<a name=\"UICCStageCS-IIIA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIB<a name=\"UICCStageCS-IIIB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIC<a name=\"UICCStageCS-IIIC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIC1<a name=\"UICCStageCS-IIIC1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IIIC2<a name=\"UICCStageCS-IIIC2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IV<a name=\"UICCStageCS-IV\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IVA<a name=\"UICCStageCS-IVA\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IVB<a name=\"UICCStageCS-IVB\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IVC<a name=\"UICCStageCS-IVC\"> </a></td></tr><tr><td style=\"white-space:nowrap\">IS<a name=\"UICCStageCS-IS\"> </a></td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS"] ;
+  fhir:CodeSystem.version [ fhir:value "0.5.0"] ;
+  fhir:CodeSystem.name [ fhir:value "UICCStageCS"] ;
+  fhir:CodeSystem.title [ fhir:value "UICC Stage CS"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "CCE" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://www.cancercoreeurope.eu" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "UICC Stage"] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.compositional [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "28"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "0" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0a" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "0a" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "0is" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "0is" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "I" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IA1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IA1" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IA2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IA2" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IB" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IB1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IB1" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IB2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IB2" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IC" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "II" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "II" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIA1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIA1" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIA2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIA2" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIB" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIC" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "III" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "III" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIIA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIIA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIIB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIIB" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIIC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIIC" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIIC1" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIIC1" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IIIC2" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IIIC2" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IV" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IV" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IVA" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IVA" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IVB" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IVB" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IVC" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IVC" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "IS" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "IS" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/CodeSystem/UICCStageCS.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "TNMLCategoryCS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TNMLCategoryCS</b></p><a name=\"TNMLCategoryCS\"> </a><a name=\"hcTNMLCategoryCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">LX<a name=\"TNMLCategoryCS-LX\"> </a></td><td>Lymphatic vessel invasion cannot be assessed</td></tr><tr><td style=\"white-space:nowrap\">L0<a name=\"TNMLCategoryCS-L0\"> </a></td><td>No lymphatic vessel invasion</td></tr><tr><td style=\"white-space:nowrap\">L1<a name=\"TNMLCategoryCS-L1\"> </a></td><td>Lymphatic vessel invasion</td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS",
+  "version" : "0.5.0",
+  "name" : "TNMLCategoryCS",
+  "title" : "TNML Category CS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "Lymphatic vessel invasion. Generally occurs as part of a pTNM",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "LX",
+    "display" : "Lymphatic vessel invasion cannot be assessed"
+  },
+  {
+    "code" : "L0",
+    "display" : "No lymphatic vessel invasion"
+  },
+  {
+    "code" : "L1",
+    "display" : "Lymphatic vessel invasion"
+  }]
+}

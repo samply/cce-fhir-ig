@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="GeneNomenclatureVS"/>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet GeneNomenclatureVS</b></p><a name="GeneNomenclatureVS"> </a><a name="hcGeneNomenclatureVS"> </a><ul><li>Include all codes defined in <a href="http://www.genenames.org"><code>http://www.genenames.org</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span></li></ul></div>
+  </text>
+  <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS"/>
+  <version value="0.5.0"/>
+  <name value="GeneNomenclatureVS"/>
+  <title value="Gene Nomenclature VS"/>
+  <status value="draft"/>
+  <date value="2026-09-18T08:48:21+00:00"/>
+  <publisher value="CCE"/>
+  <contact>
+    <name value="CCE"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.cancercoreeurope.eu"/>
+    </telecom>
+  </contact>
+  <description value="HUGO Gene Nomenclature"/>
+  <compose>
+    <include>
+      <system value="http://www.genenames.org"/>
+    </include>
+  </compose>
+</ValueSet>

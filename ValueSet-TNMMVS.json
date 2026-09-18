@@ -1,0 +1,72 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "TNMMVS",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TNMMVS</b></p><a name=\"TNMMVS\"> </a><a name=\"hcTNMMVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-TNMMCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.5.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-0\">0</a></td><td>0</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-1\">1</a></td><td>1</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-1a\">1a</a></td><td>1a</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-1b\">1b</a></td><td>1b</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-1c\">1c</a></td><td>1c</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-1d\">1d</a></td><td>1d</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-1e\">1e</a></td><td>1e</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-0.40i-.41\">0(i-)</a></td><td>0(i-)</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-0.40i.43.41\">0(i+)</a></td><td>0(i+)</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-0.40mol-.41\">0(mol-)</a></td><td>0(mol-)</td></tr><tr><td><a href=\"CodeSystem-TNMMCS.html#TNMMCS-0.40mol.43.41\">0(mol+)</a></td><td>0(mol+)</td></tr></table></li></ul></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMMVS",
+  "version" : "0.5.0",
+  "name" : "TNMMVS",
+  "title" : "TNMM VS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "TNM M-Category",
+  "compose" : {
+    "include" : [{
+      "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS",
+      "concept" : [{
+        "code" : "0",
+        "display" : "0"
+      },
+      {
+        "code" : "1",
+        "display" : "1"
+      },
+      {
+        "code" : "1a",
+        "display" : "1a"
+      },
+      {
+        "code" : "1b",
+        "display" : "1b"
+      },
+      {
+        "code" : "1c",
+        "display" : "1c"
+      },
+      {
+        "code" : "1d",
+        "display" : "1d"
+      },
+      {
+        "code" : "1e",
+        "display" : "1e"
+      },
+      {
+        "code" : "0(i-)",
+        "display" : "0(i-)"
+      },
+      {
+        "code" : "0(i+)",
+        "display" : "0(i+)"
+      },
+      {
+        "code" : "0(mol-)",
+        "display" : "0(mol-)"
+      },
+      {
+        "code" : "0(mol+)",
+        "display" : "0(mol+)"
+      }]
+    }]
+  }
+}

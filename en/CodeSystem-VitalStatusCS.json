@@ -1,0 +1,40 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "VitalStatusCS",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem VitalStatusCS</b></p><a name=\"VitalStatusCS\"> </a><a name=\"hcVitalStatusCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">alive<a name=\"VitalStatusCS-alive\"> </a></td></tr><tr><td style=\"white-space:nowrap\">deceased<a name=\"VitalStatusCS-deceased\"> </a></td></tr><tr><td style=\"white-space:nowrap\">unknown<a name=\"VitalStatusCS-unknown\"> </a></td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS",
+  "version" : "0.5.0",
+  "name" : "VitalStatusCS",
+  "title" : "Vital Status CS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "VitalStatus",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 3,
+  "concept" : [{
+    "code" : "alive",
+    "display" : "alive"
+  },
+  {
+    "code" : "deceased",
+    "display" : "deceased"
+  },
+  {
+    "code" : "unknown",
+    "display" : "unknown"
+  }]
+}

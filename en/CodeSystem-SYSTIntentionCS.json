@@ -1,0 +1,44 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "SYSTIntentionCS",
+  "language" : "en",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem SYSTIntentionCS</b></p><a name=\"SYSTIntentionCS\"> </a><a name=\"hcSYSTIntentionCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"SYSTIntentionCS-C\"> </a></td><td>curative</td></tr><tr><td style=\"white-space:nowrap\">P<a name=\"SYSTIntentionCS-P\"> </a></td><td>palliative</td></tr><tr><td style=\"white-space:nowrap\">M<a name=\"SYSTIntentionCS-M\"> </a></td><td>miscellaneous</td></tr><tr><td style=\"white-space:nowrap\">X<a name=\"SYSTIntentionCS-X\"> </a></td><td>not specified</td></tr></table></div>"
+  },
+  "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS",
+  "version" : "0.5.0",
+  "name" : "SYSTIntentionCS",
+  "title" : "SYST Intention CS",
+  "status" : "draft",
+  "date" : "2026-09-18T08:48:21+00:00",
+  "publisher" : "CCE",
+  "contact" : [{
+    "name" : "CCE",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://www.cancercoreeurope.eu"
+    }]
+  }],
+  "description" : "Intention",
+  "caseSensitive" : true,
+  "compositional" : false,
+  "content" : "complete",
+  "count" : 4,
+  "concept" : [{
+    "code" : "C",
+    "display" : "curative"
+  },
+  {
+    "code" : "P",
+    "display" : "palliative"
+  },
+  {
+    "code" : "M",
+    "display" : "miscellaneous"
+  },
+  {
+    "code" : "X",
+    "display" : "not specified"
+  }]
+}

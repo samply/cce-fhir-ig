@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/Condition/Condition-id-115> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Condition-id-115"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition Condition-id-115</b></p><a name=\"Condition-id-115\"> </a><a name=\"hcCondition-id-115\"> </a><p><b>code</b>: <span title=\"Codes:{http://fhir.de/StructureDefinition/CodingICD10GM C34.0}\">C34.0</span></p><p><b>bodySite</b>: <span title=\"Codes:{urn:oid:2.16.840.1.113883.6.43.1 C34.0}, {https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS N}\">C34.0</span></p><p><b>subject</b>: <a href=\"Patient-Patient-id-115.html\">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><p><b>onset</b>: 2021-02-02</p><p><b>recordedDate</b>: 2021-02-02</p></div>"
+  ] ;
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "http://fhir.de/StructureDefinition/CodingICD10GM" ] ;
+       fhir:Coding.version [ fhir:value "2004" ] ;
+       fhir:Coding.code [ fhir:value "C34.0" ]
+     ]
+  ] ;
+  fhir:Condition.bodySite [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:oid:2.16.840.1.113883.6.43.1" ] ;
+       fhir:Coding.version [ fhir:value "31" ] ;
+       fhir:Coding.code [ fhir:value "C34.0" ]
+     ], [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS" ] ;
+       fhir:Coding.code [ fhir:value "N" ]
+     ]
+  ] ;
+  fhir:Condition.subject [
+     fhir:link <https://www.cancercoreeurope.eu/fhir/Patient/Patient-id-115> ;
+     fhir:Reference.reference [ fhir:value "Patient/Patient-id-115" ]
+  ] ;
+  fhir:Condition.onsetDateTime [ fhir:value "2021-02-02"^^xsd:date] ;
+  fhir:Condition.recordedDate [ fhir:value "2021-02-02"^^xsd:date] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/Condition/Condition-id-115.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+
