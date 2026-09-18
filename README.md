@@ -102,11 +102,25 @@ This repository is a continuation of the previous work from the [cce-fhir](https
 
 Please check the old [README.md](https://github.com/samply/cce-fhir/blob/feature/minimal/README.md) file for more details.
 
+### Creating a tagged release
+
+**Always create tagged releases from the `main` branch** and **after** the version bump in `sushi-config.yaml` has been merged to `main`. This keeps the released bundle (GitHub Release + Simplifier) consistent with what GitHub Pages deploys. The recommended flow is:
+
+1. Create a branch, e.g. `release/0.6.0`, and bump the `version` in `sushi-config.yaml` (this is the version shown on the GitHub Pages site).
+2. Open a pull request into `main`, have it reviewed, and merge it. GitHub Pages is only deployed on `main` pushes, so this is what publishes the new version.
+3. `git checkout main && git pull` so your local checkout has the merged bump.
+4. Tag the *merged* commit and push it (which triggers the workflow to create a release archive and upload to Simplifier):
+
+```
+git tag -a v0.6.0 -m "Release 0.6.0" && git push origin v0.6.0
+```
+
 ### Releases
 
 | Version | Artifact | Branch | Date | Comments |
 |---------|----------|--------|------|----------|
-| v0.6.0 | cce.fhir.minimal-0.4.0.zip | `main` | 18-Sep-2026 |  |
+| v0.6.0 | cce-fhir-ig-bundle-v0.6.0.zip | `main` | 18-Sep-2026 | Initial release from this repository |
+| v0.6.1 | cce-fhir-ig-bundle-v0.6.1.zip | `release/0.6.1` | 18-Sep-2026 |  |
 
 ## Publishing to Simplifier
 
