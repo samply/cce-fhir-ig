@@ -1,7 +1,7 @@
 Instance: SystemicTherapy-id-115
 InstanceOf: MedicationStatement
 Usage: #example
-* status.id = "ongoing"
+* status = #ongoing
 * category = SYSTTherapyTypeCS#HO
 * medicationReference = Reference(medicine)
 * subject = Reference(Patient-id-115)
