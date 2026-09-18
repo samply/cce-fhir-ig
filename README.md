@@ -124,7 +124,7 @@ git tag -a v0.6.0 -m "Release 0.6.0" && git push origin v0.6.0
 
 ## Publishing to Simplifier
 
-On every git tag push (`v*`), the [publish workflow](.github/workflows/publish.yml) builds the IG, attaches the validation bundle (`validator.jar` + `package.tgz` + `validate.sh`/`validate.bat` + `README.md`) to a GitHub Release, and uploads the package to [Simplifier](https://simplifier.net/cce).
+On every git tag push (`v*`), the [publish workflow](.github/workflows/publish.yml) builds the IG, attaches the validation bundle (`validator.jar` + `package.tgz` + `validate.sh`/`validate.bat` + `README.md`) to a GitHub Release, and syncs the built FHIR resources to [Simplifier](https://simplifier.net/cce).
 
 The Simplifier upload needs the following values configured in the repository settings (**Settings → Secrets and variables → Actions**):
 
@@ -137,9 +137,27 @@ The Simplifier upload needs the following values configured in the repository se
 1. Go to your repository on GitHub → **Settings** → **Secrets and variables** → **Actions**.
 2. On the **Variables** tab, add `SIMPLIFIER_PROJECT` with value `cce`.
 3. On the **Secrets** tab, add `SIMPLIFIER_USER` and `SIMPLIFIER_PASS`.
-The upload step runs only on tagged releases and is skipped automatically if
-any of these values is missing, so the rest of the pipeline (GitHub Release
-creation) is never blocked by an unconfigured Simplifier upload.
+
+The Simplifier step uses the current JWT-based API: it retrieves a token from `https://api.simplifier.net/token`, zips the `output/*.json` resources, and `PUT`s them to the project ZIP API (`https://api.simplifier.net/<project>/zip`).
+
+The step runs only on tagged releases and is skipped automatically if any of these values is missing, so the rest of the pipeline (GitHub Release creation) is never blocked by an unconfigured Simplifier sync.
+
+### What gets uploaded, where, and how
+
+**What:** after a tagged build, the workflow zips all `output/*.json` FHIR resources (the profiles, extensions, code systems, value sets, instances, and the ImplementationGuide itself) into `simplifier-project.zip`.
+
+**Where:** the zip is `PUT` to the project ZIP API (`https://api.simplifier.net/<project>/zip`). The resources land in your Simplifier project, where they are visible under the **Resources** tab. To confirm the sync happened, check your project's **Log** tab or open **Manage → Import log**.
+
+**Publishing the package (manual UI step):** the API only syncs resources; it cannot create a package release. To publish the synced resources as a FHIR package:
+
+1. Log in to Simplifier and open your project (https://simplifier.net/cce).
+2. Go to the **Releases** tab.
+3. Click **Create → Create new package** (or **Create new version for...** for a subsequent release).
+4. Enter a name (must contain at least one dot, e.g. `cce.fhir.ig`), the version number (e.g. `0.6.1`), a description, and release notes.
+5. Choose whether it is a pre-release and whether it should be public or private.
+6. Click **Create** to publish the package.
+
+The published version then appears under the **Releases** tab and becomes installable via the FHIR package server.
 
 ## GitHub Pages
 

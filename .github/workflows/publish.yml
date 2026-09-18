@@ -118,7 +118,15 @@ jobs:
           SIMPLIFIER_USER: ${{ secrets.SIMPLIFIER_USER }}
           SIMPLIFIER_PASS: ${{ secrets.SIMPLIFIER_PASS }}
         run: |
-          curl -u "$SIMPLIFIER_USER:$SIMPLIFIER_PASS" \
-          -X POST \
-          -F "file=@output/package.tgz" \
-          https://simplifier.net/api/projects/${{ vars.SIMPLIFIER_PROJECT }}/upload
+          TOKEN=$(curl -sS -f -X POST https://api.simplifier.net/token \
+            -H "Content-Type: application/json" \
+            -d "{\"Email\":\"$SIMPLIFIER_USER\",\"Password\":\"$SIMPLIFIER_PASS\"}" \
+            | python3 -c "import sys,json; print(json.load(sys.stdin)['token'])")
+
+          rm -rf simplifier-upload && mkdir -p simplifier-upload/resources
+          cp output/*.json simplifier-upload/resources/ 2>/dev/null || true
+          (cd simplifier-upload && zip -qr ../simplifier-project.zip .)
+
+          curl -sS -f -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
+            -H "Authorization: Bearer $TOKEN" \
+            --data-binary "@simplifier-project.zip"
