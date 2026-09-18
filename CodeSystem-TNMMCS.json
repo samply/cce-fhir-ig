@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TNMMCS</b></p><a name=\"TNMMCS\"> </a><a name=\"hcTNMMCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">0<a name=\"TNMMCS-0\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"TNMMCS-1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1a<a name=\"TNMMCS-1a\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1b<a name=\"TNMMCS-1b\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1c<a name=\"TNMMCS-1c\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1d<a name=\"TNMMCS-1d\"> </a></td></tr><tr><td style=\"white-space:nowrap\">1e<a name=\"TNMMCS-1e\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0(i-)<a name=\"TNMMCS-0.40i-.41\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0(i+)<a name=\"TNMMCS-0.40i.43.41\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0(mol-)<a name=\"TNMMCS-0.40mol-.41\"> </a></td></tr><tr><td style=\"white-space:nowrap\">0(mol+)<a name=\"TNMMCS-0.40mol.43.41\"> </a></td></tr></table></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMMCS",
   "title" : "TNMM CS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

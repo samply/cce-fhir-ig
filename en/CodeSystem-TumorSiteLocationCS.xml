@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TumorSiteLocationCS</b></p><a name="TumorSiteLocationCS"> </a><a name="hcTumorSiteLocationCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">L<a name="TumorSiteLocationCS-L"> </a></td><td>left</td></tr><tr><td style="white-space:nowrap">R<a name="TumorSiteLocationCS-R"> </a></td><td>right</td></tr><tr><td style="white-space:nowrap">B<a name="TumorSiteLocationCS-B"> </a></td><td>bilateral (should result in 2 reports for certain tumors)</td></tr><tr><td style="white-space:nowrap">C<a name="TumorSiteLocationCS-C"> </a></td><td>Centerline/Center</td></tr><tr><td style="white-space:nowrap">N<a name="TumorSiteLocationCS-N"> </a></td><td>Not applicable (page number not meaningful, including systemic diseases)</td></tr><tr><td style="white-space:nowrap">U<a name="TumorSiteLocationCS-U"> </a></td><td>unknown</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS"/>
-  <version value="0.6.0"/>
+  <version value="0.6.1"/>
   <name value="TumorSiteLocationCS"/>
   <title value="Tumor Site Location CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T09:32:10+00:00"/>
+  <date value="2026-09-18T11:05:59+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

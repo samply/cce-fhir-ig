@@ -10,11 +10,11 @@
   "id" : "cce.fhir",
   "language" : "en",
   "url" : "https://www.cancercoreeurope.eu/fhir/ImplementationGuide/cce.fhir",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "CCEFHIRIG",
   "title" : "CCE FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

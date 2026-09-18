@@ -2,510 +2,510 @@
   "id" : "cce.fhir",
   "type" : "ImplementationGuide",
   "url" : "https://www.cancercoreeurope.eu/fhir/ImplementationGuide/cce.fhir",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "CCEFHIRIG"
 },
 {
   "id" : "PrimaryDiagnosis",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Condition-PrimaryDiagnosis",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "PrimaryDiagnosis"
 },
 {
   "id" : "SpecimenExtension",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SpecimenExtension"
 },
 {
   "id" : "SystemicTherapy",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-MedicationStatement-SystemicTherapy",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SystemicTherapy"
 },
 {
   "id" : "Histology",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "Histology"
 },
 {
   "id" : "TNMc",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-TNMc",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMc"
 },
 {
   "id" : "TNMp",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-TNMp",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMp"
 },
 {
   "id" : "VitalStatus",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-VitalStatus",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "VitalStatus"
 },
 {
   "id" : "PatientPseudonym",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Patient-Pseudonym",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "PatientPseudonym"
 },
 {
   "id" : "Operation",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Operation",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "Operation"
 },
 {
   "id" : "Radiotherapy",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Radiotherapy",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "Radiotherapy"
 },
 {
   "id" : "Specimen",
   "type" : "StructureDefinition",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "Specimen"
 },
 {
   "id" : "DiagnosticConfirmationCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "DiagnosticConfirmationCS"
 },
 {
   "id" : "GeneticVariantCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "GeneticVariantCS"
 },
 {
   "id" : "GradingCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "GradingCS"
 },
 {
   "id" : "ICDOVersionCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ICDOVersionCS"
 },
 {
   "id" : "ICDVersionCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDVersionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ICDVersionCS"
 },
 {
   "id" : "LocalAssessmentResidualTumorCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "LocalAssessmentResidualTumorCS"
 },
 {
   "id" : "OPIntentionCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "OPIntentionCS"
 },
 {
   "id" : "OPOPSVersionCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPOPSVersionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "OPOPSVersionCS"
 },
 {
   "id" : "OverallAssessmentResidualTumorCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "OverallAssessmentResidualTumorCS"
 },
 {
   "id" : "ProgressionLocalTumorStatusCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ProgressionLocalTumorStatusCS"
 },
 {
   "id" : "SYSTIntentionCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SYSTIntentionCS"
 },
 {
   "id" : "SYSTTherapyTypeCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SYSTTherapyTypeCS"
 },
 {
   "id" : "SampleMaterialTypeCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SampleMaterialTypeCS"
 },
 {
   "id" : "SurgicalComplicationsCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SurgicalComplicationsCS"
 },
 {
   "id" : "TNMLCategoryCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMLCategoryCS"
 },
 {
   "id" : "TNMMCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMMCS"
 },
 {
   "id" : "TNMNCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMNCS"
 },
 {
   "id" : "TNMPnCategoryCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMPnCategoryCS"
 },
 {
   "id" : "TNMSCategoryCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMSCategoryCS"
 },
 {
   "id" : "TNMTCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMTCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMTCS"
 },
 {
   "id" : "TNMVCategoryCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMVCategoryCS"
 },
 {
   "id" : "TNMVersionCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMVersionCS"
 },
 {
   "id" : "TNMmSymbolCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMmSymbolCS"
 },
 {
   "id" : "TNMrSymbolCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMrSymbolCS"
 },
 {
   "id" : "TNMySymbolCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMySymbolCS"
 },
 {
   "id" : "TumorSiteLocationCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TumorSiteLocationCS"
 },
 {
   "id" : "UICCStageCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "UICCStageCS"
 },
 {
   "id" : "VitalStatusCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "VitalStatusCS"
 },
 {
   "id" : "YNUCS",
   "type" : "CodeSystem",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "YNUCS"
 },
 {
   "id" : "DiagnosticConfirmationVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "DiagnosticConfirmationVS"
 },
 {
   "id" : "GeneNomenclatureVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "GeneNomenclatureVS"
 },
 {
   "id" : "GeneticVariantVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneticVariantVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "GeneticVariantVS"
 },
 {
   "id" : "GradingVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GradingVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "GradingVS"
 },
 {
   "id" : "ICDOVersionVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDOVersionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ICDOVersionVS"
 },
 {
   "id" : "ICDVersionVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDVersionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ICDVersionVS"
 },
 {
   "id" : "LocalAssessmentResidualTumorVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/LocalAssessmentResidualTumorVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "LocalAssessmentResidualTumorVS"
 },
 {
   "id" : "MorphologyICDO3VS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "MorphologyICDO3VS"
 },
 {
   "id" : "OPIntentionVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPIntentionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "OPIntentionVS"
 },
 {
   "id" : "OPOPSVersionVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPOPSVersionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "OPOPSVersionVS"
 },
 {
   "id" : "OverallAssessmentResidualTumorVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OverallAssessmentResidualTumorVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "OverallAssessmentResidualTumorVS"
 },
 {
   "id" : "ProgressionLocalTumorStatusVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ProgressionLocalTumorStatusVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ProgressionLocalTumorStatusVS"
 },
 {
   "id" : "SYSTIntentionVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTIntentionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SYSTIntentionVS"
 },
 {
   "id" : "SYSTTherapyTypeVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SYSTTherapyTypeVS"
 },
 {
   "id" : "SampleMaterialTypeVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SampleMaterialTypeVS"
 },
 {
   "id" : "SurgicalComplicationsVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SurgicalComplicationsVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "SurgicalComplicationsVS"
 },
 {
   "id" : "TNMLCategoryVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMLCategoryVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMLCategoryVS"
 },
 {
   "id" : "TNMMVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMMVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMMVS"
 },
 {
   "id" : "TNMNVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMNVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMNVS"
 },
 {
   "id" : "TNMPnCategoryVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMPnCategoryVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMPnCategoryVS"
 },
 {
   "id" : "TNMSCategoryVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMSCategoryVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMSCategoryVS"
 },
 {
   "id" : "TNMTVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMTVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMTVS"
 },
 {
   "id" : "TNMVCategoryVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVCategoryVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMVCategoryVS"
 },
 {
   "id" : "TNMVersionVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVersionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMVersionVS"
 },
 {
   "id" : "TNMmSymbolVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMmSymbolVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMmSymbolVS"
 },
 {
   "id" : "TNMrSymbolVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMrSymbolVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMrSymbolVS"
 },
 {
   "id" : "TNMySymbolVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMySymbolVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMySymbolVS"
 },
 {
   "id" : "TopographyICDO3VS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TopographyICDO3VS"
 },
 {
   "id" : "TumorSiteLocationVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TumorSiteLocationVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TumorSiteLocationVS"
 },
 {
   "id" : "UICCStageVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/UICCStageVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "UICCStageVS"
 },
 {
   "id" : "VitalStatusVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "VitalStatusVS"
 },
 {
   "id" : "YNUVS",
   "type" : "ValueSet",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/YNUVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "YNUVS"
 }]

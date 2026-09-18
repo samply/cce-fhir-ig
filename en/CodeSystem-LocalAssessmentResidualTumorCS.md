@@ -1,4 +1,4 @@
-# Local Assessment Residual Tumor CS - CCE FHIR Implementation Guide v0.6.0
+# Local Assessment Residual Tumor CS - CCE FHIR Implementation Guide v0.6.1
 
 ## CodeSystem: Local Assessment Residual Tumor CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "LocalAssessmentResidualTumorCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "LocalAssessmentResidualTumorCS",
   "title" : "Local Assessment Residual Tumor CS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

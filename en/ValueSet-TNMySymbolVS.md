@@ -1,4 +1,4 @@
-# TNMy Symbol VS - CCE FHIR Implementation Guide v0.6.0
+# TNMy Symbol VS - CCE FHIR Implementation Guide v0.6.1
 
 ## ValueSet: TNMy Symbol VS 
 
@@ -29,11 +29,11 @@ TNM y-Symbol
   "resourceType" : "ValueSet",
   "id" : "TNMySymbolVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMySymbolVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMySymbolVS",
   "title" : "TNMy Symbol VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

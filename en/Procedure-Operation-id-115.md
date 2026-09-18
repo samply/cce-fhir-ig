@@ -1,4 +1,4 @@
-# Operation-id-115 - CCE FHIR Implementation Guide v0.6.0
+# Operation-id-115 - CCE FHIR Implementation Guide v0.6.1
 
 ## Example Procedure: Operation-id-115
 

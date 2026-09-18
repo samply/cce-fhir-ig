@@ -3,14 +3,14 @@
   "id" : "TNMSCategoryVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TNMSCategoryVS</b></p><a name=\"TNMSCategoryVS\"> </a><a name=\"hcTNMSCategoryVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-TNMSCategoryCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-SX\">SX</a></td><td>SX</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S0\">S0</a></td><td>S0</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S1\">S1</a></td><td>S1</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S2\">S2</a></td><td>S2</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S3\">S3</a></td><td>S3</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TNMSCategoryVS</b></p><a name=\"TNMSCategoryVS\"> </a><a name=\"hcTNMSCategoryVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-TNMSCategoryCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-SX\">SX</a></td><td>SX</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S0\">S0</a></td><td>S0</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S1\">S1</a></td><td>S1</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S2\">S2</a></td><td>S2</td></tr><tr><td><a href=\"CodeSystem-TNMSCategoryCS.html#TNMSCategoryCS-S3\">S3</a></td><td>S3</td></tr></table></li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMSCategoryVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMSCategoryVS",
   "title" : "TNMS Category VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

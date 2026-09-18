@@ -3,14 +3,14 @@
   "id" : "TNMrSymbolVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TNMrSymbolVS</b></p><a name=\"TNMrSymbolVS\"> </a><a name=\"hcTNMrSymbolVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-TNMrSymbolCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-r\">r</a></td><td>Classification was used to assess a recurrence</td></tr><tr><td><a href=\"CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-9\">9</a></td><td>Native classification before a recurrence</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet TNMrSymbolVS</b></p><a name=\"TNMrSymbolVS\"> </a><a name=\"hcTNMrSymbolVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-TNMrSymbolCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-r\">r</a></td><td>Classification was used to assess a recurrence</td></tr><tr><td><a href=\"CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-9\">9</a></td><td>Native classification before a recurrence</td></tr></table></li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMrSymbolVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMrSymbolVS",
   "title" : "TNMr Symbol VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

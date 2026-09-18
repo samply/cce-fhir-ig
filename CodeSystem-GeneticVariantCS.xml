@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem GeneticVariantCS</b></p><a name="GeneticVariantCS"> </a><a name="hcGeneticVariantCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">M<a name="GeneticVariantCS-M"> </a></td><td>Mutation/positive</td></tr><tr><td style="white-space:nowrap">W<a name="GeneticVariantCS-W"> </a></td><td>Wild type/non-mutated/negative</td></tr><tr><td style="white-space:nowrap">P<a name="GeneticVariantCS-P"> </a></td><td>Polymorphism</td></tr><tr><td style="white-space:nowrap">S<a name="GeneticVariantCS-S"> </a></td><td>Miscellaneous</td></tr><tr><td style="white-space:nowrap">N<a name="GeneticVariantCS-N"> </a></td><td>not determinable</td></tr><tr><td style="white-space:nowrap">U<a name="GeneticVariantCS-U"> </a></td><td>unknown</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS"/>
-  <version value="0.6.0"/>
+  <version value="0.6.1"/>
   <name value="GeneticVariantCS"/>
   <title value="Genetic Variant CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T09:32:10+00:00"/>
+  <date value="2026-09-18T11:05:59+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

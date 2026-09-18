@@ -1,4 +1,4 @@
-# Diagnostic Confirmation VS - CCE FHIR Implementation Guide v0.6.0
+# Diagnostic Confirmation VS - CCE FHIR Implementation Guide v0.6.1
 
 ## ValueSet: Diagnostic Confirmation VS 
 
@@ -28,11 +28,11 @@ Diagnostic Confirmation
   "resourceType" : "ValueSet",
   "id" : "DiagnosticConfirmationVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "DiagnosticConfirmationVS",
   "title" : "Diagnostic Confirmation VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

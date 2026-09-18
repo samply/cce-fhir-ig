@@ -1,4 +1,4 @@
-# Primary Diagnosis - CCE FHIR Implementation Guide v0.6.0
+# Primary Diagnosis - CCE FHIR Implementation Guide v0.6.1
 
 ## Resource Profile: Primary Diagnosis 
 
@@ -28,11 +28,11 @@ Other representations of profile: [CSV](../StructureDefinition-PrimaryDiagnosis.
   "resourceType" : "StructureDefinition",
   "id" : "PrimaryDiagnosis",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Condition-PrimaryDiagnosis",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "PrimaryDiagnosis",
   "title" : "Primary Diagnosis",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

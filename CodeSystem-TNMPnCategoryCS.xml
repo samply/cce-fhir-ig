@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMPnCategoryCS</b></p><a name="TNMPnCategoryCS"> </a><a name="hcTNMPnCategoryCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">PnX<a name="TNMPnCategoryCS-PnX"> </a></td><td>Perineural invasion cannot be assessed</td></tr><tr><td style="white-space:nowrap">Pn0<a name="TNMPnCategoryCS-Pn0"> </a></td><td>No perineural invasion</td></tr><tr><td style="white-space:nowrap">Pn1<a name="TNMPnCategoryCS-Pn1"> </a></td><td>Perineural invasion</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS"/>
-  <version value="0.6.0"/>
+  <version value="0.6.1"/>
   <name value="TNMPnCategoryCS"/>
   <title value="TNMPn Category CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T09:32:10+00:00"/>
+  <date value="2026-09-18T11:05:59+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

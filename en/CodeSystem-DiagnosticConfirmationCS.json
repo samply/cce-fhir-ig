@@ -7,11 +7,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem DiagnosticConfirmationCS</b></p><a name=\"DiagnosticConfirmationCS\"> </a><a name=\"hcDiagnosticConfirmationCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"DiagnosticConfirmationCS-1\"> </a></td><td>Clinically without tumor-specific diagnostics (physical examination only)</td></tr><tr><td style=\"white-space:nowrap\">2<a name=\"DiagnosticConfirmationCS-2\"> </a></td><td>Clinical: Clinical diagnosis made before the date of death; includes diagnostic techniques including radiography, endoscopy, other imaging modalities, ultrasound, exploratory surgery (laparotomy, etc.) and autopsy, excluding microscopic tissue diagnosis.</td></tr><tr><td style=\"white-space:nowrap\">4<a name=\"DiagnosticConfirmationCS-4\"> </a></td><td>Specific tumor markers</td></tr><tr><td style=\"white-space:nowrap\">5<a name=\"DiagnosticConfirmationCS-5\"> </a></td><td>Cytological: Examination of cells from primary sites including fluid aspirations by endoscopy or needles. Includes microscopic examination of peripheral blood smears and smears from iliac crest aspirations.</td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"DiagnosticConfirmationCS-6\"> </a></td><td>Histology of a metastasis.</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"DiagnosticConfirmationCS-7\"> </a></td><td>Histological: Histology of the primary tumor: Histological examination of tissue from the primary tumor, including all sectioning techniques and bone marrow biopsies. This includes samples of the primary tumor from autopsies. Histological examination of tissue from a metastasis, including at autopsy.</td></tr><tr><td style=\"white-space:nowrap\">9<a name=\"DiagnosticConfirmationCS-9\"> </a></td><td>Unknown</td></tr></table></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "DiagnosticConfirmationCS",
   "title" : "Diagnostic Confirmation CS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

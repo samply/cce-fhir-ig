@@ -14,11 +14,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TNMPnCategoryCS</b></p><a name=\"TNMPnCategoryCS\"> </a><a name=\"hcTNMPnCategoryCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">PnX<a name=\"TNMPnCategoryCS-PnX\"> </a></td><td>Perineural invasion cannot be assessed</td></tr><tr><td style=\"white-space:nowrap\">Pn0<a name=\"TNMPnCategoryCS-Pn0\"> </a></td><td>No perineural invasion</td></tr><tr><td style=\"white-space:nowrap\">Pn1<a name=\"TNMPnCategoryCS-Pn1\"> </a></td><td>Perineural invasion</td></tr></table></div>"
   ] ;
   fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS"] ;
-  fhir:CodeSystem.version [ fhir:value "0.6.0"] ;
+  fhir:CodeSystem.version [ fhir:value "0.6.1"] ;
   fhir:CodeSystem.name [ fhir:value "TNMPnCategoryCS"] ;
   fhir:CodeSystem.title [ fhir:value "TNMPn Category CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-18T09:32:10+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T11:05:59+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;

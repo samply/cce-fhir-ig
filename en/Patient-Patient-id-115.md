@@ -1,4 +1,4 @@
-# Patient-id-115 - CCE FHIR Implementation Guide v0.6.0
+# Patient-id-115 - CCE FHIR Implementation Guide v0.6.1
 
 ## Example Patient: Patient-id-115
 

@@ -7,11 +7,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MorphologyICDO3VS</b></p><a name=\"MorphologyICDO3VS\"> </a><a name=\"hcMorphologyICDO3VS\"> </a><ul><li>Include codes from<code>urn:oid:2.16.840.1.113883.6.43.1</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where code  matches (by regex) \\d\\d\\d\\d\\/\\d</li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "MorphologyICDO3VS",
   "title" : "Morphology ICDO3 VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

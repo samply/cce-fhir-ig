@@ -1,4 +1,4 @@
-# Gene Nomenclature VS - CCE FHIR Implementation Guide v0.6.0
+# Gene Nomenclature VS - CCE FHIR Implementation Guide v0.6.1
 
 ## ValueSet: Gene Nomenclature VS 
 
@@ -30,11 +30,11 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "GeneNomenclatureVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "GeneNomenclatureVS",
   "title" : "Gene Nomenclature VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

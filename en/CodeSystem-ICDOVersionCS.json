@@ -7,11 +7,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem ICDOVersionCS</b></p><a name=\"ICDOVersionCS\"> </a><a name=\"hcICDOVersionCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">31<a name=\"ICDOVersionCS-31\"> </a></td><td>ICD-O3; 1. Edition 2003</td></tr><tr><td style=\"white-space:nowrap\">32<a name=\"ICDOVersionCS-32\"> </a></td><td>ICD-O3, 2. Edition 2013</td></tr><tr><td style=\"white-space:nowrap\">bb<a name=\"ICDOVersionCS-bb\"> </a></td><td>New codes from the WHO classifications (BlueBooks)</td></tr></table></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ICDOVersionCS",
   "title" : "ICDO Version CS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

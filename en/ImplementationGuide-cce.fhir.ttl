@@ -14,11 +14,11 @@
      fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide cce.fhir</b></p><a name=\"cce.fhir\"> </a><a name=\"hccce.fhir\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Language: en</p></div><h2>CCEFHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>https://www.cancercoreeurope.eu/fhir/ImplementationGuide/cce.fhir</pre></div>"
   ] ;
   fhir:ImplementationGuide.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/ImplementationGuide/cce.fhir"] ;
-  fhir:ImplementationGuide.version [ fhir:value "0.6.0"] ;
+  fhir:ImplementationGuide.version [ fhir:value "0.6.1"] ;
   fhir:ImplementationGuide.name [ fhir:value "CCEFHIRIG"] ;
   fhir:ImplementationGuide.title [ fhir:value "CCE FHIR Implementation Guide"] ;
   fhir:ImplementationGuide.status [ fhir:value "draft"] ;
-  fhir:ImplementationGuide.date [ fhir:value "2026-09-18T09:32:10+00:00"^^xsd:dateTime] ;
+  fhir:ImplementationGuide.date [ fhir:value "2026-09-18T11:05:59+00:00"^^xsd:dateTime] ;
   fhir:ImplementationGuide.publisher [ fhir:value "CCE"] ;
   fhir:ImplementationGuide.contact [
      fhir:index -1 ;

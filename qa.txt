@@ -3,7 +3,7 @@ CCEFHIRIG : Validation Results
 
 err = 170, warn = 167, info = 23
 IG Publisher Version: 2.3.4
-Generated Fri Sep 18 09:36:57 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.0 (canonical = https://www.cancercoreeurope.eu/fhir)
+Generated Fri Sep 18 11:07:29 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = https://www.cancercoreeurope.eu/fhir)
  Build Errors : 1 / 12 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-DiagnosticConfirmationCS : 2 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-GeneticVariantCS : 2 / 2 / 1
@@ -249,7 +249,7 @@ ERROR: /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSys
 == fsh-generated/resources/Condition-Condition-id-115.json ==
 WARNING: Condition/Condition-id-115: Condition.code.coding[0].system: A definition for CodeSystem 'http://fhir.de/StructureDefinition/CodingICD10GM' version '2004' could not be found, so the code cannot be validated. No versions of this code system are known
 WARNING: Condition/Condition-id-115: Condition.bodySite[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.43.1' version '31' could not be found, so the code cannot be validated. No versions of this code system are known
-INFORMATION: Condition/Condition-id-115: Condition.bodySite[0]: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS|0.6.0
+INFORMATION: Condition/Condition-id-115: Condition.bodySite[0]: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS|0.6.1
 == fsh-generated/resources/ImplementationGuide-cce.fhir.json ==
 ERROR: ImplementationGuide/cce.fhir: ImplementationGuide.dependsOn[2]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
 WARNING: ImplementationGuide/cce.fhir: ImplementationGuide.dependsOn[2]: The canonical URL https://simplifier.net/packages/de.basisprofil.r4/1.5.4 doesn't point to an actual ImplementationGuide resource
@@ -265,11 +265,11 @@ ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.medicatio
 == fsh-generated/resources/Procedure-Operation-id-115.json ==
 ERROR: Procedure/Operation-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 ERROR: Procedure/Operation-id-115: Procedure.status: No code provided, and a code is required from the value set
-INFORMATION: Procedure/Operation-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.0
+INFORMATION: Procedure/Operation-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.1
 == fsh-generated/resources/Procedure-Radiotherapy-id-115.json ==
 ERROR: Procedure/Radiotherapy-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 ERROR: Procedure/Radiotherapy-id-115: Procedure.status: No code provided, and a code is required from the value set
-INFORMATION: Procedure/Radiotherapy-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.0
+INFORMATION: Procedure/Radiotherapy-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.1
 == fsh-generated/resources/StructureDefinition-Histology.json ==
 ERROR: StructureDefinition.where(url = 'https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology'): Conformance resource /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Histology.json - the canonical URL (https://www.cancercoreeurope.eu/fhir/StructureDefinition/Histology) does not match the URL (https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology). Use the special-url parameter if you really mean for it not to match
 ERROR: StructureDefinition.url: Resource id/url mismatch: Histology/https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology

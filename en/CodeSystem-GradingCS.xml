@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem GradingCS</b></p><a name="GradingCS"> </a><a name="hcGradingCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">0<a name="GradingCS-0"> </a></td><td>malignant melanoma of the conjunctiva</td></tr><tr><td style="white-space:nowrap">1<a name="GradingCS-1"> </a></td><td>well differentiated</td></tr><tr><td style="white-space:nowrap">2<a name="GradingCS-2"> </a></td><td>morately differentiated</td></tr><tr><td style="white-space:nowrap">3<a name="GradingCS-3"> </a></td><td>poorly differentiated</td></tr><tr><td style="white-space:nowrap">4<a name="GradingCS-4"> </a></td><td>undifferentiated</td></tr><tr><td style="white-space:nowrap">X<a name="GradingCS-X"> </a></td><td>not determinable</td></tr><tr><td style="white-space:nowrap">L<a name="GradingCS-L"> </a></td><td>low grade (G1 or G2)</td></tr><tr><td style="white-space:nowrap">M<a name="GradingCS-M"> </a></td><td>intermediate (G2 or G3)</td></tr><tr><td style="white-space:nowrap">H<a name="GradingCS-H"> </a></td><td>high grade (G3 or G4)</td></tr><tr><td style="white-space:nowrap">B<a name="GradingCS-B"> </a></td><td>Borderline</td></tr><tr><td style="white-space:nowrap">U<a name="GradingCS-U"> </a></td><td>unknown</td></tr><tr><td style="white-space:nowrap">T<a name="GradingCS-T"> </a></td><td>does not apply</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS"/>
-  <version value="0.6.0"/>
+  <version value="0.6.1"/>
   <name value="GradingCS"/>
   <title value="Grading CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T09:32:10+00:00"/>
+  <date value="2026-09-18T11:05:59+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

@@ -3,14 +3,14 @@
   "id" : "ICDOVersionVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ICDOVersionVS</b></p><a name=\"ICDOVersionVS\"> </a><a name=\"hcICDOVersionVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-ICDOVersionCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.0</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ICDOVersionCS.html#ICDOVersionCS-31\">31</a></td><td>ICD-O3; 1. Edition 2003</td></tr><tr><td><a href=\"CodeSystem-ICDOVersionCS.html#ICDOVersionCS-32\">32</a></td><td>ICD-O3, 2. Edition 2013</td></tr><tr><td><a href=\"CodeSystem-ICDOVersionCS.html#ICDOVersionCS-bb\">bb</a></td><td>New codes from the WHO classifications (BlueBooks)</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet ICDOVersionVS</b></p><a name=\"ICDOVersionVS\"> </a><a name=\"hcICDOVersionVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-ICDOVersionCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.1</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-ICDOVersionCS.html#ICDOVersionCS-31\">31</a></td><td>ICD-O3; 1. Edition 2003</td></tr><tr><td><a href=\"CodeSystem-ICDOVersionCS.html#ICDOVersionCS-32\">32</a></td><td>ICD-O3, 2. Edition 2013</td></tr><tr><td><a href=\"CodeSystem-ICDOVersionCS.html#ICDOVersionCS-bb\">bb</a></td><td>New codes from the WHO classifications (BlueBooks)</td></tr></table></li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDOVersionVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "ICDOVersionVS",
   "title" : "ICDO Version VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

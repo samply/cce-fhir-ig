@@ -14,11 +14,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem LocalAssessmentResidualTumorCS</b></p><a name=\"LocalAssessmentResidualTumorCS\"> </a><a name=\"hcLocalAssessmentResidualTumorCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RX<a name=\"LocalAssessmentResidualTumorCS-RX\"> </a></td><td>Presence of Residual tumor cannot be assessed</td></tr><tr><td style=\"white-space:nowrap\">R0<a name=\"LocalAssessmentResidualTumorCS-R0\"> </a></td><td>No Residual tumor</td></tr><tr><td style=\"white-space:nowrap\">R1<a name=\"LocalAssessmentResidualTumorCS-R1\"> </a></td><td>Microscopic Residual tumor</td></tr><tr><td style=\"white-space:nowrap\">R1(is)<a name=\"LocalAssessmentResidualTumorCS-R1.40is.41\"> </a></td><td>In-Situ-Rest</td></tr><tr><td style=\"white-space:nowrap\">R1(cy+)<a name=\"LocalAssessmentResidualTumorCS-R1.40cy.43.41\"> </a></td><td>Cytological Residue</td></tr><tr><td style=\"white-space:nowrap\">R2<a name=\"LocalAssessmentResidualTumorCS-R2\"> </a></td><td>Macroscopic Residual tumor</td></tr></table></div>"
   ] ;
   fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS"] ;
-  fhir:CodeSystem.version [ fhir:value "0.6.0"] ;
+  fhir:CodeSystem.version [ fhir:value "0.6.1"] ;
   fhir:CodeSystem.name [ fhir:value "LocalAssessmentResidualTumorCS"] ;
   fhir:CodeSystem.title [ fhir:value "Local Assessment Residual Tumor CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-18T09:32:10+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T11:05:59+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;

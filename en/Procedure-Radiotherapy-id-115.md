@@ -1,4 +1,4 @@
-# Radiotherapy-id-115 - CCE FHIR Implementation Guide v0.6.0
+# Radiotherapy-id-115 - CCE FHIR Implementation Guide v0.6.1
 
 ## Example Procedure: Radiotherapy-id-115
 

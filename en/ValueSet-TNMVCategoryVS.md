@@ -1,4 +1,4 @@
-# TNMV Category VS - CCE FHIR Implementation Guide v0.6.0
+# TNMV Category VS - CCE FHIR Implementation Guide v0.6.1
 
 ## ValueSet: TNMV Category VS 
 
@@ -29,11 +29,11 @@ Vein invasion. Generally performed as part of a pTNM.
   "resourceType" : "ValueSet",
   "id" : "TNMVCategoryVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVCategoryVS",
-  "version" : "0.6.0",
+  "version" : "0.6.1",
   "name" : "TNMVCategoryVS",
   "title" : "TNMV Category VS",
   "status" : "draft",
-  "date" : "2026-09-18T09:32:10+00:00",
+  "date" : "2026-09-18T11:05:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
