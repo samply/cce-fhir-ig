@@ -4,7 +4,7 @@
 
 **Usages:**
 
-* This Profile is not used by any profiles in this Specification
+* Examples for this Profile: [Specimen/Specimen-id-115](Specimen-Specimen-id-115.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/cce.fhir|current/StructureDefinition/StructureDefinition-Specimen.json)
 
@@ -28,7 +28,7 @@ Other representations of profile: [CSV](../StructureDefinition-Specimen.csv), [E
   "version" : "0.6.1",
   "name" : "Specimen",
   "status" : "draft",
-  "date" : "2026-09-18T11:46:38+00:00",
+  "date" : "2026-09-18T12:07:35+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

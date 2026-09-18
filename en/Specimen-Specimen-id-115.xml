@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="Specimen-id-115"/>
+  <meta>
+    <profile value="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Specimen Specimen-id-115</b></p><a name="Specimen-id-115"> </a><a name="hcSpecimen-id-115"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-Specimen.html">Specimen</a></p></div><p><b>type</b>: <span title="Codes:{https://fhir.bbmri.de/CodeSystem/SampleMaterialType dna}">DNA</span></p><p><b>subject</b>: <a href="Patient-Patient-id-115.html">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><h3>Collections</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Collected[x]</b></td><td><b>BodySite</b></td></tr><tr><td style="display: none">*</td><td>2021-02-02</td><td><span title="Codes:{urn:oid:1.3.6.1.4.1.19376.1.3.11.36 C26.8}">C26.8</span></td></tr></table></div>
+  </text>
+  <type>
+    <coding>
+      <system value="https://fhir.bbmri.de/CodeSystem/SampleMaterialType"/>
+      <code value="dna"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/Patient-id-115"/>
+  </subject>
+  <collection>
+    <collectedDateTime value="2021-02-02"/>
+    <bodySite>
+      <coding>
+        <system value="urn:oid:1.3.6.1.4.1.19376.1.3.11.36"/>
+        <code value="C26.8"/>
+      </coding>
+    </bodySite>
+  </collection>
+</Specimen>

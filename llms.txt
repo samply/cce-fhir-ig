@@ -102,3 +102,4 @@
 * [Patient-id-115 (Patient)](en/Patient-Patient-id-115.md)
 * [Operation-id-115 (Procedure)](en/Procedure-Operation-id-115.md)
 * [Radiotherapy-id-115 (Procedure)](en/Procedure-Radiotherapy-id-115.md)
+* [Specimen-id-115 (Specimen)](en/Specimen-Specimen-id-115.md)

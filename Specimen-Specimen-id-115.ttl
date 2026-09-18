@@ -1,0 +1,50 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/Specimen/Specimen-id-115> a fhir:Specimen ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "Specimen-id-115"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen" ;
+       fhir:index 0 ;
+       fhir:link <https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Specimen Specimen-id-115</b></p><a name=\"Specimen-id-115\"> </a><a name=\"hcSpecimen-id-115\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-Specimen.html\">Specimen</a></p></div><p><b>type</b>: <span title=\"Codes:{https://fhir.bbmri.de/CodeSystem/SampleMaterialType dna}\">DNA</span></p><p><b>subject</b>: <a href=\"Patient-Patient-id-115.html\">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collected[x]</b></td><td><b>BodySite</b></td></tr><tr><td style=\"display: none\">*</td><td>2021-02-02</td><td><span title=\"Codes:{urn:oid:1.3.6.1.4.1.19376.1.3.11.36 C26.8}\">C26.8</span></td></tr></table></div>"
+  ] ;
+  fhir:Specimen.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://fhir.bbmri.de/CodeSystem/SampleMaterialType" ] ;
+       fhir:Coding.code [ fhir:value "dna" ]
+     ]
+  ] ;
+  fhir:Specimen.subject [
+     fhir:link <https://www.cancercoreeurope.eu/fhir/Patient/Patient-id-115> ;
+     fhir:Reference.reference [ fhir:value "Patient/Patient-id-115" ]
+  ] ;
+  fhir:Specimen.collection [
+     fhir:Specimen.collection.collectedDateTime [ fhir:value "2021-02-02"^^xsd:date ] ;
+     fhir:Specimen.collection.bodySite [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "urn:oid:1.3.6.1.4.1.19376.1.3.11.36" ] ;
+         fhir:Coding.code [ fhir:value "C26.8" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://www.cancercoreeurope.eu/fhir/Specimen/Specimen-id-115.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

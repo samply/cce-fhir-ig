@@ -1,10 +1,10 @@
 CCEFHIRIG : Validation Results
 =========================================
 
-err = 170, warn = 167, info = 23
+err = 171, warn = 169, info = 23
 IG Publisher Version: 2.3.4
-Generated Fri Sep 18 11:48:59 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = https://www.cancercoreeurope.eu/fhir)
- Build Errors : 1 / 12 / 1
+Generated Fri Sep 18 12:09:46 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = https://www.cancercoreeurope.eu/fhir)
+ Build Errors : 1 / 13 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-DiagnosticConfirmationCS : 2 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-GeneticVariantCS : 2 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-GradingCS : 2 / 2 / 1
@@ -40,12 +40,13 @@ Generated Fri Sep 18 11:48:59 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.1 (c
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Patient-Patient-id-115 : 0 / 0 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Procedure-Operation-id-115 : 2 / 0 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Procedure-Radiotherapy-id-115 : 2 / 0 / 2
+ /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Specimen-Specimen-id-115 : 1 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Histology : 3 / 1 / 3
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Operation : 3 / 5 / 4
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-PatientPseudonym : 3 / 1 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-PrimaryDiagnosis : 3 / 8 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Radiotherapy : 3 / 1 / 2
- /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Specimen : 3 / 3 / 2
+ /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Specimen : 3 / 2 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-SpecimenExtension : 3 / 1 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-SystemicTherapy : 3 / 2 / 4
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-TNMc : 5 / 1 / 2
@@ -95,6 +96,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/Operation-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Patient/Patient-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/Radiotherapy-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Specimen/Specimen-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/SystemicTherapy-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
@@ -270,6 +272,10 @@ INFORMATION: Procedure/Operation-id-115: Procedure.category: Reference to draft 
 ERROR: Procedure/Radiotherapy-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 ERROR: Procedure/Radiotherapy-id-115: Procedure.status: No code provided, and a code is required from the value set
 INFORMATION: Procedure/Radiotherapy-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.1
+== fsh-generated/resources/Specimen-Specimen-id-115.json ==
+ERROR: Specimen/Specimen-id-115: Specimen.type: None of the codings provided are in the value set 'Sample Material Type' (https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS|0.6.1), and a coding from this value set is required) (codes = https://fhir.bbmri.de/CodeSystem/SampleMaterialType#dna)
+WARNING: Specimen/Specimen-id-115: Specimen.collection.bodySite: ValueSet 'http://art-decor.org/fhir/ValueSet/1.3.6.1.4.1.19376.1.3.11.36--20151113191623' not found
+WARNING: Specimen/Specimen-id-115: Specimen.collection.bodySite.coding[0].system: A definition for CodeSystem 'urn:oid:1.3.6.1.4.1.19376.1.3.11.36' could not be found, so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-Histology.json ==
 ERROR: StructureDefinition.where(url = 'https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology'): Conformance resource /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Histology.json - the canonical URL (https://www.cancercoreeurope.eu/fhir/StructureDefinition/Histology) does not match the URL (https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology). Use the special-url parameter if you really mean for it not to match
 ERROR: StructureDefinition.url: Resource id/url mismatch: Histology/https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology
@@ -320,7 +326,6 @@ ERROR: StructureDefinition.url: Resource id/url mismatch: Specimen/https://www.c
 WARNING: StructureDefinition/Specimen: StructureDefinition.snapshot.element[37].binding.valueSet: A definition could not be found for Canonical URL 'http://art-decor.org/fhir/ValueSet/1.3.6.1.4.1.19376.1.3.11.36--20151113191623'
 WARNING: StructureDefinition/Specimen: StructureDefinition.differential.element[9].binding.valueSet: A definition could not be found for Canonical URL 'http://art-decor.org/fhir/ValueSet/1.3.6.1.4.1.19376.1.3.11.36--20151113191623'
 INFORMATION: Resource: The resource StructureDefinition/Specimen could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
-WARNING: StructureDefinition.where(url = 'https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen'): The Implementation Guide contains no examples for this profile
 ERROR: /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Specimen: URL Mismatch https://www.cancercoreeurope.eu/fhir/StructureDefinition/Specimen vs https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen
 == fsh-generated/resources/StructureDefinition-SpecimenExtension.json ==
 ERROR: StructureDefinition.where(url = 'https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen'): Conformance resource /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-SpecimenExtension.json - the canonical URL (https://www.cancercoreeurope.eu/fhir/StructureDefinition/SpecimenExtension) does not match the URL (https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen). Use the special-url parameter if you really mean for it not to match

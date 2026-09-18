@@ -14,7 +14,7 @@
   "name" : "CCEFHIRIG",
   "title" : "CCE FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2026-09-18T11:46:38+00:00",
+  "date" : "2026-09-18T12:07:35+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
@@ -1172,6 +1172,21 @@
       },
       "name" : "Specimen",
       "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "Specimen"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "Specimen-Specimen-id-115.html"
+      }],
+      "reference" : {
+        "reference" : "Specimen/Specimen-id-115"
+      },
+      "name" : "Specimen-id-115",
+      "exampleCanonical" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen"
     },
     {
       "extension" : [{

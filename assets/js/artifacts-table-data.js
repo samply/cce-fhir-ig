@@ -90,6 +90,7 @@ window.artifactsTableData = {
       { "p":5, "gid":"-ex-example", "g":"Example: Example Instances", "n":"Operation-id-115", "i":"Operation-id-115", "t":"Procedure", "u":"Procedure-Operation-id-115.html", "r":"Procedure/Operation-id-115", "d":"" },
       { "p":5, "gid":"-ex-example", "g":"Example: Example Instances", "n":"Patient-id-115", "i":"Patient-id-115", "t":"Patient", "u":"Patient-Patient-id-115.html", "r":"Patient/Patient-id-115", "d":"" },
       { "p":5, "gid":"-ex-example", "g":"Example: Example Instances", "n":"Radiotherapy-id-115", "i":"Radiotherapy-id-115", "t":"Procedure", "u":"Procedure-Radiotherapy-id-115.html", "r":"Procedure/Radiotherapy-id-115", "d":"" },
+      { "p":5, "gid":"-ex-example", "g":"Example: Example Instances", "n":"Specimen-id-115", "i":"Specimen-id-115", "t":"Specimen", "u":"Specimen-Specimen-id-115.html", "r":"Specimen/Specimen-id-115", "d":"" },
       { "p":5, "gid":"-ex-example", "g":"Example: Example Instances", "n":"SystemicTherapy-id-115", "i":"SystemicTherapy-id-115", "t":"MedicationStatement", "u":"MedicationStatement-SystemicTherapy-id-115.html", "r":"MedicationStatement/SystemicTherapy-id-115", "d":"" }
     ]
   }

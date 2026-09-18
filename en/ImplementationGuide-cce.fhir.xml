@@ -11,7 +11,7 @@
   <name value="CCEFHIRIG"/>
   <title value="CCE FHIR Implementation Guide"/>
   <status value="draft"/>
-  <date value="2026-09-18T11:46:38+00:00"/>
+  <date value="2026-09-18T12:07:35+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>
@@ -836,6 +836,16 @@
       </reference>
       <name value="Specimen"/>
       <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Specimen"/>
+      </extension>
+      <reference>
+        <reference value="Specimen/Specimen-id-115"/>
+      </reference>
+      <name value="Specimen-id-115"/>
+      <exampleCanonical value="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

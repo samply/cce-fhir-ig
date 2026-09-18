@@ -18,7 +18,7 @@
   fhir:CodeSystem.name [ fhir:value "SYSTIntentionCS"] ;
   fhir:CodeSystem.title [ fhir:value "SYST Intention CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-18T11:46:38+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T12:07:35+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;
