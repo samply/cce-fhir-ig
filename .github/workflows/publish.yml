@@ -23,7 +23,7 @@ jobs:
 
       # Setup Node (for SUSHI)
       - name: Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v7
         with:
           node-version: 24
 
@@ -43,7 +43,7 @@ jobs:
 
       # Setup Java (needed for IG Publisher)
       - name: Setup Java
-        uses: actions/setup-java@v4
+        uses: actions/setup-java@v6
         with:
           distribution: 'temurin'
           java-version: '17'
@@ -54,15 +54,24 @@ jobs:
           mkdir -p input-cache
           wget -q https://github.com/HL7/fhir-ig-publisher/releases/download/${IG_PUBLISHER_VERSION}/publisher.jar -O input-cache/publisher.jar
 
+      # Cache terminology lookups to speed up builds
+      - name: Cache terminology
+        uses: actions/cache@v4
+        with:
+          path: txcache
+          key: terminology-${{ runner.os }}-${{ hashFiles('fsh-generated/**') }}
+          restore-keys: |
+            terminology-${{ runner.os }}-
+
       # Print tool versions used for this build
       - name: Show build tool versions
         run: |
           sushi --version
           java -jar input-cache/publisher.jar -v
 
-      # Build IG with explicit no-terminology publisher command
+      # Build IG with the public terminology server
       - name: Build IG
-        run: java -jar input-cache/publisher.jar -ig . -tx n/a
+        run: java -jar input-cache/publisher.jar -ig . -tx https://tx.fhir.org
 
       # Verify package exists
       - name: Check package
