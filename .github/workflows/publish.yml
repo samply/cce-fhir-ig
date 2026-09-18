@@ -13,8 +13,8 @@ jobs:
   build-and-publish:
     runs-on: ubuntu-latest
     env:
-      IG_PUBLISHER_VERSION: 2.2.8
-      SUSHI_VERSION: 3.20.0
+      IG_PUBLISHER_VERSION: 2.3.4
+      SUSHI_VERSION: 3.20.1
 
     steps:
       # Checkout repo
@@ -74,12 +74,16 @@ jobs:
 
       # Validate package
       - name: Validate package
-        run: java -jar validator.jar -version 4.0.1 -ig package.tgz
+        run: java -jar validator.jar -version 4.0.1 -ig output/package.tgz
 
-      # Package the validator and IG package into a single release archive
+      # Package the validator, IG package, and validation helpers into a single release archive
       - name: Create release archive
         if: startsWith(github.ref, 'refs/tags/v')
-        run: zip -j cce-fhir-ig-bundle-${{ github.ref_name }}.zip validator.jar package.tgz
+        run: |
+          chmod +x tools/validate.sh
+          zip -j cce-fhir-ig-bundle-${{ github.ref_name }}.zip \
+            validator.jar output/package.tgz \
+            tools/validate.sh tools/validate.bat tools/README.md
 
       # Publish the release archive on tagged builds
       - name: Publish GitHub Release
@@ -98,10 +102,14 @@ jobs:
             branch: gh-pages
             folder: output
 
-      # Upload to Simplifier
+      # Upload to Simplifier (tagged releases only, skipped if credentials are unset)
       - name: Upload package to Simplifier
+        if: startsWith(github.ref, 'refs/tags/v') && vars.SIMPLIFIER_PROJECT != '' && env.SIMPLIFIER_USER != '' && env.SIMPLIFIER_PASS != ''
+        env:
+          SIMPLIFIER_USER: ${{ secrets.SIMPLIFIER_USER }}
+          SIMPLIFIER_PASS: ${{ secrets.SIMPLIFIER_PASS }}
         run: |
-          curl -u "${{ secrets.SIMPLIFIER_USER }}:${{ secrets.SIMPLIFIER_PASS }}" \
+          curl -u "$SIMPLIFIER_USER:$SIMPLIFIER_PASS" \
           -X POST \
-          -F "file=@package.tgz" \
-          https://simplifier.net/api/projects/${{ secrets.SIMPLIFIER_PROJECT }}/upload
+          -F "file=@output/package.tgz" \
+          https://simplifier.net/api/projects/${{ vars.SIMPLIFIER_PROJECT }}/upload

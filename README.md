@@ -2,7 +2,9 @@
 
 The Implementation Guide for CCE FHIR profiles.
 
-This repository contains CCE FHIR profiles in the FSH or [FHIR Shorthand](https://build.fhir.org/ig/HL7/fhir-shorthand/) notation, and it has been scaffolded using the [sushi](https://fshschool.org/docs/sushi/tutorial/) tool.
+This repository has been scaffolded using the [sushi](https://fshschool.org/docs/sushi/tutorial/) tool and it contains CCE FHIR profiles in the **FSH** or [FHIR Shorthand](https://build.fhir.org/ig/HL7/fhir-shorthand/) notation.
+
+![ER-Diagram](assets/images/fhir-profiles.png)
 
 ## Usage
 
@@ -45,7 +47,9 @@ This will run the HL7 FHIR IG generator, which may take several minutes to compl
 
 ### Validating instances (of resources) against the IG
 
-You have to download the latest version of the [validator](https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar) tool.
+#### Manual
+
+Download the latest version of the [validator](https://github.com/hapifhir/org.hl7.fhir.core/releases/latest/download/validator_cli.jar) tool.
 
 Place it under the `input-cache` dir, and rename it as `validator.jar`.
 
@@ -56,3 +60,78 @@ java -jar input-cache/validator.jar output/Patient-Patient-id-115.json -ig outpu
 java -jar input-cache/validator.jar output/Condition-Condition-id-115.json -ig output/package.tgz
 java -jar input-cache/validator.jar output/Procedure-Operation-id-115.json -ig output/package.tgz
 ```
+
+#### Validation scripts (bundled in the releases)
+
+Each [release](##releases) attaches a ready-to-use validation bundle (`cce-fhir-ig-bundle-vX.Y.Z.zip`) containing `validator.jar`, the IG's `package.tgz`, and two helper scripts, so users can validate their own data against this IG without building anything:
+
+1. Download the bundle from the [Releases](https://github.com/samply/cce-fhir-ig/releases) page.
+2. Extract the zip to a folder of your choice (all files must stay together).
+3. Validate an instance of your choice:
+
+   macOS / Linux:
+
+   ```sh
+   ./validate.sh instance.json
+   ```
+
+   Windows (cmd):
+
+   ```cmd
+   validate.bat instance.json
+   ```
+
+Multiple files and additional validator options are supported, e.g.:
+
+```sh
+./validate.sh -profile https://www.cancercoreeurope.eu/fhir/StructureDefinition/PatientPseudonym patient.xml
+```
+
+Both scripts run the same validation command internally:
+
+```sh
+java -jar validator.jar -ig package.tgz -tx n/a -version 4.0.1 <instance-file>
+```
+
+The first run downloads the IG's dependency packages (`de.basisprofil.r4`, `de.bbmri.fhir`) from the FHIR package registry, so an internet connection is
+required once; results are cached locally afterwards. See `tools/README.md` for details.
+
+## Release versioning
+
+This repository is a continuation of the previous work from the [cce-fhir](https://github.com/samply/cce-fhir) repository. The FHIR profiles in the old repository were in XML, whereas this repository has the profiles in FSH notation (*an additional advantage being that we get data validation for free, using the FHIR validator tool*). The last release of CCE FHIR profiles on the [Simplifier](https://simplifier.net/cce) website, was made from the `feature/minimal` branch of the old repository and was versioned as `0.5.0`. **Hence the first version being released from this repository is** `v0.6.0`.
+
+Please check the old [README.md](https://github.com/samply/cce-fhir/blob/feature/minimal/README.md) file for more details.
+
+### Releases
+
+| Version | Artifact | Branch | Date | Comments |
+|---------|----------|--------|------|----------|
+| v0.6.0 | cce.fhir.minimal-0.4.0.zip | `main` | 18-Sep-2026 |  |
+
+## Publishing to Simplifier
+
+On every git tag push (`v*`), the [publish workflow](.github/workflows/publish.yml) builds the IG, attaches the validation bundle (`validator.jar` + `package.tgz` + `validate.sh`/`validate.bat` + `README.md`) to a GitHub Release, and uploads the package to [Simplifier](https://simplifier.net/cce).
+
+The Simplifier upload needs the following values configured in the repository settings (**Settings → Secrets and variables → Actions**):
+
+| Type | Name | Value | Purpose |
+|------|------|-------|---------|
+| Repository variable | `SIMPLIFIER_PROJECT` | `cce` | Project id in the Simplifier URL (`https://simplifier.net/cce`) |
+| Repository secret | `SIMPLIFIER_USER` | `<user>` | Simplifier account user |
+| Repository secret | `SIMPLIFIER_PASS` | `<password>` | Simplifier account password |
+
+1. Go to your repository on GitHub → **Settings** → **Secrets and variables** → **Actions**.
+2. On the **Variables** tab, add `SIMPLIFIER_PROJECT` with value `cce`.
+3. On the **Secrets** tab, add `SIMPLIFIER_USER` and `SIMPLIFIER_PASS`.
+The upload step runs only on tagged releases and is skipped automatically if
+any of these values is missing, so the rest of the pipeline (GitHub Release
+creation) is never blocked by an unconfigured Simplifier upload.
+
+## GitHub Pages
+
+The IG is published to GitHub Pages: **https://samply.github.io/cce-fhir-ig/**
+
+Every push to `main` rebuilds the IG and deploys `output/` to the `gh-pages` branch (see [publish workflow](.github/workflows/publish.yml)).
+
+For this to work, GitHub Pages must be enabled in the repository settings: **Settings → Pages** → **Build and deployment** → Source: **Deploy from a
+branch** → Branch: **`gh-pages`** (**/ root**).
