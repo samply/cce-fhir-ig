@@ -1,6 +1,6 @@
 Instance: Specimen-id-115
 InstanceOf: Specimen
-Usage: #inline
+Usage: #example
 * type = SampleMaterialType#dna
 * subject.reference = "Patient/Patient-id-115"
 * collection.collectedDateTime = "2021-02-02"
