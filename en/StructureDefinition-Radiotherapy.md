@@ -31,7 +31,7 @@ Other representations of profile: [CSV](../StructureDefinition-Radiotherapy.csv)
   "version" : "0.6.1",
   "name" : "Radiotherapy",
   "status" : "draft",
-  "date" : "2026-09-18T14:33:14+00:00",
+  "date" : "2026-09-18T14:51:59+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

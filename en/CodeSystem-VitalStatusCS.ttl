@@ -18,7 +18,7 @@
   fhir:CodeSystem.name [ fhir:value "VitalStatusCS"] ;
   fhir:CodeSystem.title [ fhir:value "Vital Status CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-18T14:33:14+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T14:51:59+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;
