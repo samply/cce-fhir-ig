@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<!-- broken links = 0, errors = 171, warn = 169, info = 23-->
+<!-- broken links = 0, errors = 172, warn = 169, info = 23-->
 <head>
   <title>CCEFHIRIG : Validation Results</title>
   <link href="fhir.css" rel="stylesheet"/>
@@ -47,7 +47,7 @@
 </head>
 <body style="margin: 20px; background-color: #ffffff">
  <h1>Validation Results for CCEFHIRIG</h1>
- <p>Generated Fri Sep 18 14:20:31 UTC 2026, FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = <a href="https://www.cancercoreeurope.eu/fhir">https://www.cancercoreeurope.eu/fhir</a> (<a href="https://www.cancercoreeurope.eu/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
+ <p>Generated Fri Sep 18 14:35:20 UTC 2026, FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = <a href="https://www.cancercoreeurope.eu/fhir">https://www.cancercoreeurope.eu/fhir</a> (<a href="https://www.cancercoreeurope.eu/fhir/history.html">history</a>)). See <a href="qa.html">Full QA Report</a> &amp; <a href="qa-ipreview.html">IP</a></p>
 <table class="grid"> <tr><td colspan=2><b>Quality Checks</b></td></tr>
  <tr><td>Publisher Version:</td><td><span>IG Publisher Version: v2.3.4</span></td></tr>
  <tr><td>Publication Code:</td><td>n/a<span style="color: maroon; font-weight: bold"> </span>. PackageId = cce.fhir, Canonical = https://www.cancercoreeurope.eu/fhir</td></tr>
@@ -156,14 +156,14 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
  <tr><td>IPA Comparison:</td><td> n/a</td></tr>
  <tr><td>IPS Comparison:</td><td> n/a</td></tr>
  <tr><td>Validation Flags:</td><td> On: autoLoad; Off: hintAboutNonMustSupport, anyExtensionsAllowed, checkAggregation, showReferenceMessages, noExperimentalContent, displayWarnings</td></tr>
- <tr><td>Summary:</td><td> errors = 171, warn = 169, info = 23, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
+ <tr><td>Summary:</td><td> errors = 172, warn = 169, info = 23, broken links = 0, pinned = n/a.  <button onclick="toggleCodes()">Show Message Ids</button></td></tr>
 </table>
  <table class="grid">
    <tr>
      <td><b>Filename</b></td><td><b>Errors</b></td><td><b>Warnings</b></td><td><b>Hints</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>1</b></td><td><b>13</b></td><td><b>1</b></td>
+     <td><a href="#internal"><b>Build Errors</b></a></td><td><b>2</b></td><td><b>13</b></td><td><b>1</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
      <td><a href="#_home_runner_work_cce-fhir-ig_cce-fhir-ig_fsh-generated_resources_CodeSystem-DiagnosticConfirmationCS"><b>/home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-DiagnosticConfirmationCS</b></a></td><td><b>2</b></td><td><b>2</b></td><td><b>0</b></td>
@@ -440,6 +440,9 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b></b></td><td><b>warning</b></td><td><b>Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/SystemicTherapy-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
+   </tr>
+   <tr style="background-color: #ffcccc">
+     <td><b>package.tgz</b></td><td><b>error</b></td><td><b>Error converting pacakge to R4B: Error processing example/MedicationStatement-SystemicTherapy-id-115.json: Unknown MedicationStatusCodes code 'ongoing'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
    </tr>
    <tr style="background-color: #ffebcc">
      <td><b>1</b></td><td><b>warning</b></td><td><b>The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy"></span></td>
@@ -1149,16 +1152,16 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
      <td><b>Path</b></td><td><b>Severity</b></td><td><b>Message</b></td><td><b>Validating</b></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>MedicationStatement.status (l27/c4)</b></td><td><b>error</b></td><td><b>Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() &gt; id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">http://hl7.org/fhir/StructureDefinition/Element#ele-1</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
+     <td><b>MedicationStatement.status (l13/c22)</b></td><td><b>error</b></td><td><b>The System URI could not be determined for the code 'ongoing' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">UNABLE_TO_INFER_CODESYSTEM</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>MedicationStatement.status (l27/c4)</b></td><td><b>error</b></td><td><b>No code provided, and a code is required from the value set</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_Code_ValueSet_MISSING</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
+     <td><b>MedicationStatement.status (l13/c22)</b></td><td><b>error</b></td><td><b>The value provided ('ongoing') was not found in the value set 'Medication  status  codes' (http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ongoing' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1'; The provided code '#ongoing' was not found in the value set 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1')</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_16</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
    </tr>
    <tr style="background-color: #ffffe6">
-     <td><b>MedicationStatement.category (l13/c4)</b></td><td><b>information</b></td><td><b>None of the codings provided are in the value set 'Medication usage category codes' (http://hl7.org/fhir/ValueSet/medication-statement-category|4.0.1), and a coding is recommended to come from this value set (codes = https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS#HO)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_3_CC</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
+     <td><b>MedicationStatement.category (l14/c4)</b></td><td><b>information</b></td><td><b>None of the codings provided are in the value set 'Medication usage category codes' (http://hl7.org/fhir/ValueSet/medication-statement-category|4.0.1), and a coding is recommended to come from this value set (codes = https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS#HO)</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Terminology_TX_NoValid_3_CC</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
    </tr>
    <tr style="background-color: #ffcccc">
-     <td><b>MedicationStatement&#8203;.medication&#8203;.ofType(Reference) (l21&#8203;/c4)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'medicine'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
+     <td><b>MedicationStatement&#8203;.medication&#8203;.ofType(Reference) (l22&#8203;/c4)</b></td><td><b>error</b></td><td><b>Unable to resolve resource with reference 'medicine'</b> <span class="code-value code-hidden" style="font-size: 8px; color: navy">Reference_REF_CantResolve</span></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
    </tr>
 </table>
 <hr/>
@@ -2764,13 +2767,18 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
 <h2>Terminology_TX_Code_ValueSet_MISSING</h2>
  <table class="grid">
    <tr style="background-color: #ffeeee">
-     <td><a href="MedicationStatement-SystemicTherapy-id-115.html">fsh-generated/resources/MedicationStatement-SystemicTherapy-id-115.json</a></td><td><b>No code provided, and a code is required from the value set</b></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
-   </tr>
-   <tr style="background-color: #ffeeee">
      <td><a href="Procedure-Operation-id-115.html">fsh-generated/resources/Procedure-Operation-id-115.json</a></td><td><b>No code provided, and a code is required from the value set</b></td><td><a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a></td>
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="Procedure-Radiotherapy-id-115.html">fsh-generated/resources/Procedure-Radiotherapy-id-115.json</a></td><td><b>No code provided, and a code is required from the value set</b></td><td><a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a></td>
+   </tr>
+</table>
+<hr/>
+<a name="Terminology_TX_NoValid_16"> </a>
+<h2>Terminology_TX_NoValid_16</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="MedicationStatement-SystemicTherapy-id-115.html">fsh-generated/resources/MedicationStatement-SystemicTherapy-id-115.json</a></td><td><b>The value provided ('ongoing') was not found in the value set 'Medication  status  codes' (http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ongoing' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1'; The provided code '#ongoing' was not found in the value set 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1')</b></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
    </tr>
 </table>
 <hr/>
@@ -2812,6 +2820,14 @@ hl7.fhir.r4.core#4.0.1:     <a href="http://hl7.org/fhir/R4/codesystem-guide-par
    </tr>
    <tr style="background-color: #ffeeee">
      <td><a href="StructureDefinition-TNMp.html">fsh-generated/resources/StructureDefinition-TNMp.json</a></td><td><b>No definition could be found for URL value 'http://hl7.org/fhir/observation-category'</b></td><td><a href="http://hl7.org/fhir/R4/structuredefinition.html">StructureDefinition</a></td>
+   </tr>
+</table>
+<hr/>
+<a name="UNABLE_TO_INFER_CODESYSTEM"> </a>
+<h2>UNABLE_TO_INFER_CODESYSTEM</h2>
+ <table class="grid">
+   <tr style="background-color: #ffeeee">
+     <td><a href="MedicationStatement-SystemicTherapy-id-115.html">fsh-generated/resources/MedicationStatement-SystemicTherapy-id-115.json</a></td><td><b>The System URI could not be determined for the code 'ongoing' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1'</b></td><td><a href="http://hl7.org/fhir/R4/medicationstatement.html">MedicationStatement</a></td>
    </tr>
 </table>
 <hr/>

@@ -32,7 +32,7 @@ Residual Tumor
   "name" : "OverallAssessmentResidualTumorVS",
   "title" : "Overall Assessment Residual Tumor VS",
   "status" : "draft",
-  "date" : "2026-09-18T14:18:31+00:00",
+  "date" : "2026-09-18T14:33:14+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

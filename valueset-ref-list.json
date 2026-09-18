@@ -173,8 +173,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS"],
     "uses" : {
     },
-    "StructureDefinition-Operation.html" : "Operation",
     "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-Operation.html" : "Operation",
     "StructureDefinition-Radiotherapy.html" : "Radiotherapy"
   },
   {

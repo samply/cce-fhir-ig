@@ -2,7 +2,7 @@
 
 ## Example MedicationStatement: SystemicTherapy-id-115
 
-**status**: 
+**status**: ongoing
 
 **category**: Hormone therapy
 
@@ -22,9 +22,7 @@
 {
   "resourceType" : "MedicationStatement",
   "id" : "SystemicTherapy-id-115",
-  "_status" : {
-    "id" : "ongoing"
-  },
+  "status" : "ongoing",
   "category" : {
     "coding" : [{
       "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS",

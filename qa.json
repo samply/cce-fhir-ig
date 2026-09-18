@@ -6,14 +6,14 @@
   "status" : "draft",
   "package-id" : "cce.fhir",
   "ig-ver" : "0.6.1",
-  "date" : "Fri, 18 Sep, 2026 14:18:31 +0000",
-  "dateISO8601" : "2026-09-18T14:18:31+00:00",
-  "errs" : 171,
+  "date" : "Fri, 18 Sep, 2026 14:33:14 +0000",
+  "dateISO8601" : "2026-09-18T14:33:14+00:00",
+  "errs" : 172,
   "warnings" : 169,
   "hints" : 23,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 1943118792
+  "maxMemory" : 2773208328
 }

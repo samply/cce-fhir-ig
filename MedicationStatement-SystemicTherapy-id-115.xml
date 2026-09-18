@@ -3,11 +3,9 @@
 <MedicationStatement xmlns="http://hl7.org/fhir">
   <id value="SystemicTherapy-id-115"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationStatement SystemicTherapy-id-115</b></p><a name="SystemicTherapy-id-115"> </a><a name="hcSystemicTherapy-id-115"> </a><p><b>status</b>: </p><p><b>category</b>: <span title="Codes:{https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS HO}">Hormone therapy</span></p><p><b>medication</b>: <a href="https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&amp;canonical=https://simplifier.net/packages/de.basisprofil.r4/1.5.4/medicine">medicine</a></p><p><b>subject</b>: <a href="Patient-Patient-id-115.html">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><p><b>effective</b>: 2021-06-12 --&gt; 2021-06-21</p><p><b>reasonReference</b>: <a href="Condition-Condition-id-115.html">Condition C34.0</a></p></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: MedicationStatement SystemicTherapy-id-115</b></p><a name="SystemicTherapy-id-115"> </a><a name="hcSystemicTherapy-id-115"> </a><p><b>status</b>: ongoing</p><p><b>category</b>: <span title="Codes:{https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS HO}">Hormone therapy</span></p><p><b>medication</b>: <a href="https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&amp;canonical=https://simplifier.net/packages/de.basisprofil.r4/1.5.4/medicine">medicine</a></p><p><b>subject</b>: <a href="Patient-Patient-id-115.html">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><p><b>effective</b>: 2021-06-12 --&gt; 2021-06-21</p><p><b>reasonReference</b>: <a href="Condition-Condition-id-115.html">Condition C34.0</a></p></div>
   </text>
-  <status>
-    <id value="ongoing"/>
-  </status>
+  <status value="ongoing"/>
   <category>
     <coding>
       <system value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS"/>

@@ -31,7 +31,7 @@ Other representations of profile: [CSV](../StructureDefinition-Operation.csv), [
   "version" : "0.6.1",
   "name" : "Operation",
   "status" : "draft",
-  "date" : "2026-09-18T14:18:31+00:00",
+  "date" : "2026-09-18T14:33:14+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

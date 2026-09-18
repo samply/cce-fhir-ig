@@ -1,10 +1,10 @@
 CCEFHIRIG : Validation Results
 =========================================
 
-err = 171, warn = 169, info = 23
+err = 172, warn = 169, info = 23
 IG Publisher Version: 2.3.4
-Generated Fri Sep 18 14:20:31 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = https://www.cancercoreeurope.eu/fhir)
- Build Errors : 1 / 13 / 1
+Generated Fri Sep 18 14:35:20 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.1 (canonical = https://www.cancercoreeurope.eu/fhir)
+ Build Errors : 2 / 13 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-DiagnosticConfirmationCS : 2 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-GeneticVariantCS : 2 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-GradingCS : 2 / 2 / 1
@@ -98,6 +98,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Procedure/Radiotherapy-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Specimen/Specimen-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource MedicationStatement/SystemicTherapy-id-115.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
+ERROR: package.tgz: Error converting pacakge to R4B: Error processing example/MedicationStatement-SystemicTherapy-id-115.json: Unknown MedicationStatusCodes code 'ongoing'
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
@@ -259,8 +260,8 @@ ERROR: ImplementationGuide/cce.fhir: ImplementationGuide.dependsOn[3]: The URL s
 WARNING: ImplementationGuide/cce.fhir: ImplementationGuide.dependsOn[3]: The canonical URL https://simplifier.net/packages/de.bbmri.fhir/1.2.0 doesn't point to an actual ImplementationGuide resource
 INFORMATION: Resource: The resource ImplementationGuide/cce.fhir could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/MedicationStatement-SystemicTherapy-id-115.json ==
-ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
-ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.status: No code provided, and a code is required from the value set
+ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.status: The System URI could not be determined for the code 'ongoing' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1'
+ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.status: The value provided ('ongoing') was not found in the value set 'Medication  status  codes' (http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1), and a code is required from this value set  (error message = The System URI could not be determined for the code 'ongoing' in the ValueSet 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1'; The provided code '#ongoing' was not found in the value set 'http://hl7.org/fhir/ValueSet/medication-statement-status|4.0.1')
 INFORMATION: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.category: None of the codings provided are in the value set 'Medication usage category codes' (http://hl7.org/fhir/ValueSet/medication-statement-category|4.0.1), and a coding is recommended to come from this value set (codes = https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS#HO)
 ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.medication.ofType(Reference): Unable to resolve resource with reference 'medicine'
 == fsh-generated/resources/Patient-Patient-id-115.json ==
