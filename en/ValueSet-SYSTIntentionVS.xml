@@ -4,14 +4,14 @@
   <id value="SYSTIntentionVS"/>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SYSTIntentionVS</b></p><a name="SYSTIntentionVS"> </a><a name="hcSYSTIntentionVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-SYSTIntentionCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.5.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-C">C</a></td><td>curative</td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-P">P</a></td><td>palliative</td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-M">M</a></td><td>miscellaneous</td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-X">X</a></td><td>not specified</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet SYSTIntentionVS</b></p><a name="SYSTIntentionVS"> </a><a name="hcSYSTIntentionVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-SYSTIntentionCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.6.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-C">C</a></td><td>curative</td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-P">P</a></td><td>palliative</td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-M">M</a></td><td>miscellaneous</td></tr><tr><td><a href="CodeSystem-SYSTIntentionCS.html#SYSTIntentionCS-X">X</a></td><td>not specified</td></tr></table></li></ul></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTIntentionVS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="SYSTIntentionVS"/>
   <title value="SYST Intention VS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

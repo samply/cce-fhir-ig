@@ -1,4 +1,4 @@
-# Condition-id-115 - CCE FHIR Implementation Guide v0.5.0
+# Condition-id-115 - CCE FHIR Implementation Guide v0.6.0
 
 ## Example Condition: Condition-id-115
 

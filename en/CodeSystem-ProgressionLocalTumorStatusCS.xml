@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem ProgressionLocalTumorStatusCS</b></p><a name="ProgressionLocalTumorStatusCS"> </a><a name="hcProgressionLocalTumorStatusCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">K<a name="ProgressionLocalTumorStatusCS-K"> </a></td><td>No tumor detectable</td></tr><tr><td style="white-space:nowrap">T<a name="ProgressionLocalTumorStatusCS-T"> </a></td><td>Tumor remnants (Residual tumor)</td></tr><tr><td style="white-space:nowrap">P<a name="ProgressionLocalTumorStatusCS-P"> </a></td><td>Tumor remnants Residual tumor Progression</td></tr><tr><td style="white-space:nowrap">N<a name="ProgressionLocalTumorStatusCS-N"> </a></td><td>Tumor remnants Residual tumor No Change</td></tr><tr><td style="white-space:nowrap">R<a name="ProgressionLocalTumorStatusCS-R"> </a></td><td>Local recurrence</td></tr><tr><td style="white-space:nowrap">F<a name="ProgressionLocalTumorStatusCS-F"> </a></td><td>Questionable findings</td></tr><tr><td style="white-space:nowrap">U<a name="ProgressionLocalTumorStatusCS-U"> </a></td><td>unknown</td></tr><tr><td style="white-space:nowrap">X<a name="ProgressionLocalTumorStatusCS-X"> </a></td><td>Missing information</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="ProgressionLocalTumorStatusCS"/>
   <title value="Progression Local Tumor Status CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

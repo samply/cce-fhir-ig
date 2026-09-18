@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem VitalStatusCS</b></p><a name="VitalStatusCS"> </a><a name="hcVitalStatusCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">alive<a name="VitalStatusCS-alive"> </a></td></tr><tr><td style="white-space:nowrap">deceased<a name="VitalStatusCS-deceased"> </a></td></tr><tr><td style="white-space:nowrap">unknown<a name="VitalStatusCS-unknown"> </a></td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="VitalStatusCS"/>
   <title value="Vital Status CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

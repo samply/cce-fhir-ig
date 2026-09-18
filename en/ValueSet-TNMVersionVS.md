@@ -1,4 +1,4 @@
-# TNM Version VS - CCE FHIR Implementation Guide v0.5.0
+# TNM Version VS - CCE FHIR Implementation Guide v0.6.0
 
 ## ValueSet: TNM Version VS 
 
@@ -29,11 +29,11 @@ TNM Version
   "resourceType" : "ValueSet",
   "id" : "TNMVersionVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVersionVS",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "TNMVersionVS",
   "title" : "TNM Version VS",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

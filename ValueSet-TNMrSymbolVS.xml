@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="TNMrSymbolVS"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TNMrSymbolVS</b></p><a name="TNMrSymbolVS"> </a><a name="hcTNMrSymbolVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-TNMrSymbolCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.5.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-r">r</a></td><td>Classification was used to assess a recurrence</td></tr><tr><td><a href="CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-9">9</a></td><td>Native classification before a recurrence</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TNMrSymbolVS</b></p><a name="TNMrSymbolVS"> </a><a name="hcTNMrSymbolVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-TNMrSymbolCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.6.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-r">r</a></td><td>Classification was used to assess a recurrence</td></tr><tr><td><a href="CodeSystem-TNMrSymbolCS.html#TNMrSymbolCS-9">9</a></td><td>Native classification before a recurrence</td></tr></table></li></ul></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMrSymbolVS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="TNMrSymbolVS"/>
   <title value="TNMr Symbol VS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

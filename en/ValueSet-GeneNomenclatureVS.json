@@ -7,11 +7,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet GeneNomenclatureVS</b></p><a name=\"GeneNomenclatureVS\"> </a><a name=\"hcGeneNomenclatureVS\"> </a><ul><li>Include all codes defined in <a href=\"http://www.genenames.org\"><code>http://www.genenames.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "GeneNomenclatureVS",
   "title" : "Gene Nomenclature VS",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

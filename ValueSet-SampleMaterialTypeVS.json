@@ -3,14 +3,14 @@
   "id" : "SampleMaterialTypeVS",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SampleMaterialTypeVS</b></p><a name=\"SampleMaterialTypeVS\"> </a><a name=\"hcSampleMaterialTypeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SampleMaterialTypeCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.5.0</span></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet SampleMaterialTypeVS</b></p><a name=\"SampleMaterialTypeVS\"> </a><a name=\"hcSampleMaterialTypeVS\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-SampleMaterialTypeCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.0</span></li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "SampleMaterialTypeVS",
   "title" : "Sample Material Type",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

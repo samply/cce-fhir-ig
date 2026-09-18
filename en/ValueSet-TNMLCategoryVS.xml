@@ -4,14 +4,14 @@
   <id value="TNMLCategoryVS"/>
   <language value="en"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TNMLCategoryVS</b></p><a name="TNMLCategoryVS"> </a><a name="hcTNMLCategoryVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-TNMLCategoryCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.5.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TNMLCategoryCS.html#TNMLCategoryCS-LX">LX</a></td><td>Lymphatic vessel invasion cannot be assessed</td></tr><tr><td><a href="CodeSystem-TNMLCategoryCS.html#TNMLCategoryCS-L0">L0</a></td><td>No lymphatic vessel invasion</td></tr><tr><td><a href="CodeSystem-TNMLCategoryCS.html#TNMLCategoryCS-L1">L1</a></td><td>Lymphatic vessel invasion</td></tr></table></li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TNMLCategoryVS</b></p><a name="TNMLCategoryVS"> </a><a name="hcTNMLCategoryVS"> </a><ul><li>Include these codes as defined in <a href="CodeSystem-TNMLCategoryCS.html"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS</code></a><span title="Version is not explicitly stated, which means it is fixed to the version provided in this specification"> version &#x1F4E6;0.6.0</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-TNMLCategoryCS.html#TNMLCategoryCS-LX">LX</a></td><td>Lymphatic vessel invasion cannot be assessed</td></tr><tr><td><a href="CodeSystem-TNMLCategoryCS.html#TNMLCategoryCS-L0">L0</a></td><td>No lymphatic vessel invasion</td></tr><tr><td><a href="CodeSystem-TNMLCategoryCS.html#TNMLCategoryCS-L1">L1</a></td><td>Lymphatic vessel invasion</td></tr></table></li></ul></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMLCategoryVS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="TNMLCategoryVS"/>
   <title value="TNML Category VS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

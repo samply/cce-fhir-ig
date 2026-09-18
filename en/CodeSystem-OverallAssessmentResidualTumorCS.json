@@ -7,11 +7,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem OverallAssessmentResidualTumorCS</b></p><a name=\"OverallAssessmentResidualTumorCS\"> </a><a name=\"hcOverallAssessmentResidualTumorCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">RX<a name=\"OverallAssessmentResidualTumorCS-RX\"> </a></td><td>Presence of Residual tumor cannot be assessed</td></tr><tr><td style=\"white-space:nowrap\">R0<a name=\"OverallAssessmentResidualTumorCS-R0\"> </a></td><td>No Residual tumor</td></tr><tr><td style=\"white-space:nowrap\">R1<a name=\"OverallAssessmentResidualTumorCS-R1\"> </a></td><td>Microscopic Residual tumor</td></tr><tr><td style=\"white-space:nowrap\">R1(is)<a name=\"OverallAssessmentResidualTumorCS-R1.40is.41\"> </a></td><td>In-Situ-Rest</td></tr><tr><td style=\"white-space:nowrap\">R1(cy+)<a name=\"OverallAssessmentResidualTumorCS-R1.40cy.43.41\"> </a></td><td>Cytological Residue</td></tr><tr><td style=\"white-space:nowrap\">R2<a name=\"OverallAssessmentResidualTumorCS-R2\"> </a></td><td>Macroscopic Residual tumor</td></tr></table></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "OverallAssessmentResidualTumorCS",
   "title" : "Overall Assessment Residual Tumor CS",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

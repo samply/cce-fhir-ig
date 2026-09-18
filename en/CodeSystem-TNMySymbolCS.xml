@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMySymbolCS</b></p><a name="TNMySymbolCS"> </a><a name="hcTNMySymbolCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">y<a name="TNMySymbolCS-y"> </a></td><td>Classification occurred during or after initial multimodal therapy</td></tr><tr><td style="white-space:nowrap">9<a name="TNMySymbolCS-9"> </a></td><td>native classification</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="TNMySymbolCS"/>
   <title value="TNMy Symbol CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

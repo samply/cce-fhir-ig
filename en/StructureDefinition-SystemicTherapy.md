@@ -1,4 +1,4 @@
-# Systemic Therapy - CCE FHIR Implementation Guide v0.5.0
+# Systemic Therapy - CCE FHIR Implementation Guide v0.6.0
 
 ## Resource Profile: Systemic Therapy 
 
@@ -28,11 +28,11 @@ Other representations of profile: [CSV](../StructureDefinition-SystemicTherapy.c
   "resourceType" : "StructureDefinition",
   "id" : "SystemicTherapy",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-MedicationStatement-SystemicTherapy",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "SystemicTherapy",
   "title" : "Systemic Therapy",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

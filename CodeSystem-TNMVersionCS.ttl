@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TNMVersionCS</b></p><a name=\"TNMVersionCS\"> </a><a name=\"hcTNMVersionCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">6<a name=\"TNMVersionCS-6\"> </a></td><td>6. Edition</td></tr><tr><td style=\"white-space:nowrap\">7<a name=\"TNMVersionCS-7\"> </a></td><td>7. Edition</td></tr><tr><td style=\"white-space:nowrap\">8<a name=\"TNMVersionCS-8\"> </a></td><td>8. Edition</td></tr></table></div>"
   ] ;
   fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS"] ;
-  fhir:CodeSystem.version [ fhir:value "0.5.0"] ;
+  fhir:CodeSystem.version [ fhir:value "0.6.0"] ;
   fhir:CodeSystem.name [ fhir:value "TNMVersionCS"] ;
   fhir:CodeSystem.title [ fhir:value "TNM Version CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-18T08:48:21+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-18T09:32:10+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index 0 ;

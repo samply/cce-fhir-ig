@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMVersionCS</b></p><a name="TNMVersionCS"> </a><a name="hcTNMVersionCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">6<a name="TNMVersionCS-6"> </a></td><td>6. Edition</td></tr><tr><td style="white-space:nowrap">7<a name="TNMVersionCS-7"> </a></td><td>7. Edition</td></tr><tr><td style="white-space:nowrap">8<a name="TNMVersionCS-8"> </a></td><td>8. Edition</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS"/>
-  <version value="0.5.0"/>
+  <version value="0.6.0"/>
   <name value="TNMVersionCS"/>
   <title value="TNM Version CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T08:48:21+00:00"/>
+  <date value="2026-09-18T09:32:10+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

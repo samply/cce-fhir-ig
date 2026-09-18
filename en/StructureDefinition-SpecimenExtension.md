@@ -1,4 +1,4 @@
-# SpecimenExtension - CCE FHIR Implementation Guide v0.5.0
+# SpecimenExtension - CCE FHIR Implementation Guide v0.6.0
 
 ## Extension: 
 
@@ -31,10 +31,10 @@ Other representations of profile: [CSV](../StructureDefinition-SpecimenExtension
   "resourceType" : "StructureDefinition",
   "id" : "SpecimenExtension",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "SpecimenExtension",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

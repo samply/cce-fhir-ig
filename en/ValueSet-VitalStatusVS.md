@@ -1,4 +1,4 @@
-# Vital Status VS - CCE FHIR Implementation Guide v0.5.0
+# Vital Status VS - CCE FHIR Implementation Guide v0.6.0
 
 ## ValueSet: Vital Status VS 
 
@@ -28,11 +28,11 @@ VitalStatus
   "resourceType" : "ValueSet",
   "id" : "VitalStatusVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS",
-  "version" : "0.5.0",
+  "version" : "0.6.0",
   "name" : "VitalStatusVS",
   "title" : "Vital Status VS",
   "status" : "draft",
-  "date" : "2026-09-18T08:48:21+00:00",
+  "date" : "2026-09-18T09:32:10+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
