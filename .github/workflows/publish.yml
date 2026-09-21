@@ -141,19 +141,33 @@ jobs:
             -H "Content-Type: application/json" \
             -d "{\"Email\":\"$SIMPLIFIER_USER\",\"Password\":\"$SIMPLIFIER_PASS\"}")
           echo "token endpoint status: $HTTP_STATUS"
+
+          upload_to_simplifier() {
+            local resp_file status
+            resp_file=$(mktemp)
+            status=$(curl -sS -o "$resp_file" -w "%{http_code}" \
+              "$@" \
+              -H "Content-Type: application/zip" \
+              -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
+              --data-binary "@simplifier-project.zip")
+            echo "zip upload status: $status"
+            if [ -s "$resp_file" ]; then
+              echo "zip upload response body:"
+              cat "$resp_file"
+            fi
+            rm -f "$resp_file"
+            [ "$status" = "200" ] || return 1
+          }
+
           if [ "$HTTP_STATUS" = "200" ]; then
             TOKEN=$(python3 -c "import json; print(json.load(open('$TOKEN_FILE'))['token'])")
             rm -f "$TOKEN_FILE"
             echo "Authenticated with JWT, uploading to ${{ vars.SIMPLIFIER_PROJECT }}"
-            curl -sS -f -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
-              -H "Authorization: Bearer $TOKEN" \
-              --data-binary "@simplifier-project.zip"
+            upload_to_simplifier -H "Authorization: Bearer $TOKEN"
           else
             echo "warning: JWT token login failed, response body:"
             cat "$TOKEN_FILE"
             rm -f "$TOKEN_FILE"
             echo "Falling back to Basic Auth for the ZIP endpoint..."
-            curl -sS -f -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
-              -u "${SIMPLIFIER_USER}:${SIMPLIFIER_PASS}" \
-              --data-binary "@simplifier-project.zip"
+            upload_to_simplifier -u "${SIMPLIFIER_USER}:${SIMPLIFIER_PASS}"
           fi
