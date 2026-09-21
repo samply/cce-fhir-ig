@@ -21,8 +21,8 @@
     "systems" : ["http://fhir.de/CodeSystem/bfarm/icd-10-gm"],
     "uses" : {
     },
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
-    "StructureDefinition-Operation.html" : "Operation"
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",

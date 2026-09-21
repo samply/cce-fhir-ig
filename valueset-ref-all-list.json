@@ -21,8 +21,8 @@
     "systems" : ["http://fhir.de/CodeSystem/bfarm/icd-10-gm"],
     "uses" : {
     },
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
-    "StructureDefinition-Operation.html" : "Operation"
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/administrative-gender",
@@ -50,13 +50,13 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
+    "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
+    "StructureDefinition-Histology.html" : "Histology",
+    "StructureDefinition-Operation.html" : "Operation",
+    "StructureDefinition-VitalStatus.html" : "Vital Status",
     "StructureDefinition-TNMp.html" : "TNMp",
     "StructureDefinition-TNMc.html" : "TNMc",
-    "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology",
-    "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
-    "StructureDefinition-Operation.html" : "Operation"
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-category",
@@ -99,9 +99,9 @@
     "uses" : {
     },
     "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
     "StructureDefinition-Operation.html" : "Operation",
-    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
@@ -171,10 +171,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.5"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -233,16 +233,16 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-Specimen.html" : "Specimen",
-    "StructureDefinition-TNMc.html" : "TNMc",
-    "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-Operation.html" : "Operation",
     "StructureDefinition-PatientPseudonym.html" : "Patient Pseudonym",
-    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+    "StructureDefinition-VitalStatus.html" : "Vital Status",
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Specimen.html" : "Specimen",
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/link-type",
@@ -313,10 +313,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.403"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -330,10 +330,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.396"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -347,10 +347,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.399"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -364,10 +364,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.395"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -381,10 +381,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.400"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/patient-contactrelationship",
@@ -531,10 +531,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.407"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -548,10 +548,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.397"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-Histology.html" : "Histology",
     "StructureDefinition-VitalStatus.html" : "Vital Status",
-    "StructureDefinition-Histology.html" : "Histology"
+    "StructureDefinition-TNMp.html" : "TNMp",
+    "StructureDefinition-TNMc.html" : "TNMc"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/resource-types",
@@ -566,8 +566,8 @@
     "uses" : {
     },
     "StructureDefinition-Histology.html" : "Histology",
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
-    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/specimen-collection-method",

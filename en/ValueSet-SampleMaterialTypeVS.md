@@ -32,7 +32,7 @@ Sample Material Types
   "name" : "SampleMaterialTypeVS",
   "title" : "Sample Material Type",
   "status" : "draft",
-  "date" : "2026-09-21T07:38:15+00:00",
+  "date" : "2026-09-21T08:17:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

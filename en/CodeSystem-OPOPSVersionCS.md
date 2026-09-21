@@ -26,7 +26,7 @@ This Code system is referenced in the definition of the following value sets:
   "name" : "OPOPSVersionCS",
   "title" : "OPOPS Version CS",
   "status" : "draft",
-  "date" : "2026-09-21T07:38:15+00:00",
+  "date" : "2026-09-21T08:17:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
