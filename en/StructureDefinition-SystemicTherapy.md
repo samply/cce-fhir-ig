@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-SystemicTherapy.c
   "name" : "SystemicTherapy",
   "title" : "Systemic Therapy",
   "status" : "draft",
-  "date" : "2026-09-21T09:40:01+00:00",
+  "date" : "2026-09-21T12:03:18+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

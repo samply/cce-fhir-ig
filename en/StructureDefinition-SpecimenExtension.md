@@ -34,7 +34,7 @@ Other representations of profile: [CSV](../StructureDefinition-SpecimenExtension
   "version" : "0.6.3",
   "name" : "SpecimenExtension",
   "status" : "draft",
-  "date" : "2026-09-21T09:40:01+00:00",
+  "date" : "2026-09-21T12:03:18+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

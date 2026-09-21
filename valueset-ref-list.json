@@ -21,8 +21,8 @@
     "systems" : ["http://fhir.de/CodeSystem/bfarm/icd-10-gm"],
     "uses" : {
     },
-    "StructureDefinition-Operation.html" : "Operation",
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
+    "StructureDefinition-Operation.html" : "Operation"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",
@@ -173,9 +173,9 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS"],
     "uses" : {
     },
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
     "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
-    "StructureDefinition-Operation.html" : "Operation",
-    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+    "StructureDefinition-Operation.html" : "Operation"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",
@@ -211,8 +211,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMMVS",
@@ -224,8 +224,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMNVS",
@@ -237,8 +237,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMPnCategoryVS",
@@ -250,8 +250,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMSCategoryVS",
@@ -263,8 +263,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMTVS",
@@ -276,8 +276,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMTCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVCategoryVS",
@@ -289,8 +289,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMVersionVS",
@@ -302,8 +302,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMmSymbolVS",
@@ -315,8 +315,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMrSymbolVS",
@@ -328,8 +328,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMySymbolVS",
@@ -341,8 +341,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS",
@@ -378,8 +378,8 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS"],
     "uses" : {
     },
-    "StructureDefinition-TNMp.html" : "TNMp",
-    "StructureDefinition-TNMc.html" : "TNMc"
+    "StructureDefinition-TNMc.html" : "TNMc",
+    "StructureDefinition-TNMp.html" : "TNMp"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS",

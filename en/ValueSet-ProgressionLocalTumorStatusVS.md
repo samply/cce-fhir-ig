@@ -32,7 +32,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "ProgressionLocalTumorStatusVS",
   "title" : "Progression Local Tumor Status VS",
   "status" : "draft",
-  "date" : "2026-09-21T09:40:01+00:00",
+  "date" : "2026-09-21T12:03:18+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

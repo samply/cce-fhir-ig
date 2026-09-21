@@ -33,7 +33,7 @@ TNM T-Category
   "name" : "TNMTVS",
   "title" : "TNMT VS",
   "status" : "draft",
-  "date" : "2026-09-21T09:40:01+00:00",
+  "date" : "2026-09-21T12:03:18+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
