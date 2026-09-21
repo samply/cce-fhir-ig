@@ -132,6 +132,10 @@ jobs:
                       continue
               if isinstance(d, dict) and 'resourceType' in d:
                   shutil.copy(f, os.path.join('simplifier-upload', os.path.basename(f)))
+          # Include the FHIR package manifest so Simplifier can create a package release
+          # from the project ("There is no package manifest in the project" otherwise).
+          if os.path.exists('output/package.manifest.json'):
+              shutil.copy('output/package.manifest.json', 'simplifier-upload/package.json')
           EOF
           ls simplifier-upload | head
           (cd simplifier-upload && zip -qr ../simplifier-project.zip .)
