@@ -31,7 +31,7 @@ Other representations of profile: [CSV](../StructureDefinition-TNMp.csv), [Excel
   "version" : "0.6.2",
   "name" : "TNMp",
   "status" : "draft",
-  "date" : "2026-09-21T08:50:02+00:00",
+  "date" : "2026-09-21T09:00:44+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

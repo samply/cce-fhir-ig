@@ -32,7 +32,7 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "name" : "YNUVS",
   "title" : "YNU VS",
   "status" : "draft",
-  "date" : "2026-09-21T08:50:02+00:00",
+  "date" : "2026-09-21T09:00:44+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
