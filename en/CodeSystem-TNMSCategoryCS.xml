@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMSCategoryCS</b></p><a name="TNMSCategoryCS"> </a><a name="hcTNMSCategoryCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">SX<a name="TNMSCategoryCS-SX"> </a></td></tr><tr><td style="white-space:nowrap">S0<a name="TNMSCategoryCS-S0"> </a></td></tr><tr><td style="white-space:nowrap">S1<a name="TNMSCategoryCS-S1"> </a></td></tr><tr><td style="white-space:nowrap">S2<a name="TNMSCategoryCS-S2"> </a></td></tr><tr><td style="white-space:nowrap">S3<a name="TNMSCategoryCS-S3"> </a></td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS"/>
-  <version value="0.6.1"/>
+  <version value="0.6.2"/>
   <name value="TNMSCategoryCS"/>
   <title value="TNMS Category CS"/>
   <status value="draft"/>
-  <date value="2026-09-18T14:51:59+00:00"/>
+  <date value="2026-09-21T07:38:15+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

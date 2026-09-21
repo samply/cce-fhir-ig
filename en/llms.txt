@@ -1,4 +1,4 @@
-# cce.fhir#0.6.1: CCE FHIR Implementation Guide(en)
+# cce.fhir#0.6.2: CCE FHIR Implementation Guide(en)
 
 ## Pages
 

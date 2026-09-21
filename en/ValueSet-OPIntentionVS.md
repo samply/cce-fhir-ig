@@ -1,4 +1,4 @@
-# OP Intention VS - CCE FHIR Implementation Guide v0.6.1
+# OP Intention VS - CCE FHIR Implementation Guide v0.6.2
 
 ## ValueSet: OP Intention VS 
 
@@ -28,11 +28,11 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "resourceType" : "ValueSet",
   "id" : "OPIntentionVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPIntentionVS",
-  "version" : "0.6.1",
+  "version" : "0.6.2",
   "name" : "OPIntentionVS",
   "title" : "OP Intention VS",
   "status" : "draft",
-  "date" : "2026-09-18T14:51:59+00:00",
+  "date" : "2026-09-21T07:38:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

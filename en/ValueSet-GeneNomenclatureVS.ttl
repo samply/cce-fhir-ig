@@ -14,11 +14,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet GeneNomenclatureVS</b></p><a name=\"GeneNomenclatureVS\"> </a><a name=\"hcGeneNomenclatureVS\"> </a><ul><li>Include all codes defined in <a href=\"http://www.genenames.org\"><code>http://www.genenames.org</code></a><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span></li></ul></div>"
   ] ;
   fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneNomenclatureVS"] ;
-  fhir:ValueSet.version [ fhir:value "0.6.1"] ;
+  fhir:ValueSet.version [ fhir:value "0.6.2"] ;
   fhir:ValueSet.name [ fhir:value "GeneNomenclatureVS"] ;
   fhir:ValueSet.title [ fhir:value "Gene Nomenclature VS"] ;
   fhir:ValueSet.status [ fhir:value "draft"] ;
-  fhir:ValueSet.date [ fhir:value "2026-09-18T14:51:59+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-21T07:38:15+00:00"^^xsd:dateTime] ;
   fhir:ValueSet.publisher [ fhir:value "CCE"] ;
   fhir:ValueSet.contact [
      fhir:index -1 ;

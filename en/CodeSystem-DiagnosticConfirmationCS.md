@@ -1,4 +1,4 @@
-# Diagnostic Confirmation CS - CCE FHIR Implementation Guide v0.6.1
+# Diagnostic Confirmation CS - CCE FHIR Implementation Guide v0.6.2
 
 ## CodeSystem: Diagnostic Confirmation CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "DiagnosticConfirmationCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS",
-  "version" : "0.6.1",
+  "version" : "0.6.2",
   "name" : "DiagnosticConfirmationCS",
   "title" : "Diagnostic Confirmation CS",
   "status" : "draft",
-  "date" : "2026-09-18T14:51:59+00:00",
+  "date" : "2026-09-21T07:38:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

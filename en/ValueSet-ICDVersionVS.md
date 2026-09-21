@@ -1,4 +1,4 @@
-# ICD Version VS - CCE FHIR Implementation Guide v0.6.1
+# ICD Version VS - CCE FHIR Implementation Guide v0.6.2
 
 ## ValueSet: ICD Version VS 
 
@@ -28,11 +28,11 @@ Version des ICD-10-GM
   "resourceType" : "ValueSet",
   "id" : "ICDVersionVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDVersionVS",
-  "version" : "0.6.1",
+  "version" : "0.6.2",
   "name" : "ICDVersionVS",
   "title" : "ICD Version VS",
   "status" : "draft",
-  "date" : "2026-09-18T14:51:59+00:00",
+  "date" : "2026-09-21T07:38:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

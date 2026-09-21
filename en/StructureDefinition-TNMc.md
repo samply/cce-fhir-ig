@@ -1,4 +1,4 @@
-# TNMc - CCE FHIR Implementation Guide v0.6.1
+# TNMc - CCE FHIR Implementation Guide v0.6.2
 
 ## Resource Profile: TNMc 
 
@@ -28,10 +28,10 @@ Other representations of profile: [CSV](../StructureDefinition-TNMc.csv), [Excel
   "resourceType" : "StructureDefinition",
   "id" : "TNMc",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-TNMc",
-  "version" : "0.6.1",
+  "version" : "0.6.2",
   "name" : "TNMc",
   "status" : "draft",
-  "date" : "2026-09-18T14:51:59+00:00",
+  "date" : "2026-09-21T07:38:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

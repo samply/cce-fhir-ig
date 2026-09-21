@@ -1,4 +1,4 @@
-# Home - CCE FHIR Implementation Guide v0.6.1
+# Home - CCE FHIR Implementation Guide v0.6.2
 
 ## Home
 

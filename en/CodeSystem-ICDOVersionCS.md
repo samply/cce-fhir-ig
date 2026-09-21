@@ -1,4 +1,4 @@
-# ICDO Version CS - CCE FHIR Implementation Guide v0.6.1
+# ICDO Version CS - CCE FHIR Implementation Guide v0.6.2
 
 ## CodeSystem: ICDO Version CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "ICDOVersionCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS",
-  "version" : "0.6.1",
+  "version" : "0.6.2",
   "name" : "ICDOVersionCS",
   "title" : "ICDO Version CS",
   "status" : "draft",
-  "date" : "2026-09-18T14:51:59+00:00",
+  "date" : "2026-09-21T07:38:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

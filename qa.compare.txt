@@ -251,7 +251,7 @@ ERROR: /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSys
 == fsh-generated/resources/Condition-Condition-id-115.json ==
 WARNING: Condition/Condition-id-115: Condition.code.coding[0].system: A definition for CodeSystem 'http://fhir.de/CodeSystem/bfarm/icd-10-gm' version '2004' could not be found, so the code cannot be validated. No versions of this code system are known
 WARNING: Condition/Condition-id-115: Condition.bodySite[0].coding[0].system: A definition for CodeSystem 'urn:oid:2.16.840.1.113883.6.43.1' version '31' could not be found, so the code cannot be validated. No versions of this code system are known
-INFORMATION: Condition/Condition-id-115: Condition.bodySite[0]: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS|0.6.1
+INFORMATION: Condition/Condition-id-115: Condition.bodySite[0]: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS|0.6.2
 == fsh-generated/resources/ImplementationGuide-cce.fhir.json ==
 ERROR: ImplementationGuide/cce.fhir: ImplementationGuide.dependsOn[2]: The URL should refer directly to the ImplementationGuide resource (e.g. include '/ImplementationGuide/')
 WARNING: ImplementationGuide/cce.fhir: ImplementationGuide.dependsOn[2]: The canonical URL https://simplifier.net/packages/de.basisprofil.r4/1.5.4 doesn't point to an actual ImplementationGuide resource
@@ -265,13 +265,13 @@ ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.medicatio
 == fsh-generated/resources/Procedure-Operation-id-115.json ==
 ERROR: Procedure/Operation-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 ERROR: Procedure/Operation-id-115: Procedure.status: No code provided, and a code is required from the value set
-INFORMATION: Procedure/Operation-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.1
+INFORMATION: Procedure/Operation-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.2
 == fsh-generated/resources/Procedure-Radiotherapy-id-115.json ==
 ERROR: Procedure/Radiotherapy-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
 ERROR: Procedure/Radiotherapy-id-115: Procedure.status: No code provided, and a code is required from the value set
-INFORMATION: Procedure/Radiotherapy-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.1
+INFORMATION: Procedure/Radiotherapy-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.2
 == fsh-generated/resources/Specimen-Specimen-id-115.json ==
-ERROR: Specimen/Specimen-id-115: Specimen.type: None of the codings provided are in the value set 'Sample Material Type' (https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS|0.6.1), and a coding from this value set is required) (codes = https://fhir.bbmri.de/CodeSystem/SampleMaterialType#dna)
+ERROR: Specimen/Specimen-id-115: Specimen.type: None of the codings provided are in the value set 'Sample Material Type' (https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS|0.6.2), and a coding from this value set is required) (codes = https://fhir.bbmri.de/CodeSystem/SampleMaterialType#dna)
 WARNING: Specimen/Specimen-id-115: Specimen.collection.bodySite: ValueSet 'http://art-decor.org/fhir/ValueSet/1.3.6.1.4.1.19376.1.3.11.36--20151113191623' not found
 WARNING: Specimen/Specimen-id-115: Specimen.collection.bodySite.coding[0].system: A definition for CodeSystem 'urn:oid:1.3.6.1.4.1.19376.1.3.11.36' could not be found, so the code cannot be validated
 == fsh-generated/resources/StructureDefinition-Histology.json ==

@@ -1,4 +1,4 @@
-# Histology - CCE FHIR Implementation Guide v0.6.1
+# Histology - CCE FHIR Implementation Guide v0.6.2
 
 ## Resource Profile: Histology 
 
@@ -28,10 +28,10 @@ Other representations of profile: [CSV](../StructureDefinition-Histology.csv), [
   "resourceType" : "StructureDefinition",
   "id" : "Histology",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-Histology",
-  "version" : "0.6.1",
+  "version" : "0.6.2",
   "name" : "Histology",
   "status" : "draft",
-  "date" : "2026-09-18T14:51:59+00:00",
+  "date" : "2026-09-21T07:38:15+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

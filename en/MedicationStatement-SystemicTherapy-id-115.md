@@ -1,4 +1,4 @@
-# SystemicTherapy-id-115 - CCE FHIR Implementation Guide v0.6.1
+# SystemicTherapy-id-115 - CCE FHIR Implementation Guide v0.6.2
 
 ## Example MedicationStatement: SystemicTherapy-id-115
 
