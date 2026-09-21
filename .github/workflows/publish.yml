@@ -118,15 +118,28 @@ jobs:
           SIMPLIFIER_USER: ${{ secrets.SIMPLIFIER_USER }}
           SIMPLIFIER_PASS: ${{ secrets.SIMPLIFIER_PASS }}
         run: |
-          TOKEN=$(curl -sS -f -X POST https://api.simplifier.net/token \
-            -H "Content-Type: application/json" \
-            -d "{\"Email\":\"$SIMPLIFIER_USER\",\"Password\":\"$SIMPLIFIER_PASS\"}" \
-            | python3 -c "import sys,json; print(json.load(sys.stdin)['token'])")
-
           rm -rf simplifier-upload && mkdir -p simplifier-upload/resources
           cp output/*.json simplifier-upload/resources/ 2>/dev/null || true
           (cd simplifier-upload && zip -qr ../simplifier-project.zip .)
 
-          curl -sS -f -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
-            -H "Authorization: Bearer $TOKEN" \
-            --data-binary "@simplifier-project.zip"
+          TOKEN_FILE=$(mktemp)
+          HTTP_STATUS=$(curl -sS -o "$TOKEN_FILE" -w "%{http_code}" -X POST https://api.simplifier.net/token \
+            -H "Content-Type: application/json" \
+            -d "{\"Email\":\"$SIMPLIFIER_USER\",\"Password\":\"$SIMPLIFIER_PASS\"}")
+          echo "token endpoint status: $HTTP_STATUS"
+          if [ "$HTTP_STATUS" = "200" ]; then
+            TOKEN=$(python3 -c "import json; print(json.load(open('$TOKEN_FILE'))['token'])")
+            rm -f "$TOKEN_FILE"
+            echo "Authenticated with JWT, uploading to ${{ vars.SIMPLIFIER_PROJECT }}"
+            curl -sS -f -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
+              -H "Authorization: Bearer $TOKEN" \
+              --data-binary "@simplifier-project.zip"
+          else
+            echo "warning: JWT token login failed, response body:"
+            cat "$TOKEN_FILE"
+            rm -f "$TOKEN_FILE"
+            echo "Falling back to Basic Auth for the ZIP endpoint..."
+            curl -sS -f -X PUT "https://api.simplifier.net/${{ vars.SIMPLIFIER_PROJECT }}/zip" \
+              -u "${SIMPLIFIER_USER}:${SIMPLIFIER_PASS}" \
+              --data-binary "@simplifier-project.zip"
+          fi

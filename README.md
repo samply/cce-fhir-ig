@@ -138,7 +138,7 @@ The Simplifier upload needs the following values configured in the repository se
 2. On the **Variables** tab, add `SIMPLIFIER_PROJECT` with value `cce`.
 3. On the **Secrets** tab, add `SIMPLIFIER_USER` and `SIMPLIFIER_PASS`.
 
-The Simplifier step uses the current JWT-based API: it retrieves a token from `https://api.simplifier.net/token`, zips the `output/*.json` resources, and `PUT`s them to the project ZIP API (`https://api.simplifier.net/<project>/zip`).
+The Simplifier step uses the current ZIP API: it zips the `output/*.json` resources and `PUT`s them to `https://api.simplifier.net/<project>/zip`. It authenticates with a JWT token from `https://api.simplifier.net/token` (using the `SIMPLIFIER_USER`/`SIMPLIFIER_PASS` secrets); if the token login fails it prints the response body and falls back to Basic Auth against the ZIP endpoint, which Simplifier also supports. If both fail, the step fails and the error body is logged.
 
 The step runs only on tagged releases and is skipped automatically if any of these values is missing, so the rest of the pipeline (GitHub Release creation) is never blocked by an unconfigured Simplifier sync.
 
