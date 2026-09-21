@@ -118,8 +118,22 @@ jobs:
           SIMPLIFIER_USER: ${{ secrets.SIMPLIFIER_USER }}
           SIMPLIFIER_PASS: ${{ secrets.SIMPLIFIER_PASS }}
         run: |
-          rm -rf simplifier-upload && mkdir -p simplifier-upload/resources
-          cp output/*.json simplifier-upload/resources/ 2>/dev/null || true
+          # Zip only real FHIR resources (files whose JSON has a "resourceType" key),
+          # at the archive root, so the Simplifier project import doesn't choke on
+          # publisher-generated files such as canonicals.json / qa.json / *_manifest.json.
+          rm -rf simplifier-upload && mkdir -p simplifier-upload
+          python3 - <<'EOF'
+          import glob, json, os, shutil
+          for f in glob.glob('output/*.json'):
+              with open(f) as fh:
+                  try:
+                      d = json.load(fh)
+                  except Exception:
+                      continue
+              if isinstance(d, dict) and 'resourceType' in d:
+                  shutil.copy(f, os.path.join('simplifier-upload', os.path.basename(f)))
+          EOF
+          ls simplifier-upload | head
           (cd simplifier-upload && zip -qr ../simplifier-project.zip .)
 
           TOKEN_FILE=$(mktemp)

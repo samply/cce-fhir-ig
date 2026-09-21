@@ -144,7 +144,7 @@ The step runs only on tagged releases and is skipped automatically if any of the
 
 ### What gets uploaded, where, and how
 
-**What:** after a tagged build, the workflow zips all `output/*.json` FHIR resources (the profiles, extensions, code systems, value sets, instances, and the ImplementationGuide itself) into `simplifier-project.zip`.
+**What:** after a tagged build, the workflow zips the real FHIR resources from `output/*.json` (the profiles, extensions, code systems, value sets, instances, and the ImplementationGuide itself) into `simplifier-project.zip`. Publisher-generated files without a `resourceType` (`canonicals.json`, `qa.json`, `package.manifest.json`, `*-list.json`, …) are filtered out so the Simplifier import only sees FHIR resources.
 
 **Where:** the zip is `PUT` to the project ZIP API (`https://api.simplifier.net/<project>/zip`). The resources land in your Simplifier project, where they are visible under the **Resources** tab. To confirm the sync happened, check your project's **Log** tab or open **Manage → Import log**.
 
