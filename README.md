@@ -121,6 +121,8 @@ git tag -a v0.6.0 -m "Release 0.6.0" && git push origin v0.6.0
 |---------|----------|--------|------|----------|
 | v0.6.0 | cce-fhir-ig-bundle-v0.6.0.zip | `main` | 18-Sep-2026 | Initial release from this repository |
 | v0.6.1 | cce-fhir-ig-bundle-v0.6.1.zip | `release/0.6.1` | 18-Sep-2026 |  |
+| v0.6.2 | cce-fhir-ig-bundle-v0.6.2.zip | `release/0.6.2` | 21-Sep-2026 |  |
+| v0.6.3 | cce-fhir-ig-bundle-v0.6.3.zip | `release/0.6.3` | 21-Sep-2026 |  |
 
 ## Publishing to Simplifier
 
