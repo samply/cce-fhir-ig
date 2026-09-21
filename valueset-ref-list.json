@@ -21,8 +21,8 @@
     "systems" : ["http://fhir.de/CodeSystem/bfarm/icd-10-gm"],
     "uses" : {
     },
-    "StructureDefinition-Operation.html" : "Operation",
-    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis"
+    "StructureDefinition-PrimaryDiagnosis.html" : "Primary Diagnosis",
+    "StructureDefinition-Operation.html" : "Operation"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/DiagnosticConfirmationVS",
@@ -173,9 +173,9 @@
     "systems" : ["https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS"],
     "uses" : {
     },
+    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy",
     "StructureDefinition-Radiotherapy.html" : "Radiotherapy",
-    "StructureDefinition-Operation.html" : "Operation",
-    "StructureDefinition-SystemicTherapy.html" : "Systemic Therapy"
+    "StructureDefinition-Operation.html" : "Operation"
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",

@@ -32,7 +32,7 @@ Version des ICD-10-GM
   "name" : "ICDVersionVS",
   "title" : "ICD Version VS",
   "status" : "draft",
-  "date" : "2026-09-21T08:17:15+00:00",
+  "date" : "2026-09-21T08:39:37+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
