@@ -3,7 +3,7 @@ CCEFHIRIG : Validation Results
 
 err = 169, warn = 169, info = 23
 IG Publisher Version: 2.3.4
-Generated Mon Sep 21 08:41:46 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.2 (canonical = https://www.cancercoreeurope.eu/fhir)
+Generated Mon Sep 21 08:51:58 UTC 2026. FHIR version 4.0.1 for cce.fhir#0.6.2 (canonical = https://www.cancercoreeurope.eu/fhir)
  Build Errors : 1 / 13 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-DiagnosticConfirmationCS : 2 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/CodeSystem-GeneticVariantCS : 2 / 2 / 1

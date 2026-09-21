@@ -34,7 +34,7 @@ No Expansion for this valueset (Unknown Code System)
   "name" : "GeneNomenclatureVS",
   "title" : "Gene Nomenclature VS",
   "status" : "draft",
-  "date" : "2026-09-21T08:39:37+00:00",
+  "date" : "2026-09-21T08:50:02+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
