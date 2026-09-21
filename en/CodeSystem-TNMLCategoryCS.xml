@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMLCategoryCS</b></p><a name="TNMLCategoryCS"> </a><a name="hcTNMLCategoryCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">LX<a name="TNMLCategoryCS-LX"> </a></td><td>Lymphatic vessel invasion cannot be assessed</td></tr><tr><td style="white-space:nowrap">L0<a name="TNMLCategoryCS-L0"> </a></td><td>No lymphatic vessel invasion</td></tr><tr><td style="white-space:nowrap">L1<a name="TNMLCategoryCS-L1"> </a></td><td>Lymphatic vessel invasion</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS"/>
-  <version value="0.6.2"/>
+  <version value="0.6.3"/>
   <name value="TNMLCategoryCS"/>
   <title value="TNML Category CS"/>
   <status value="draft"/>
-  <date value="2026-09-21T09:00:44+00:00"/>
+  <date value="2026-09-21T09:40:01+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

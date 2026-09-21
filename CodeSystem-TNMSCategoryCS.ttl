@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TNMSCategoryCS</b></p><a name=\"TNMSCategoryCS\"> </a><a name=\"hcTNMSCategoryCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td></tr><tr><td style=\"white-space:nowrap\">SX<a name=\"TNMSCategoryCS-SX\"> </a></td></tr><tr><td style=\"white-space:nowrap\">S0<a name=\"TNMSCategoryCS-S0\"> </a></td></tr><tr><td style=\"white-space:nowrap\">S1<a name=\"TNMSCategoryCS-S1\"> </a></td></tr><tr><td style=\"white-space:nowrap\">S2<a name=\"TNMSCategoryCS-S2\"> </a></td></tr><tr><td style=\"white-space:nowrap\">S3<a name=\"TNMSCategoryCS-S3\"> </a></td></tr></table></div>"
   ] ;
   fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS"] ;
-  fhir:CodeSystem.version [ fhir:value "0.6.2"] ;
+  fhir:CodeSystem.version [ fhir:value "0.6.3"] ;
   fhir:CodeSystem.name [ fhir:value "TNMSCategoryCS"] ;
   fhir:CodeSystem.title [ fhir:value "TNMS Category CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-21T09:00:44+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-21T09:40:01+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index 0 ;

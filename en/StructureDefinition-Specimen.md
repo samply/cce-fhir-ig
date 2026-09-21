@@ -1,4 +1,4 @@
-# Specimen - CCE FHIR Implementation Guide v0.6.2
+# Specimen - CCE FHIR Implementation Guide v0.6.3
 
 ## Resource Profile: Specimen 
 
@@ -25,10 +25,10 @@ Other representations of profile: [CSV](../StructureDefinition-Specimen.csv), [E
   "resourceType" : "StructureDefinition",
   "id" : "Specimen",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Specimen-Specimen",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "Specimen",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

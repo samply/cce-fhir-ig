@@ -14,11 +14,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem TumorSiteLocationCS</b></p><a name=\"TumorSiteLocationCS\"> </a><a name=\"hcTumorSiteLocationCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">L<a name=\"TumorSiteLocationCS-L\"> </a></td><td>left</td></tr><tr><td style=\"white-space:nowrap\">R<a name=\"TumorSiteLocationCS-R\"> </a></td><td>right</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"TumorSiteLocationCS-B\"> </a></td><td>bilateral (should result in 2 reports for certain tumors)</td></tr><tr><td style=\"white-space:nowrap\">C<a name=\"TumorSiteLocationCS-C\"> </a></td><td>Centerline/Center</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"TumorSiteLocationCS-N\"> </a></td><td>Not applicable (page number not meaningful, including systemic diseases)</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"TumorSiteLocationCS-U\"> </a></td><td>unknown</td></tr></table></div>"
   ] ;
   fhir:CodeSystem.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS"] ;
-  fhir:CodeSystem.version [ fhir:value "0.6.2"] ;
+  fhir:CodeSystem.version [ fhir:value "0.6.3"] ;
   fhir:CodeSystem.name [ fhir:value "TumorSiteLocationCS"] ;
   fhir:CodeSystem.title [ fhir:value "Tumor Site Location CS"] ;
   fhir:CodeSystem.status [ fhir:value "draft"] ;
-  fhir:CodeSystem.date [ fhir:value "2026-09-21T09:00:44+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.date [ fhir:value "2026-09-21T09:40:01+00:00"^^xsd:dateTime] ;
   fhir:CodeSystem.publisher [ fhir:value "CCE"] ;
   fhir:CodeSystem.contact [
      fhir:index -1 ;

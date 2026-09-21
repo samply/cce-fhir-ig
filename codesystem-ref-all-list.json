@@ -126,25 +126,25 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
-    "http://hl7.org/fhir/R4/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes ",
+    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
+    "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
     "http://hl7.org/fhir/R4/valueset-procedure-code.html" : "Procedure Codes (SNOMED CT)",
     "http://hl7.org/fhir/R4/valueset-performer-role.html" : "Procedure Performer Role Codes",
-    "http://hl7.org/fhir/R4/valueset-specimen-container-type.html" : "Specimen Container Type",
-    "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
-    "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
-    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
     "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
-    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
-    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
-    "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
-    "http://hl7.org/fhir/R4/valueset-condition-stage.html" : "Condition Stage",
-    "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "http://hl7.org/fhir/R4/valueset-procedure-reason.html" : "Procedure Reason Codes",
     "http://hl7.org/fhir/R4/valueset-device-action.html" : "Procedure Device Action Codes",
-    "http://hl7.org/fhir/R4/valueset-medication-codes.html" : "SNOMED CT Medication Codes"
+    "http://hl7.org/fhir/R4/valueset-procedure-not-performed-reason.html" : "Procedure Not Performed Reason (SNOMED-CT)",
+    "http://hl7.org/fhir/R4/valueset-condition-severity.html" : "Condition/Diagnosis Severity",
+    "http://hl7.org/fhir/R4/valueset-reason-medication-status-codes.html" : "SNOMED CT Drug Therapy Status codes ",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "http://hl7.org/fhir/R4/valueset-procedure-outcome.html" : "Procedure Outcome Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-condition-code.html" : "Condition/Problem/Diagnosis Codes",
+    "http://hl7.org/fhir/R4/valueset-device-kind.html" : "FHIR Device Types",
+    "http://hl7.org/fhir/R4/valueset-procedure-followup.html" : "Procedure Follow up Codes (SNOMED CT)",
+    "http://hl7.org/fhir/R4/valueset-condition-stage-type.html" : "Condition Stage Type",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/condition-category",
@@ -328,7 +328,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/DiagnosticConfirmationCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "DiagnosticConfirmationCS",
     "title" : "Diagnostic Confirmation CS",
@@ -339,7 +339,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "GeneticVariantCS",
     "title" : "Genetic Variant CS",
@@ -350,7 +350,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "GradingCS",
     "title" : "Grading CS",
@@ -361,7 +361,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDOVersionCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "ICDOVersionCS",
     "title" : "ICDO Version CS",
@@ -372,7 +372,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ICDVersionCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "ICDVersionCS",
     "title" : "ICD Version CS",
@@ -383,7 +383,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/LocalAssessmentResidualTumorCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "LocalAssessmentResidualTumorCS",
     "title" : "Local Assessment Residual Tumor CS",
@@ -394,7 +394,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "OPIntentionCS",
     "title" : "OP Intention CS",
@@ -405,7 +405,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPOPSVersionCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "OPOPSVersionCS",
     "title" : "OPOPS Version CS",
@@ -416,7 +416,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OverallAssessmentResidualTumorCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "OverallAssessmentResidualTumorCS",
     "title" : "Overall Assessment Residual Tumor CS",
@@ -427,7 +427,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/ProgressionLocalTumorStatusCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "ProgressionLocalTumorStatusCS",
     "title" : "Progression Local Tumor Status CS",
@@ -438,7 +438,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "SYSTIntentionCS",
     "title" : "SYST Intention CS",
@@ -449,7 +449,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "SYSTTherapyTypeCS",
     "title" : "SYST Therapy Type CS",
@@ -460,7 +460,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SampleMaterialTypeCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "SampleMaterialTypeCS",
     "title" : "Sample Material Type",
@@ -471,7 +471,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SurgicalComplicationsCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "SurgicalComplicationsCS",
     "title" : "Surgical Complications CS",
@@ -482,7 +482,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMLCategoryCS",
     "title" : "TNML Category CS",
@@ -493,7 +493,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMMCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMMCS",
     "title" : "TNMM CS",
@@ -504,7 +504,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMNCS",
     "title" : "TNMN CS",
@@ -515,7 +515,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMPnCategoryCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMPnCategoryCS",
     "title" : "TNMPn Category CS",
@@ -526,7 +526,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMSCategoryCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMSCategoryCS",
     "title" : "TNMS Category CS",
@@ -537,7 +537,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMTCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMTCS",
     "title" : "TNMT CS",
@@ -548,7 +548,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVCategoryCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMVCategoryCS",
     "title" : "TNMV Category CS",
@@ -559,7 +559,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMVersionCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMVersionCS",
     "title" : "TNM Version CS",
@@ -570,7 +570,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMmSymbolCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMmSymbolCS",
     "title" : "TNMm Symbol CS",
@@ -581,7 +581,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMrSymbolCS",
     "title" : "TNMr Symbol CS",
@@ -592,7 +592,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMySymbolCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TNMySymbolCS",
     "title" : "TNMy Symbol CS",
@@ -603,7 +603,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "TumorSiteLocationCS",
     "title" : "Tumor Site Location CS",
@@ -614,7 +614,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/UICCStageCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "UICCStageCS",
     "title" : "UICC Stage CS",
@@ -625,7 +625,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "VitalStatusCS",
     "title" : "Vital Status CS",
@@ -636,7 +636,7 @@
   },
   {
     "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS",
-    "version" : "0.6.2",
+    "version" : "0.6.3",
     "status" : "draft",
     "name" : "YNUCS",
     "title" : "YNU CS",

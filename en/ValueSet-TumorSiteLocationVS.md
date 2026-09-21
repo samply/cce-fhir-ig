@@ -1,4 +1,4 @@
-# Tumor Site Location VS - CCE FHIR Implementation Guide v0.6.2
+# Tumor Site Location VS - CCE FHIR Implementation Guide v0.6.3
 
 ## ValueSet: Tumor Site Location VS 
 
@@ -28,11 +28,11 @@ Lateral location of the tumor
   "resourceType" : "ValueSet",
   "id" : "TumorSiteLocationVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TumorSiteLocationVS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "TumorSiteLocationVS",
   "title" : "Tumor Site Location VS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

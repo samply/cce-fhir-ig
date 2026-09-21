@@ -1,4 +1,4 @@
-# Operation - CCE FHIR Implementation Guide v0.6.2
+# Operation - CCE FHIR Implementation Guide v0.6.3
 
 ## Resource Profile: Operation 
 
@@ -28,10 +28,10 @@ Other representations of profile: [CSV](../StructureDefinition-Operation.csv), [
   "resourceType" : "StructureDefinition",
   "id" : "Operation",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Operation",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "Operation",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

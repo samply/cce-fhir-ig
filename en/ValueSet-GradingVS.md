@@ -1,4 +1,4 @@
-# Grading VS - CCE FHIR Implementation Guide v0.6.2
+# Grading VS - CCE FHIR Implementation Guide v0.6.3
 
 ## ValueSet: Grading VS 
 
@@ -28,11 +28,11 @@ This value set is not used here; it may be used elsewhere (e.g. specifications a
   "resourceType" : "ValueSet",
   "id" : "GradingVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GradingVS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "GradingVS",
   "title" : "Grading VS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

@@ -4,14 +4,14 @@
   "language" : "en",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet OPIntentionVS</b></p><a name=\"OPIntentionVS\"> </a><a name=\"hcOPIntentionVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-OPIntentionCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.2</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-C\">C</a></td><td>curative</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-P\">P</a></td><td>palliative</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-D\">D</a></td><td>diagnostic</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-R\">R</a></td><td>Revision/Complication</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-S\">S</a></td><td>miscellaneous</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-X\">X</a></td><td>Missing Information</td></tr></table></li></ul></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet OPIntentionVS</b></p><a name=\"OPIntentionVS\"> </a><a name=\"hcOPIntentionVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-OPIntentionCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.6.3</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-C\">C</a></td><td>curative</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-P\">P</a></td><td>palliative</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-D\">D</a></td><td>diagnostic</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-R\">R</a></td><td>Revision/Complication</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-S\">S</a></td><td>miscellaneous</td></tr><tr><td><a href=\"CodeSystem-OPIntentionCS.html#OPIntentionCS-X\">X</a></td><td>Missing Information</td></tr></table></li></ul></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/OPIntentionVS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "OPIntentionVS",
   "title" : "OP Intention VS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem SYSTIntentionCS</b></p><a name="SYSTIntentionCS"> </a><a name="hcSYSTIntentionCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">C<a name="SYSTIntentionCS-C"> </a></td><td>curative</td></tr><tr><td style="white-space:nowrap">P<a name="SYSTIntentionCS-P"> </a></td><td>palliative</td></tr><tr><td style="white-space:nowrap">M<a name="SYSTIntentionCS-M"> </a></td><td>miscellaneous</td></tr><tr><td style="white-space:nowrap">X<a name="SYSTIntentionCS-X"> </a></td><td>not specified</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTIntentionCS"/>
-  <version value="0.6.2"/>
+  <version value="0.6.3"/>
   <name value="SYSTIntentionCS"/>
   <title value="SYST Intention CS"/>
   <status value="draft"/>
-  <date value="2026-09-21T09:00:44+00:00"/>
+  <date value="2026-09-21T09:40:01+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

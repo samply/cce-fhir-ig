@@ -1,4 +1,4 @@
-# Topography ICDO3 VS - CCE FHIR Implementation Guide v0.6.2
+# Topography ICDO3 VS - CCE FHIR Implementation Guide v0.6.3
 
 ## ValueSet: Topography ICDO3 VS 
 
@@ -30,11 +30,11 @@ No Expansion for this valueset (Unknown Code System)
   "resourceType" : "ValueSet",
   "id" : "TopographyICDO3VS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "TopographyICDO3VS",
   "title" : "Topography ICDO3 VS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

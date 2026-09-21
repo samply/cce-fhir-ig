@@ -1,4 +1,4 @@
-# Grading CS - CCE FHIR Implementation Guide v0.6.2
+# Grading CS - CCE FHIR Implementation Guide v0.6.3
 
 ## CodeSystem: Grading CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "GradingCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GradingCS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "GradingCS",
   "title" : "Grading CS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

@@ -7,11 +7,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet TopographyICDO3VS</b></p><a name="TopographyICDO3VS"> </a><a name="hcTopographyICDO3VS"> </a><ul><li>Include codes from<code>urn:oid:2.16.840.1.113883.6.43.1</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span> where code  matches (by regex) C\d\d\.\d(\d)?</li></ul></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/ValueSet/TopographyICDO3VS"/>
-  <version value="0.6.2"/>
+  <version value="0.6.3"/>
   <name value="TopographyICDO3VS"/>
   <title value="Topography ICDO3 VS"/>
   <status value="draft"/>
-  <date value="2026-09-21T09:00:44+00:00"/>
+  <date value="2026-09-21T09:40:01+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

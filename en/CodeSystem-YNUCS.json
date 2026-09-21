@@ -7,11 +7,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem YNUCS</b></p><a name=\"YNUCS\"> </a><a name=\"hcYNUCS\"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">Y<a name=\"YNUCS-Y\"> </a></td><td>Yes</td></tr><tr><td style=\"white-space:nowrap\">N<a name=\"YNUCS-N\"> </a></td><td>No</td></tr><tr><td style=\"white-space:nowrap\">U<a name=\"YNUCS-U\"> </a></td><td>unknown</td></tr></table></div>"
   },
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/YNUCS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "YNUCS",
   "title" : "YNU CS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

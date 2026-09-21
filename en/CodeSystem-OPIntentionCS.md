@@ -1,4 +1,4 @@
-# OP Intention CS - CCE FHIR Implementation Guide v0.6.2
+# OP Intention CS - CCE FHIR Implementation Guide v0.6.3
 
 ## CodeSystem: OP Intention CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "OPIntentionCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/OPIntentionCS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "OPIntentionCS",
   "title" : "OP Intention CS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

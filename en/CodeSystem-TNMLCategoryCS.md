@@ -1,4 +1,4 @@
-# TNML Category CS - CCE FHIR Implementation Guide v0.6.2
+# TNML Category CS - CCE FHIR Implementation Guide v0.6.3
 
 ## CodeSystem: TNML Category CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TNMLCategoryCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMLCategoryCS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "TNMLCategoryCS",
   "title" : "TNML Category CS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

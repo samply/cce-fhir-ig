@@ -1,4 +1,4 @@
-# Vital Status CS - CCE FHIR Implementation Guide v0.6.2
+# Vital Status CS - CCE FHIR Implementation Guide v0.6.3
 
 ## CodeSystem: Vital Status CS 
 
@@ -22,11 +22,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "VitalStatusCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/VitalStatusCS",
-  "version" : "0.6.2",
+  "version" : "0.6.3",
   "name" : "VitalStatusCS",
   "title" : "Vital Status CS",
   "status" : "draft",
-  "date" : "2026-09-21T09:00:44+00:00",
+  "date" : "2026-09-21T09:40:01+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

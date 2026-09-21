@@ -11,14 +11,14 @@
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet GeneticVariantVS</b></p><a name=\"GeneticVariantVS\"> </a><a name=\"hcGeneticVariantVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-GeneticVariantCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.6.2</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-M\">M</a></td><td>Mutation/positive</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-W\">W</a></td><td>Wild type/non-mutated/negative</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-P\">P</a></td><td>Polymorphism</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-S\">S</a></td><td>Miscellaneous</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-N\">N</a></td><td>not determinable</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-U\">U</a></td><td>unknown</td></tr></table></li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet GeneticVariantVS</b></p><a name=\"GeneticVariantVS\"> </a><a name=\"hcGeneticVariantVS\"> </a><ul><li>Include these codes as defined in <a href=\"CodeSystem-GeneticVariantCS.html\"><code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/GeneticVariantCS</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version ?0.6.3</span><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-M\">M</a></td><td>Mutation/positive</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-W\">W</a></td><td>Wild type/non-mutated/negative</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-P\">P</a></td><td>Polymorphism</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-S\">S</a></td><td>Miscellaneous</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-N\">N</a></td><td>not determinable</td></tr><tr><td><a href=\"CodeSystem-GeneticVariantCS.html#GeneticVariantCS-U\">U</a></td><td>unknown</td></tr></table></li></ul></div>"
   ] ;
   fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/GeneticVariantVS"] ;
-  fhir:ValueSet.version [ fhir:value "0.6.2"] ;
+  fhir:ValueSet.version [ fhir:value "0.6.3"] ;
   fhir:ValueSet.name [ fhir:value "GeneticVariantVS"] ;
   fhir:ValueSet.title [ fhir:value "Genetic Variant VS"] ;
   fhir:ValueSet.status [ fhir:value "draft"] ;
-  fhir:ValueSet.date [ fhir:value "2026-09-21T09:00:44+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-21T09:40:01+00:00"^^xsd:dateTime] ;
   fhir:ValueSet.publisher [ fhir:value "CCE"] ;
   fhir:ValueSet.contact [
      fhir:index -1 ;

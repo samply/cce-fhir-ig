@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMNCS</b></p><a name="TNMNCS"> </a><a name="hcTNMNCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td></tr><tr><td style="white-space:nowrap">0<a name="TNMNCS-0"> </a></td></tr><tr><td style="white-space:nowrap">0(i-)<a name="TNMNCS-0.40i-.41"> </a></td></tr><tr><td style="white-space:nowrap">0(i+)<a name="TNMNCS-0.40i.43.41"> </a></td></tr><tr><td style="white-space:nowrap">0(mol-)<a name="TNMNCS-0.40mol-.41"> </a></td></tr><tr><td style="white-space:nowrap">0(mol+)<a name="TNMNCS-0.40mol.43.41"> </a></td></tr><tr><td style="white-space:nowrap">1<a name="TNMNCS-1"> </a></td></tr><tr><td style="white-space:nowrap">1a<a name="TNMNCS-1a"> </a></td></tr><tr><td style="white-space:nowrap">1b<a name="TNMNCS-1b"> </a></td></tr><tr><td style="white-space:nowrap">1c<a name="TNMNCS-1c"> </a></td></tr><tr><td style="white-space:nowrap">1mi<a name="TNMNCS-1mi"> </a></td></tr><tr><td style="white-space:nowrap">2<a name="TNMNCS-2"> </a></td></tr><tr><td style="white-space:nowrap">2a<a name="TNMNCS-2a"> </a></td></tr><tr><td style="white-space:nowrap">2b<a name="TNMNCS-2b"> </a></td></tr><tr><td style="white-space:nowrap">2c<a name="TNMNCS-2c"> </a></td></tr><tr><td style="white-space:nowrap">3<a name="TNMNCS-3"> </a></td></tr><tr><td style="white-space:nowrap">3a<a name="TNMNCS-3a"> </a></td></tr><tr><td style="white-space:nowrap">3b<a name="TNMNCS-3b"> </a></td></tr><tr><td style="white-space:nowrap">3c<a name="TNMNCS-3c"> </a></td></tr><tr><td style="white-space:nowrap">X<a name="TNMNCS-X"> </a></td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMNCS"/>
-  <version value="0.6.2"/>
+  <version value="0.6.3"/>
   <name value="TNMNCS"/>
   <title value="TNMN CS"/>
   <status value="draft"/>
-  <date value="2026-09-21T09:00:44+00:00"/>
+  <date value="2026-09-21T09:40:01+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

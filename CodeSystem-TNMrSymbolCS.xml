@@ -6,11 +6,11 @@
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TNMrSymbolCS</b></p><a name="TNMrSymbolCS"> </a><a name="hcTNMrSymbolCS"> </a><p>This case-sensitive code system <code>https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">r<a name="TNMrSymbolCS-r"> </a></td><td>Classification was used to assess a recurrence</td></tr><tr><td style="white-space:nowrap">9<a name="TNMrSymbolCS-9"> </a></td><td>Native classification before a recurrence</td></tr></table></div>
   </text>
   <url value="https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TNMrSymbolCS"/>
-  <version value="0.6.2"/>
+  <version value="0.6.3"/>
   <name value="TNMrSymbolCS"/>
   <title value="TNMr Symbol CS"/>
   <status value="draft"/>
-  <date value="2026-09-21T09:00:44+00:00"/>
+  <date value="2026-09-21T09:40:01+00:00"/>
   <publisher value="CCE"/>
   <contact>
     <name value="CCE"/>

@@ -13,11 +13,11 @@
      fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet MorphologyICDO3VS</b></p><a name=\"MorphologyICDO3VS\"> </a><a name=\"hcMorphologyICDO3VS\"> </a><ul><li>Include codes from<code>urn:oid:2.16.840.1.113883.6.43.1</code><span title=\"Version is not explicitly stated. No matching Code System found\"> version Not Stated (use latest from terminology server)</span> where code  matches (by regex) \\d\\d\\d\\d\\/\\d</li></ul></div>"
   ] ;
   fhir:ValueSet.url [ fhir:value "https://www.cancercoreeurope.eu/fhir/core/ValueSet/MorphologyICDO3VS"] ;
-  fhir:ValueSet.version [ fhir:value "0.6.2"] ;
+  fhir:ValueSet.version [ fhir:value "0.6.3"] ;
   fhir:ValueSet.name [ fhir:value "MorphologyICDO3VS"] ;
   fhir:ValueSet.title [ fhir:value "Morphology ICDO3 VS"] ;
   fhir:ValueSet.status [ fhir:value "draft"] ;
-  fhir:ValueSet.date [ fhir:value "2026-09-21T09:00:44+00:00"^^xsd:dateTime] ;
+  fhir:ValueSet.date [ fhir:value "2026-09-21T09:40:01+00:00"^^xsd:dateTime] ;
   fhir:ValueSet.publisher [ fhir:value "CCE"] ;
   fhir:ValueSet.contact [
      fhir:index 0 ;
