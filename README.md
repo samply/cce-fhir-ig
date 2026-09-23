@@ -93,8 +93,11 @@ Both scripts run the same validation command internally:
 java -jar validator.jar -ig package.tgz -tx n/a -version 4.0.1 <instance-file>
 ```
 
-The first run downloads the IG's dependency packages (`de.basisprofil.r4`, `de.bbmri.fhir`) from the FHIR package registry, so an internet connection is
-required once; results are cached locally afterwards. See `tools/README.md` for details.
+The first run downloads the IG's dependency packages (`de.basisprofil.r4`, `de.bbmri.fhir`) from the FHIR package registry, so an internet connection is required once; results are cached locally afterwards. See `tools/README.md` for details.
+
+## Example Resources
+
+Sample FHIR resources which conform to the CCE FHIR Profiles are in the [cce-fhir-gen](https://github.com/samply/cce-fhir-gen/tree/develop/examples) repository. The examples are in `XML` format but figuring out the `JSON` equivalents is not difficult. Otherwise, you may also find the `JSON` examples on the Simplifier website for any particular resource, e.g., [Operation](https://simplifier.net/CCE/Operation-id-115/~json).
 
 ## Release versioning
 

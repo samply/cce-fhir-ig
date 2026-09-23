@@ -1,7 +1,7 @@
 Instance: Radiotherapy-id-115
 InstanceOf: Procedure
 Usage: #example
-* status.id = "successful"
+* status = #completed
 * category = SYSTTherapyTypeCS#RT "Radiotherapy"
 * subject = Reference(Patient-id-115)
 * performedPeriod.start = "1930-10-24"
