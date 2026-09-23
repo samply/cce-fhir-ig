@@ -1,7 +1,7 @@
 CCEFHIRIG : Validation Results
 =========================================
 
-err = 169, warn = 169, info = 23
+err = 165, warn = 169, info = 23
 $--
 Generated $--. FHIR version $-- for cce.fhir#$-- (canonical = https://www.cancercoreeurope.eu/fhir)
  Build Errors : 1 / 13 / 1
@@ -38,8 +38,8 @@ Generated $--. FHIR version $-- for cce.fhir#$-- (canonical = https://www.cancer
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/ImplementationGuide-cce.fhir : 2 / 2 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/MedicationStatement-SystemicTherapy-id-115 : 1 / 0 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Patient-Patient-id-115 : 0 / 0 / 1
- /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Procedure-Operation-id-115 : 2 / 0 / 2
- /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Procedure-Radiotherapy-id-115 : 2 / 0 / 2
+ /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Procedure-Operation-id-115 : 0 / 0 / 2
+ /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Procedure-Radiotherapy-id-115 : 0 / 0 / 2
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/Specimen-Specimen-id-115 : 1 / 2 / 1
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Histology : 3 / 1 / 3
  /home/runner/work/cce-fhir-ig/cce-fhir-ig/fsh-generated/resources/StructureDefinition-Operation : 3 / 5 / 4
@@ -263,12 +263,8 @@ INFORMATION: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.cat
 ERROR: MedicationStatement/SystemicTherapy-id-115: MedicationStatement.medication.ofType(Reference): Unable to resolve resource with reference 'medicine'
 == fsh-generated/resources/Patient-Patient-id-115.json ==
 == fsh-generated/resources/Procedure-Operation-id-115.json ==
-ERROR: Procedure/Operation-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
-ERROR: Procedure/Operation-id-115: Procedure.status: No code provided, and a code is required from the value set
 INFORMATION: Procedure/Operation-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.3
 == fsh-generated/resources/Procedure-Radiotherapy-id-115.json ==
-ERROR: Procedure/Radiotherapy-id-115: Procedure.status: Constraint failed: ele-1: 'All FHIR elements must have a @value or children (hasValue() or (children().count() > id.count()))' (defined in http://hl7.org/fhir/StructureDefinition/Element)
-ERROR: Procedure/Radiotherapy-id-115: Procedure.status: No code provided, and a code is required from the value set
 INFORMATION: Procedure/Radiotherapy-id-115: Procedure.category: Reference to draft CodeSystem https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS|0.6.3
 == fsh-generated/resources/Specimen-Specimen-id-115.json ==
 ERROR: Specimen/Specimen-id-115: Specimen.type: None of the codings provided are in the value set 'Sample Material Type' (https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS|0.6.3), and a coding from this value set is required) (codes = https://fhir.bbmri.de/CodeSystem/SampleMaterialType#dna)

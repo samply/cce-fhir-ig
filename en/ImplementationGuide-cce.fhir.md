@@ -14,7 +14,7 @@
   "name" : "CCEFHIRIG",
   "title" : "CCE FHIR Implementation Guide",
   "status" : "draft",
-  "date" : "2026-09-21T12:03:18+00:00",
+  "date" : "2026-09-23T11:26:04+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
@@ -34,7 +34,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.3.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7ext",

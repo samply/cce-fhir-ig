@@ -3,11 +3,9 @@
   "id" : "Operation-id-115",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure Operation-id-115</b></p><a name=\"Operation-id-115\"> </a><a name=\"hcOperation-id-115\"> </a><p><b>status</b>: </p><p><b>category</b>: <span title=\"Codes:{https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS OP}\">Operation</span></p><p><b>subject</b>: <a href=\"Patient-Patient-id-115.html\">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><p><b>performed</b>: 1930-10-24 --&gt; 1931-09-20</p><p><b>reasonReference</b>: <a href=\"Condition-Condition-id-115.html\">Condition C34.0</a></p></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Procedure Operation-id-115</b></p><a name=\"Operation-id-115\"> </a><a name=\"hcOperation-id-115\"> </a><p><b>status</b>: Completed</p><p><b>category</b>: <span title=\"Codes:{https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS OP}\">Operation</span></p><p><b>subject</b>: <a href=\"Patient-Patient-id-115.html\">Anonymous Patient Male, DoB: 1930-11-07 ( Patient-src-identifier-115)</a></p><p><b>performed</b>: 1930-10-24 --&gt; 1931-09-20</p><p><b>reasonReference</b>: <a href=\"Condition-Condition-id-115.html\">Condition C34.0</a></p></div>"
   },
-  "_status" : {
-    "id" : "successful"
-  },
+  "status" : "completed",
   "category" : {
     "coding" : [{
       "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS",

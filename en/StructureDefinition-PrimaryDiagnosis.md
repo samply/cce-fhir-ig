@@ -32,7 +32,7 @@ Other representations of profile: [CSV](../StructureDefinition-PrimaryDiagnosis.
   "name" : "PrimaryDiagnosis",
   "title" : "Primary Diagnosis",
   "status" : "draft",
-  "date" : "2026-09-21T12:03:18+00:00",
+  "date" : "2026-09-23T11:26:04+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

@@ -2,7 +2,7 @@
 
 ## Example Procedure: Operation-id-115
 
-**status**: 
+**status**: Completed
 
 **category**: Operation
 
@@ -20,9 +20,7 @@
 {
   "resourceType" : "Procedure",
   "id" : "Operation-id-115",
-  "_status" : {
-    "id" : "successful"
-  },
+  "status" : "completed",
   "category" : {
     "coding" : [{
       "system" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/SYSTTherapyTypeCS",
