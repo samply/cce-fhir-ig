@@ -1,9 +1,6 @@
-# SYST Therapy Type VS - CCE FHIR Implementation Guide v0.6.3
+# SYST Therapy Type VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: SYST Therapy Type VS 
-
- 
-Type of Therapy 
 
  **References** 
 
@@ -30,11 +27,11 @@ Type of Therapy
   "resourceType" : "ValueSet",
   "id" : "SYSTTherapyTypeVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "SYSTTherapyTypeVS",
   "title" : "SYST Therapy Type VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

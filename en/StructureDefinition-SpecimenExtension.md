@@ -1,8 +1,6 @@
-# SpecimenExtension - CCE FHIR Implementation Guide v0.6.3
+# SpecimenExtension - CCE FHIR Implementation Guide v0.6.4
 
 ## Extension: 
-
-Extension: a reference to the Biomaterial
 
 **Context of Use**
 
@@ -31,10 +29,10 @@ Other representations of profile: [CSV](../StructureDefinition-SpecimenExtension
   "resourceType" : "StructureDefinition",
   "id" : "SpecimenExtension",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "SpecimenExtension",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

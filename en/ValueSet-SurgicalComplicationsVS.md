@@ -1,9 +1,6 @@
-# Surgical Complications VS - CCE FHIR Implementation Guide v0.6.3
+# Surgical Complications VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: Surgical Complications VS 
-
- 
-Surgical Complications 
 
  **References** 
 
@@ -28,11 +25,11 @@ Surgical Complications
   "resourceType" : "ValueSet",
   "id" : "SurgicalComplicationsVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SurgicalComplicationsVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "SurgicalComplicationsVS",
   "title" : "Surgical Complications VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

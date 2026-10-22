@@ -8,7 +8,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Vital Status - CCE FHIR Implementation Guide v0.6.3</title>
+    <title>Vital Status - CCE FHIR Implementation Guide v0.6.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -22,9 +22,9 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
     <link href="assets/css/project.css" rel="stylesheet"/>
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
+  	<!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
     <script type="text/javascript" src="assets/js/direction-management.js"> </script>
@@ -60,7 +60,7 @@
         <div id="ig-status" data-fhir="generated">
           <p><span style="font-size:12pt;font-weight:bold">CCE FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.6.3 - cce-fhir-ci-build
+            <span style="display:inline-block;">0.6.4 - cce-fhir-ci-build
 
 
             </span>
@@ -123,7 +123,7 @@
 
 <!-- layouts\layout-profile -->
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">CCE FHIR Implementation Guide - Local Development build (v0.6.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.cancercoreeurope.eu/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">CCE FHIR Implementation Guide - Local Development build (v0.6.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.cancercoreeurope.eu/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -205,7 +205,7 @@ Vital Status
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-VitalStatus<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-VitalStatus"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.6.3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-VitalStatus|0.6.3"/></span>
+      <span class="copy-text">0.6.4<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-VitalStatus|0.6.4"/></span>
       </td>
       <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
         <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
@@ -230,7 +230,7 @@ Vital Status
           
 
             as of 
-2026-09-23
+2026-10-22
 
           
         
@@ -246,10 +246,10 @@ Vital Status
 
   </table>
 
-<p>
+<div data-fhir="generated">
 <p>Determination of the patient's vital status</p>
 
-</p>
+</div>
 
 
 <!-- insert intro if present -->
@@ -356,7 +356,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">VitalStatus<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-VitalStatusVS.html" title="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" class="binding">Vital Status VS</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">VitalStatus</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbVitalStatusK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('VitalStatusK'), 'binding', document.getElementById('cbVitalStatusK-binding').checked, document.getElementById('ppVitalStatusK'));
 document.getElementById('cbVitalStatusK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -429,7 +429,7 @@ filterDesc(document.getElementById('VitalStatusK'), 'obligation', document.getEl
       <a style="opacity: 1.0" href="ValueSet-VitalStatusVS.html">Vital Status VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -554,7 +554,9 @@ filterDesc(document.getElementById('VitalStatusK'), 'obligation', document.getEl
     <a name="tabs-diff"> </a>
     <div id="tabs-diff">
       <div id="tbl-diff">
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/observation.html">Observation</a>
+</p>
         <div id="tbl-diff-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="VitalStatusD" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top" data-fhir="generated-heirarchy"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element" data-no-external="true">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element" data-no-external="true">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance" data-no-external="true">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element" data-no-external="true">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element" data-no-external="true">Description &amp; Constraints</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('VitalStatusD'), event.target.value)" type="text"/> <img onClick="showPanel(event.target, document.getElementById('VitalStatusD'), document.getElementById('ppVitalStatusD'))" src="tree-filter.png" alt="Filters"/><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppVitalStatusD">Bindings <input onClick="filterDesc(document.getElementById('VitalStatusD'), 'binding',event.target.checked, document.getElementById('ppVitalStatusD'))" size="1" name="binding" checked="true" id="cbVitalStatusD-binding" type="checkbox"/><br/>Constraints <input onClick="filterDesc(document.getElementById('VitalStatusD'), 'constraint',event.target.checked, document.getElementById('ppVitalStatusD'))" size="1" name="constraint" checked="true" id="cbVitalStatusD-constraint" type="checkbox"/><br/>Obligations <input onClick="filterDesc(document.getElementById('VitalStatusD'), 'obligation',event.target.checked, document.getElementById('ppVitalStatusD'))" size="1" name="obligation" checked="true" id="cbVitalStatusD-obligation" type="checkbox"/><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-VitalStatus-definitions.html#Observation" data-no-external="true">Observation</a><a name="Observation"> </a></td>
@@ -612,7 +614,7 @@ filterDesc(document.getElementById('VitalStatusK'), 'obligation', document.getEl
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Symbol in syntax defined by the system</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbVitalStatusD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('VitalStatusD'), 'binding', document.getElementById('cbVitalStatusD-binding').checked, document.getElementById('ppVitalStatusD'));
 document.getElementById('cbVitalStatusD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -657,7 +659,7 @@ filterDesc(document.getElementById('VitalStatusD'), 'obligation', document.getEl
       <a style="opacity: 0.5" href="ValueSet-VitalStatusVS.html">Vital Status VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -1098,7 +1100,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">See <a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange" title="Observation.referenceRange">referenceRange (Observation)</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Provides guide for interpretation of component result<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbVitalStatusS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('VitalStatusS'), 'binding', document.getElementById('cbVitalStatusS-binding').checked, document.getElementById('ppVitalStatusS'));
 document.getElementById('cbVitalStatusS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1202,7 +1204,7 @@ filterDesc(document.getElementById('VitalStatusS'), 'obligation', document.getEl
       <a style="opacity: 1.0" href="ValueSet-VitalStatusVS.html">Vital Status VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
   <tr>
@@ -1595,7 +1597,9 @@ filterDesc(document.getElementById('VitalStatusS'), 'obligation', document.getEl
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
       <div id="tbl-summ">
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/observation.html">Observation</a>
+</p>
         <div id="tbl-summ-inner">
           <a name="summary"> </a>
           <a name="s-summary"> </a>
@@ -1664,7 +1668,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">VitalStatus<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="ValueSet-VitalStatusVS.html" title="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" class="binding">Vital Status VS</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#required" title="To be conformant, the concept in this element SHALL be from the specified value set." class="binding">required</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">VitalStatus</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbVitalStatusKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('VitalStatusKA'), 'binding', document.getElementById('cbVitalStatusKA-binding').checked, document.getElementById('ppVitalStatusKA'));
 document.getElementById('cbVitalStatusKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1736,7 +1740,7 @@ filterDesc(document.getElementById('VitalStatusKA'), 'obligation', document.getE
       <a style="opacity: 1.0" href="ValueSet-VitalStatusVS.html">Vital Status VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -1861,7 +1865,9 @@ filterDesc(document.getElementById('VitalStatusKA'), 'obligation', document.getE
         <p>
           <b>Differential View</b>
         </p>
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/observation.html">Observation</a>
+</p>
         <div id="all-tbl-diff-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="VitalStatusDA" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top" data-fhir="generated-heirarchy"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element" data-no-external="true">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element" data-no-external="true">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance" data-no-external="true">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element" data-no-external="true">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element" data-no-external="true">Description &amp; Constraints</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('VitalStatusDA'), event.target.value)" type="text"/> <img onClick="showPanel(event.target, document.getElementById('VitalStatusDA'), document.getElementById('ppVitalStatusDA'))" src="tree-filter.png" alt="Filters"/><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppVitalStatusDA">Bindings <input onClick="filterDesc(document.getElementById('VitalStatusDA'), 'binding',event.target.checked, document.getElementById('ppVitalStatusDA'))" size="1" name="binding" checked="true" id="cbVitalStatusDA-binding" type="checkbox"/><br/>Constraints <input onClick="filterDesc(document.getElementById('VitalStatusDA'), 'constraint',event.target.checked, document.getElementById('ppVitalStatusDA'))" size="1" name="constraint" checked="true" id="cbVitalStatusDA-constraint" type="checkbox"/><br/>Obligations <input onClick="filterDesc(document.getElementById('VitalStatusDA'), 'obligation',event.target.checked, document.getElementById('ppVitalStatusDA'))" size="1" name="obligation" checked="true" id="cbVitalStatusDA-obligation" type="checkbox"/><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-VitalStatus-definitions.html#Observation" data-no-external="true">Observation</a><a name="a-Observation"> </a></td>
@@ -1919,7 +1925,7 @@ filterDesc(document.getElementById('VitalStatusKA'), 'obligation', document.getE
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..<span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a style="opacity: 0.5; opacity: 0.5" href="http://hl7.org/fhir/R4/datatypes.html#code">code</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Symbol in syntax defined by the system</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbVitalStatusDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('VitalStatusDA'), 'binding', document.getElementById('cbVitalStatusDA-binding').checked, document.getElementById('ppVitalStatusDA'));
 document.getElementById('cbVitalStatusDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1961,7 +1967,7 @@ filterDesc(document.getElementById('VitalStatusDA'), 'obligation', document.getE
       <a style="opacity: 0.5" href="ValueSet-VitalStatusVS.html">Vital Status VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -2402,7 +2408,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">See <a href="http://hl7.org/fhir/R4/observation.html#Observation.referenceRange" title="Observation.referenceRange">referenceRange (Observation)</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Provides guide for interpretation of component result<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbVitalStatusSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('VitalStatusSA'), 'binding', document.getElementById('cbVitalStatusSA-binding').checked, document.getElementById('ppVitalStatusSA'));
 document.getElementById('cbVitalStatusSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2504,7 +2510,7 @@ filterDesc(document.getElementById('VitalStatusSA'), 'obligation', document.getE
       <a style="opacity: 1.0" href="ValueSet-VitalStatusVS.html">Vital Status VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/VitalStatusVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
   <tr>
@@ -2894,7 +2900,9 @@ filterDesc(document.getElementById('VitalStatusSA'), 'obligation', document.getE
       </div>-->
 
       <div id="all-summ">
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/observation.html">Observation</a>
+</p>
         <div id="all-summ-inner">
           <a name="a-summary"> </a>
 <p><b>
@@ -2950,10 +2958,10 @@ Summary
 
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.cancercoreeurope.eu">CCE</a>.  
-          Package cce.fhir#0.6.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Package cce.fhir#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-09-23 11:26:00 +0000">
-    2026-09-23
+  <span title="2026-10-22 11:42:00 +0000">
+    2026-10-22
   </span>
 
           <br/>

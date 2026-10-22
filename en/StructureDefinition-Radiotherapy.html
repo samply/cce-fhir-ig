@@ -8,7 +8,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Radiotherapy - CCE FHIR Implementation Guide v0.6.3</title>
+    <title>Radiotherapy - CCE FHIR Implementation Guide v0.6.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -22,9 +22,9 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
     <link href="assets/css/project.css" rel="stylesheet"/>
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
+  	<!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
     <script type="text/javascript" src="assets/js/direction-management.js"> </script>
@@ -60,7 +60,7 @@
         <div id="ig-status" data-fhir="generated">
           <p><span style="font-size:12pt;font-weight:bold">CCE FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.6.3 - cce-fhir-ci-build
+            <span style="display:inline-block;">0.6.4 - cce-fhir-ci-build
 
 
             </span>
@@ -123,7 +123,7 @@
 
 <!-- layouts\layout-profile -->
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">CCE FHIR Implementation Guide - Local Development build (v0.6.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.cancercoreeurope.eu/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">CCE FHIR Implementation Guide - Local Development build (v0.6.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.cancercoreeurope.eu/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -205,7 +205,7 @@ Radiotherapy
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Radiotherapy<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Radiotherapy"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.6.3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Radiotherapy|0.6.3"/></span>
+      <span class="copy-text">0.6.4<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Radiotherapy|0.6.4"/></span>
       </td>
       <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
         <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
@@ -230,7 +230,7 @@ Radiotherapy
           
 
             as of 
-2026-09-23
+2026-10-22
 
           
         
@@ -246,10 +246,10 @@ Radiotherapy
 
   </table>
 
-<p>
+<div data-fhir="generated">
 <p>Determination of Radiotherapy data</p>
 
-</p>
+</div>
 
 
 <!-- insert intro if present -->
@@ -376,7 +376,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="StructureDefinition-PrimaryDiagnosis.html">Primary Diagnosis</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The justification that the procedure was performed<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbRadiotherapyK-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('RadiotherapyK'), 'binding', document.getElementById('cbRadiotherapyK-binding').checked, document.getElementById('ppRadiotherapyK'));
 document.getElementById('cbRadiotherapyK-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -434,7 +434,7 @@ filterDesc(document.getElementById('RadiotherapyK'), 'obligation', document.getE
       <a style="opacity: 1.0" href="ValueSet-SYSTTherapyTypeVS.html">SYST Therapy Type VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -541,7 +541,9 @@ filterDesc(document.getElementById('RadiotherapyK'), 'obligation', document.getE
     <a name="tabs-diff"> </a>
     <div id="tabs-diff">
       <div id="tbl-diff">
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
+</p>
         <div id="tbl-diff-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="RadiotherapyD" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top" data-fhir="generated-heirarchy"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element" data-no-external="true">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element" data-no-external="true">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance" data-no-external="true">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element" data-no-external="true">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element" data-no-external="true">Description &amp; Constraints</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('RadiotherapyD'), event.target.value)" type="text"/> <img onClick="showPanel(event.target, document.getElementById('RadiotherapyD'), document.getElementById('ppRadiotherapyD'))" src="tree-filter.png" alt="Filters"/><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppRadiotherapyD">Bindings <input onClick="filterDesc(document.getElementById('RadiotherapyD'), 'binding',event.target.checked, document.getElementById('ppRadiotherapyD'))" size="1" name="binding" checked="true" id="cbRadiotherapyD-binding" type="checkbox"/><br/>Constraints <input onClick="filterDesc(document.getElementById('RadiotherapyD'), 'constraint',event.target.checked, document.getElementById('ppRadiotherapyD'))" size="1" name="constraint" checked="true" id="cbRadiotherapyD-constraint" type="checkbox"/><br/>Obligations <input onClick="filterDesc(document.getElementById('RadiotherapyD'), 'obligation',event.target.checked, document.getElementById('ppRadiotherapyD'))" size="1" name="obligation" checked="true" id="cbRadiotherapyD-obligation" type="checkbox"/><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-Radiotherapy-definitions.html#Procedure" data-no-external="true">Procedure</a><a name="Procedure"> </a></td>
@@ -594,7 +596,7 @@ filterDesc(document.getElementById('RadiotherapyK'), 'obligation', document.getE
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="StructureDefinition-PrimaryDiagnosis.html">Primary Diagnosis</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The justification that the procedure was performed</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbRadiotherapyD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('RadiotherapyD'), 'binding', document.getElementById('cbRadiotherapyD-binding').checked, document.getElementById('ppRadiotherapyD'));
 document.getElementById('cbRadiotherapyD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -639,7 +641,7 @@ filterDesc(document.getElementById('RadiotherapyD'), 'obligation', document.getE
       <a style="opacity: 0.5" href="ValueSet-SYSTTherapyTypeVS.html">SYST Therapy Type VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -980,7 +982,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Coded items used during the procedure<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-device-kind.html" title="http://hl7.org/fhir/ValueSet/device-kind" class="binding">FHIRDeviceTypes</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#example" title="Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included." class="binding">example</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">Codes describing items used during a procedure.</span><br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbRadiotherapyS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('RadiotherapyS'), 'binding', document.getElementById('cbRadiotherapyS-binding').checked, document.getElementById('ppRadiotherapyS'));
 document.getElementById('cbRadiotherapyS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1069,7 +1071,7 @@ filterDesc(document.getElementById('RadiotherapyS'), 'obligation', document.getE
       <a style="opacity: 1.0" href="ValueSet-SYSTTherapyTypeVS.html">SYST Therapy Type VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
   <tr>
@@ -1414,7 +1416,9 @@ filterDesc(document.getElementById('RadiotherapyS'), 'obligation', document.getE
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
       <div id="tbl-summ">
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
+</p>
         <div id="tbl-summ-inner">
           <a name="summary"> </a>
           <a name="s-summary"> </a>
@@ -1503,7 +1507,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="StructureDefinition-PrimaryDiagnosis.html">Primary Diagnosis</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">The justification that the procedure was performed<br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbRadiotherapyKA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('RadiotherapyKA'), 'binding', document.getElementById('cbRadiotherapyKA-binding').checked, document.getElementById('ppRadiotherapyKA'));
 document.getElementById('cbRadiotherapyKA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1560,7 +1564,7 @@ filterDesc(document.getElementById('RadiotherapyKA'), 'obligation', document.get
       <a style="opacity: 1.0" href="ValueSet-SYSTTherapyTypeVS.html">SYST Therapy Type VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -1667,7 +1671,9 @@ filterDesc(document.getElementById('RadiotherapyKA'), 'obligation', document.get
         <p>
           <b>Differential View</b>
         </p>
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
+</p>
         <div id="all-tbl-diff-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="RadiotherapyDA" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top" data-fhir="generated-heirarchy"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element" data-no-external="true">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element" data-no-external="true">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance" data-no-external="true">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element" data-no-external="true">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element" data-no-external="true">Description &amp; Constraints</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('RadiotherapyDA'), event.target.value)" type="text"/> <img onClick="showPanel(event.target, document.getElementById('RadiotherapyDA'), document.getElementById('ppRadiotherapyDA'))" src="tree-filter.png" alt="Filters"/><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppRadiotherapyDA">Bindings <input onClick="filterDesc(document.getElementById('RadiotherapyDA'), 'binding',event.target.checked, document.getElementById('ppRadiotherapyDA'))" size="1" name="binding" checked="true" id="cbRadiotherapyDA-binding" type="checkbox"/><br/>Constraints <input onClick="filterDesc(document.getElementById('RadiotherapyDA'), 'constraint',event.target.checked, document.getElementById('ppRadiotherapyDA'))" size="1" name="constraint" checked="true" id="cbRadiotherapyDA-constraint" type="checkbox"/><br/>Obligations <input onClick="filterDesc(document.getElementById('RadiotherapyDA'), 'obligation',event.target.checked, document.getElementById('ppRadiotherapyDA'))" size="1" name="obligation" checked="true" id="cbRadiotherapyDA-obligation" type="checkbox"/><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_resource.png" alt="." style="background-color: white; background-color: inherit" title="Resource" class="hierarchy"/> <a no-external="true" href="StructureDefinition-Radiotherapy-definitions.html#Procedure" data-no-external="true">Procedure</a><a name="a-Procedure"> </a></td>
@@ -1720,7 +1726,7 @@ filterDesc(document.getElementById('RadiotherapyKA'), 'obligation', document.get
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">*</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="StructureDefinition-PrimaryDiagnosis.html">Primary Diagnosis</a>)</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">The justification that the procedure was performed</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbRadiotherapyDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('RadiotherapyDA'), 'binding', document.getElementById('cbRadiotherapyDA-binding').checked, document.getElementById('ppRadiotherapyDA'));
 document.getElementById('cbRadiotherapyDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -1762,7 +1768,7 @@ filterDesc(document.getElementById('RadiotherapyDA'), 'obligation', document.get
       <a style="opacity: 0.5" href="ValueSet-SYSTTherapyTypeVS.html">SYST Therapy Type VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
 </table>
@@ -2103,7 +2109,7 @@ Modifier extensions SHALL NOT change the meaning of any elements on Resource or 
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..*</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept">CodeableConcept</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Coded items used during the procedure<br class="binding"/><span style="font-weight:bold" title="null" class="binding">Binding: </span><a href="http://hl7.org/fhir/R4/valueset-device-kind.html" title="http://hl7.org/fhir/ValueSet/device-kind" class="binding">FHIRDeviceTypes</a><span title="null" class="binding"> (</span><a href="http://hl7.org/fhir/R4/terminologies.html#example" title="Instances are not expected or even encouraged to draw from the specified value set.  The value set merely provides examples of the types of concepts intended to be included." class="binding">example</a><span title="null" class="binding">)</span><span title="null" class="binding">: </span><span title="null" class="binding">Codes describing items used during a procedure.</span><br/></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbRadiotherapySA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('RadiotherapySA'), 'binding', document.getElementById('cbRadiotherapySA-binding').checked, document.getElementById('ppRadiotherapySA'));
 document.getElementById('cbRadiotherapySA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -2190,7 +2196,7 @@ filterDesc(document.getElementById('RadiotherapySA'), 'obligation', document.get
       <a style="opacity: 1.0" href="ValueSet-SYSTTherapyTypeVS.html">SYST Therapy Type VS</a>
       <button data-clipboard-text="https://www.cancercoreeurope.eu/fhir/core/ValueSet/SYSTTherapyTypeVS" title="Click to copy URL" class="btn-copy"></button>
     </td>
-    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.3</td>
+    <td title="Version is not explicitly stated, which means it is fixed to the version provided in this specification">&#x1F4E6;0.6.4</td>
     <td>This IG</td>
   </tr>
   <tr>
@@ -2532,7 +2538,9 @@ filterDesc(document.getElementById('RadiotherapySA'), 'obligation', document.get
       </div>-->
 
       <div id="all-summ">
-        <p></p>
+        <p>This structure is derived from 
+  <a href="http://hl7.org/fhir/R4/procedure.html">Procedure</a>
+</p>
         <div id="all-summ-inner">
           <a name="a-summary"> </a>
 <p><b>
@@ -2588,10 +2596,10 @@ Summary
 
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.cancercoreeurope.eu">CCE</a>.  
-          Package cce.fhir#0.6.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Package cce.fhir#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-09-23 11:26:00 +0000">
-    2026-09-23
+  <span title="2026-10-22 11:42:00 +0000">
+    2026-10-22
   </span>
 
           <br/>

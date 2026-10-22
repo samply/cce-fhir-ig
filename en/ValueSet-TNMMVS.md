@@ -1,9 +1,6 @@
-# TNMM VS - CCE FHIR Implementation Guide v0.6.3
+# TNMM VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: TNMM VS 
-
- 
-TNM M-Category 
 
  **References** 
 
@@ -29,11 +26,11 @@ TNM M-Category
   "resourceType" : "ValueSet",
   "id" : "TNMMVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMMVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "TNMMVS",
   "title" : "TNMM VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

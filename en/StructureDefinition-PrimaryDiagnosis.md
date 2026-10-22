@@ -1,9 +1,6 @@
-# Primary Diagnosis - CCE FHIR Implementation Guide v0.6.3
+# Primary Diagnosis - CCE FHIR Implementation Guide v0.6.4
 
 ## Resource Profile: Primary Diagnosis 
-
- 
-Corresponds to the primary diagnosis. Parameters for classifying the primary disease are recorded. These include ICD-10, ICD-O-3 (topography) and lateral localization. Links to histology (topography) and the TNM classifications (pathological/clinical) 
 
 **Usages:**
 
@@ -28,11 +25,11 @@ Other representations of profile: [CSV](../StructureDefinition-PrimaryDiagnosis.
   "resourceType" : "StructureDefinition",
   "id" : "PrimaryDiagnosis",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Condition-PrimaryDiagnosis",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "PrimaryDiagnosis",
   "title" : "Primary Diagnosis",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

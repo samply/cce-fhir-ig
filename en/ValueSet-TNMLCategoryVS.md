@@ -1,9 +1,6 @@
-# TNML Category VS - CCE FHIR Implementation Guide v0.6.3
+# TNML Category VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: TNML Category VS 
-
- 
-Lymphatic vessel invasion. Generally occurs as part of a pTNM 
 
  **References** 
 
@@ -29,11 +26,11 @@ Lymphatic vessel invasion. Generally occurs as part of a pTNM
   "resourceType" : "ValueSet",
   "id" : "TNMLCategoryVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMLCategoryVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "TNMLCategoryVS",
   "title" : "TNML Category VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

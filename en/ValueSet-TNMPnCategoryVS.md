@@ -1,9 +1,6 @@
-# TNMPn Category VS - CCE FHIR Implementation Guide v0.6.3
+# TNMPn Category VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: TNMPn Category VS 
-
- 
-Perineural invasion. Generally occurs as part of a pTNM. 
 
  **References** 
 
@@ -29,11 +26,11 @@ Perineural invasion. Generally occurs as part of a pTNM.
   "resourceType" : "ValueSet",
   "id" : "TNMPnCategoryVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/TNMPnCategoryVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "TNMPnCategoryVS",
   "title" : "TNMPn Category VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

@@ -1,4 +1,4 @@
-# Specimen-id-115 - CCE FHIR Implementation Guide v0.6.3
+# Specimen-id-115 - CCE FHIR Implementation Guide v0.6.4
 
 ## Example Specimen: Specimen-id-115
 

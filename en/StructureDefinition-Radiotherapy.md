@@ -1,9 +1,6 @@
-# Radiotherapy - CCE FHIR Implementation Guide v0.6.3
+# Radiotherapy - CCE FHIR Implementation Guide v0.6.4
 
 ## Resource Profile: Radiotherapy 
-
- 
-Determination of Radiotherapy data 
 
 **Usages:**
 
@@ -28,10 +25,10 @@ Other representations of profile: [CSV](../StructureDefinition-Radiotherapy.csv)
   "resourceType" : "StructureDefinition",
   "id" : "Radiotherapy",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Procedure-Radiotherapy",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "Radiotherapy",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

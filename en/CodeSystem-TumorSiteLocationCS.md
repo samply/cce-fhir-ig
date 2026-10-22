@@ -1,9 +1,6 @@
-# Tumor Site Location CS - CCE FHIR Implementation Guide v0.6.3
+# Tumor Site Location CS - CCE FHIR Implementation Guide v0.6.4
 
 ## CodeSystem: Tumor Site Location CS 
-
- 
-Lateral location of the tumor 
 
 This Code system is referenced in the definition of the following value sets:
 
@@ -22,11 +19,11 @@ This Code system is referenced in the definition of the following value sets:
   "resourceType" : "CodeSystem",
   "id" : "TumorSiteLocationCS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/CodeSystem/TumorSiteLocationCS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "TumorSiteLocationCS",
   "title" : "Tumor Site Location CS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

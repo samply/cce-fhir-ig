@@ -1,9 +1,6 @@
-# Local Assessment Residual Tumor VS - CCE FHIR Implementation Guide v0.6.3
+# Local Assessment Residual Tumor VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: Local Assessment Residual Tumor VS 
-
- 
-Residual Tumor 
 
  **References** 
 
@@ -28,11 +25,11 @@ Residual Tumor
   "resourceType" : "ValueSet",
   "id" : "LocalAssessmentResidualTumorVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/LocalAssessmentResidualTumorVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "LocalAssessmentResidualTumorVS",
   "title" : "Local Assessment Residual Tumor VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

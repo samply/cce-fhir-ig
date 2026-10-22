@@ -1,9 +1,6 @@
-# TNMc - CCE FHIR Implementation Guide v0.6.3
+# TNMc - CCE FHIR Implementation Guide v0.6.4
 
 ## Resource Profile: TNMc 
-
- 
-Staging of tumor diseases according to the TNM classification (clinical) in accordance with the current AJCC edition 
 
 **Usages:**
 
@@ -28,10 +25,10 @@ Other representations of profile: [CSV](../StructureDefinition-TNMc.csv), [Excel
   "resourceType" : "StructureDefinition",
   "id" : "TNMc",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Observation-TNMc",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "TNMc",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

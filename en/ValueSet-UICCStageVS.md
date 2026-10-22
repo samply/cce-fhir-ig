@@ -1,9 +1,6 @@
-# UICC Stage VS - CCE FHIR Implementation Guide v0.6.3
+# UICC Stage VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: UICC Stage VS 
-
- 
-UICC Stage 
 
  **References** 
 
@@ -29,11 +26,11 @@ UICC Stage
   "resourceType" : "ValueSet",
   "id" : "UICCStageVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/UICCStageVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "UICCStageVS",
   "title" : "UICC Stage VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

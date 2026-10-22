@@ -1,9 +1,6 @@
-# Systemic Therapy - CCE FHIR Implementation Guide v0.6.3
+# Systemic Therapy - CCE FHIR Implementation Guide v0.6.4
 
 ## Resource Profile: Systemic Therapy 
-
- 
-Includes chemotherapy and all types of therapy that do not fall under surgical data or radiotherapy 
 
 **Usages:**
 
@@ -28,11 +25,11 @@ Other representations of profile: [CSV](../StructureDefinition-SystemicTherapy.c
   "resourceType" : "StructureDefinition",
   "id" : "SystemicTherapy",
   "url" : "https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-MedicationStatement-SystemicTherapy",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "SystemicTherapy",
   "title" : "Systemic Therapy",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

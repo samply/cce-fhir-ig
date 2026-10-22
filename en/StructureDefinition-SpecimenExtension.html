@@ -7,7 +7,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>SpecimenExtension - CCE FHIR Implementation Guide v0.6.3</title>
+    <title>SpecimenExtension - CCE FHIR Implementation Guide v0.6.4</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -21,9 +21,9 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
     <link href="assets/css/project.css" rel="stylesheet"/>
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
+  	<!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
     <script type="text/javascript" src="assets/js/direction-management.js"> </script>
@@ -59,7 +59,7 @@
         <div id="ig-status" data-fhir="generated">
           <p><span style="font-size:12pt;font-weight:bold">CCE FHIR Implementation Guide</span>
             <br/>
-            <span style="display:inline-block;">0.6.3 - cce-fhir-ci-build
+            <span style="display:inline-block;">0.6.4 - cce-fhir-ci-build
 
 
             </span>
@@ -122,7 +122,7 @@
 
 <!-- layouts\layout-ext -->
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">CCE FHIR Implementation Guide - Local Development build (v0.6.3) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.cancercoreeurope.eu/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">CCE FHIR Implementation Guide - Local Development build (v0.6.4) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.cancercoreeurope.eu/fhir/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -196,7 +196,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">0.6.3<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen|0.6.3"/></span>
+      <span class="copy-text">0.6.4<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://www.cancercoreeurope.eu/fhir/StructureDefinition/cce-core-Extension-Specimen|0.6.4"/></span>
       </td>
       <td style="text-align: right;border-left-style: hidden" title="Enable this to see changes since the last official release">
         <span id="toggle-change-display"><label style="margin:0;font-weight:normal" for="showChanges">Highlight text changes?</label>
@@ -221,7 +221,7 @@
           
 
             as of 
-2026-09-23
+2026-10-22
 
           
         
@@ -237,8 +237,8 @@
 
   </table>
 
-<p>Extension: a reference to the Biomaterial</p>
-
+<div data-fhir="generated"><p>Extension: a reference to the Biomaterial</p>
+</div>
 
 
   <p><b>Context of Use</b></p>
@@ -306,7 +306,9 @@ Element ID:     <code>
     <a name="tabs-diff"> </a>
     <div id="tabs-diff">
       <div id="tbl-diff">
-        <p></p>
+        <p>This structure is derived from 
+      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a>
+    </p>
         <div id="tbl-diff-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="SpecimenExtensionD" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top" data-fhir="generated-heirarchy"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element" data-no-external="true">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element" data-no-external="true">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance" data-no-external="true">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element" data-no-external="true">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element" data-no-external="true">Description &amp; Constraints</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('SpecimenExtensionD'), event.target.value)" type="text"/> <img onClick="showPanel(event.target, document.getElementById('SpecimenExtensionD'), document.getElementById('ppSpecimenExtensionD'))" src="tree-filter.png" alt="Filters"/><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppSpecimenExtensionD">Bindings <input onClick="filterDesc(document.getElementById('SpecimenExtensionD'), 'binding',event.target.checked, document.getElementById('ppSpecimenExtensionD'))" size="1" name="binding" checked="true" id="cbSpecimenExtensionD-binding" type="checkbox"/><br/>Constraints <input onClick="filterDesc(document.getElementById('SpecimenExtensionD'), 'constraint',event.target.checked, document.getElementById('ppSpecimenExtensionD'))" size="1" name="constraint" checked="true" id="cbSpecimenExtensionD-constraint" type="checkbox"/><br/>Obligations <input onClick="filterDesc(document.getElementById('SpecimenExtensionD'), 'obligation',event.target.checked, document.getElementById('ppSpecimenExtensionD'))" size="1" name="obligation" checked="true" id="cbSpecimenExtensionD-obligation" type="checkbox"/><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-SpecimenExtension-definitions.html#Extension" title="Reference to the sample/Specimen" data-no-external="true">Extension</a><a name="Extension"> </a></td>
@@ -329,7 +331,7 @@ Element ID:     <code>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="https://simplifier.net/resolve?scope=de.bbmri.fhir@1.2.0&amp;canonical=https://fhir.bbmri.de/StructureDefinition/Specimen">Specimen</a>)<a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html"> {</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html" title="The reference to a resource that has to be resolved externally to the resource that includes the reference.">r</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html">}</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbSpecimenExtensionD-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('SpecimenExtensionD'), 'binding', document.getElementById('cbSpecimenExtensionD-binding').checked, document.getElementById('ppSpecimenExtensionD'));
 document.getElementById('cbSpecimenExtensionD-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -381,7 +383,7 @@ filterDesc(document.getElementById('SpecimenExtensionD'), 'obligation', document
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="https://simplifier.net/resolve?scope=de.bbmri.fhir@1.2.0&amp;canonical=https://fhir.bbmri.de/StructureDefinition/Specimen">Specimen</a>)<a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html"> {</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html" title="The reference to a resource that has to be resolved externally to the resource that includes the reference.">r</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html">}</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value of extension</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbSpecimenExtensionS-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('SpecimenExtensionS'), 'binding', document.getElementById('cbSpecimenExtensionS-binding').checked, document.getElementById('ppSpecimenExtensionS'));
 document.getElementById('cbSpecimenExtensionS-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -489,7 +491,9 @@ filterDesc(document.getElementById('SpecimenExtensionS'), 'obligation', document
     <a name="tabs-summ"> </a>
     <div id="tabs-summ">
       <div id="tbl-summ">
-        <p></p>
+        <p>This structure is derived from 
+      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a>
+    </p>
         <div id="tbl-summ-inner">
           <a name="summary"> </a>
           <a name="s-summary"> </a>
@@ -504,9 +508,11 @@ Summary
     <div id="tabs-all">
       <div id="all-tbl-diff">
         <p>
-          <b>Differential ViewDifferential View</b>
+          <b>Differential View</b>
         </p>
-        <p></p>
+        <p>This structure is derived from 
+      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a>
+    </p>
         <div id="all-tbl-diff-inner">
           <table border="0" fhir="generated-heirarchy" cellpadding="0" cellspacing="0" style="border: 0px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;" id="SpecimenExtensionDA" data-fhir="generated-heirarchy"><tr fhir="generated-heirarchy" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top" data-fhir="generated-heirarchy"><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="The logical name of the element" data-no-external="true">Name</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Information about the use of the element" data-no-external="true">Flags</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Minimum and Maximum # of times the element can appear in the instance" data-no-external="true">Card.</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px; width: 100px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Reference to the type of the element" data-no-external="true">Type</a></th><th style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; padding-top: 3px; padding-bottom: 3px" class="hierarchy"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Additional information about the element" data-no-external="true">Description &amp; Constraints</a>&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-weight: normal">Filter: <input size="10" name="filter" style="border: 1px #F0F0F0 solid; background-color: rgb(254, 254, 231);" onInput="filterTree(document.getElementById('SpecimenExtensionDA'), event.target.value)" type="text"/> <img onClick="showPanel(event.target, document.getElementById('SpecimenExtensionDA'), document.getElementById('ppSpecimenExtensionDA'))" src="tree-filter.png" alt="Filters"/><div style="display: none; position: fixed; opacity : 1.0; background-color: rgb(254, 254, 231); border: 1px solid #ccc; padding: 10px; boxShadow: 0 2px 5px rgba(0,0,0,0.2); zIndex: 1000; borderRadius: 4px" id="ppSpecimenExtensionDA">Bindings <input onClick="filterDesc(document.getElementById('SpecimenExtensionDA'), 'binding',event.target.checked, document.getElementById('ppSpecimenExtensionDA'))" size="1" name="binding" checked="true" id="cbSpecimenExtensionDA-binding" type="checkbox"/><br/>Constraints <input onClick="filterDesc(document.getElementById('SpecimenExtensionDA'), 'constraint',event.target.checked, document.getElementById('ppSpecimenExtensionDA'))" size="1" name="constraint" checked="true" id="cbSpecimenExtensionDA-constraint" type="checkbox"/><br/>Obligations <input onClick="filterDesc(document.getElementById('SpecimenExtensionDA'), 'obligation',event.target.checked, document.getElementById('ppSpecimenExtensionDA'))" size="1" name="obligation" checked="true" id="cbSpecimenExtensionDA-obligation" type="checkbox"/><br/></div></span><span style="float: right"><a no-external="true" href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format" data-no-external="true"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" onLoad="fhirTableInit(this)" style="background-color: inherit"/></a></span></th></tr>
 <tr fhir="generated-heirarchy" style="border: 0px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white" id="a" data-fhir="generated-heirarchy"><td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_element.gif" alt="." style="background-color: white; background-color: inherit" title="Element" class="hierarchy"/> <a no-external="true" href="StructureDefinition-SpecimenExtension-definitions.html#Extension" title="Reference to the sample/Specimen" data-no-external="true">Extension</a><a name="a-Extension"> </a></td>
@@ -529,7 +535,7 @@ Summary
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">0</span><span style="opacity: 0.5">..</span><span style="opacity: 0.5">1</span></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="https://simplifier.net/resolve?scope=de.bbmri.fhir@1.2.0&amp;canonical=https://fhir.bbmri.de/StructureDefinition/Specimen">Specimen</a>)<a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html"> {</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html" title="The reference to a resource that has to be resolved externally to the resource that includes the reference.">r</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html">}</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: #F7F7F7; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><span style="opacity: 0.5">Value of extension</span></td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbSpecimenExtensionDA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('SpecimenExtensionDA'), 'binding', document.getElementById('cbSpecimenExtensionDA-binding').checked, document.getElementById('ppSpecimenExtensionDA'));
 document.getElementById('cbSpecimenExtensionDA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -577,7 +583,7 @@ filterDesc(document.getElementById('SpecimenExtensionDA'), 'obligation', documen
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/references.html">Reference</a>(<a href="https://simplifier.net/resolve?scope=de.bbmri.fhir@1.2.0&amp;canonical=https://fhir.bbmri.de/StructureDefinition/Specimen">Specimen</a>)<a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html"> {</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html" title="The reference to a resource that has to be resolved externally to the resource that includes the reference.">r</a><a href="http://hl7.org/fhir/R4/valueset-resource-aggregation-mode.html">}</a></td>
 <td style="vertical-align: top; text-align : var(--ig-left,left); background-color: white; border: 0px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Value of extension</td></tr>
-<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 9f5e4c30-6bde-4925-8f85-cbcf8f9c242d
+<tr fhir="generated-heirarchy" data-fhir="generated-heirarchy"><td colspan="5" class="hierarchy"><br/><a href="https://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#table-views" title="Legend for this format"><img src="https://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr><script type="text/javascript">  // 8070e225-fdd9-48f9-ad49-7433667f355f
 document.getElementById('cbSpecimenExtensionSA-binding').checked = 'false' != localStorage.getItem('ht-table-states-binding');
 filterDesc(document.getElementById('SpecimenExtensionSA'), 'binding', document.getElementById('cbSpecimenExtensionSA-binding').checked, document.getElementById('ppSpecimenExtensionSA'));
 document.getElementById('cbSpecimenExtensionSA-constraint').checked = 'false' != localStorage.getItem('ht-table-states-constraint');
@@ -680,7 +686,9 @@ filterDesc(document.getElementById('SpecimenExtensionSA'), 'obligation', documen
       </div>-->
 
       <div id="all-summ">
-        <p></p>
+        <p>This structure is derived from 
+      <a href="http://hl7.org/fhir/R4/extensibility.html#Extension">Extension</a>
+    </p>
         <div id="all-summ-inner">
           <a name="a-summary"> </a>
 <p><b>
@@ -726,10 +734,10 @@ Summary
 
 
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.cancercoreeurope.eu">CCE</a>.  
-          Package cce.fhir#0.6.3 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Package cce.fhir#0.6.4 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-09-23 11:26:00 +0000">
-    2026-09-23
+  <span title="2026-10-22 11:42:00 +0000">
+    2026-10-22
   </span>
 
           <br/>

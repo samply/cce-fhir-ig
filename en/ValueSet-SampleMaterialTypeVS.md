@@ -1,9 +1,6 @@
-# Sample Material Type - CCE FHIR Implementation Guide v0.6.3
+# Sample Material Type - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: Sample Material Type 
-
- 
-Sample Material Types 
 
  **References** 
 
@@ -28,11 +25,11 @@ Sample Material Types
   "resourceType" : "ValueSet",
   "id" : "SampleMaterialTypeVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/SampleMaterialTypeVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "SampleMaterialTypeVS",
   "title" : "Sample Material Type",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",

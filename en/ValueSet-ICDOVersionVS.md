@@ -1,9 +1,6 @@
-# ICDO Version VS - CCE FHIR Implementation Guide v0.6.3
+# ICDO Version VS - CCE FHIR Implementation Guide v0.6.4
 
 ## ValueSet: ICDO Version VS 
-
- 
-ICD-O Version 
 
  **References** 
 
@@ -29,11 +26,11 @@ ICD-O Version
   "resourceType" : "ValueSet",
   "id" : "ICDOVersionVS",
   "url" : "https://www.cancercoreeurope.eu/fhir/core/ValueSet/ICDOVersionVS",
-  "version" : "0.6.3",
+  "version" : "0.6.4",
   "name" : "ICDOVersionVS",
   "title" : "ICDO Version VS",
   "status" : "draft",
-  "date" : "2026-09-23T11:26:04+00:00",
+  "date" : "2026-10-22T11:42:36+00:00",
   "publisher" : "CCE",
   "contact" : [{
     "name" : "CCE",
